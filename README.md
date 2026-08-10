@@ -1,6 +1,6 @@
 # Fisher–Rao Geodesic Attention
 
-**Exact constant-curvature attention kernels at matmul cost, with data-driven geometry selection.**
+**Exact constant-curvature attention kernels at near-matmul cost, with data-driven geometry selection.**
 
 This repository accompanies the preprint [`paper_draft.md`](paper_draft.md). It contains everything needed to reproduce every number in the paper on a laptop CPU (~2.5 h total, no GPU required).
 
@@ -8,7 +8,7 @@ This repository accompanies the preprint [`paper_draft.md`](paper_draft.md). It 
 
 ## The idea in three sentences
 
-Standard attention measures token similarity in an arbitrary flat vector space. We map queries and keys to probability distributions and use the **exact Fisher–Rao geodesic distance** — the unique geometry invariant under sufficient statistics (Chentsov's theorem) — where categorical distributions give a *spherical* manifold (K = +1/4), isotropic Gaussians give a genuinely *hyperbolic* space H^(d+1) (K = −1/2), and dot-product attention is the flat member of the same family. Both curved kernels compute in closed form at the cost of a single matrix multiplication, and on hierarchical length-extrapolation (Dyck-2) accuracy orders exactly by curvature: **Euclidean 85.8% < spherical 86.6% < hyperbolic-isotropic 88.4%** (parameter-matched, 5 paired seeds, p = 0.0009).
+Standard attention measures token similarity in an arbitrary flat vector space. We map queries and keys to probability distributions; choosing the distributional family is the one geometric design decision, after which Chentsov's theorem fixes the metric (Fisher–Rao, the unique one invariant under sufficient statistics): categorical distributions give a *spherical* manifold (K = +1/4), isotropic Gaussians give a genuinely *hyperbolic* space H^(d+1) (K = −1/2), and point-mass tokens recover dot-product attention as the degenerate flat member. Both curved kernels compute exactly, in closed form, via one matrix multiplication plus an elementwise transcendental on an L×L matrix (≈2.3× standard attention wall-clock), and on hierarchical length-extrapolation (Dyck-2) accuracy orders exactly by curvature: **Euclidean 85.8% < spherical 86.6% < hyperbolic-isotropic 88.4%** (parameter-matched, 5 paired seeds, p = 0.0009).
 
 ## Headline results
 
@@ -26,7 +26,7 @@ Further findings (Sections 4.6, 4.7, 5 and 5.1 of the paper):
 - **The gain comes from the curvature, not just from Gaussian tokens (§4.6).** Holding the Gaussian token representation fixed and swapping only the distance, the Wasserstein–Bures kernel (the geometry used by prior stochastic transformers, arXiv:2311.18645) gains +1.12 pp over point-token attention, while the Fisher–Rao (hyperbolic) geometry adds a further **+1.52 pp on top** (p = 0.029) — the larger share of the advantage.
 - **A genuine, threshold-gated efficiency result (§4.7) — the paper's strongest positive claim.** Above a head-width threshold ($d_h \ge 16$), the hyperbolic kernel at dimension $D$ becomes statistically indistinguishable in accuracy from Euclidean attention at dimension $2D$ ($p > 0.25$) while using **≈3.8–3.9× fewer parameters**, and at the largest scale tested (d_model 128 vs. 256) is **1.5× faster in real wall-clock training time** despite its per-operation overhead — because the quadratic $O(d_{\text{model}}^2)$ projection cost dominates at scale. Below the threshold ($d_h \le 8$) the effect reverses and hyperbolic attention is significantly worse; this is not a universal speedup.
 - **Geometry selection follows data structure (§5).** A gated mixture of the three kernels — re-instantiating the adaptive mixed-curvature idea of CAT (arXiv:2510.01634), which is prior work — allocates 0.42 of its gate weight to the hyperbolic kernel on hierarchical data and collapses it to 0.09 on flat data (Euclidean gate: 0.28 → 0.64). We use the gate as a diagnostic probe, not as a claimed novelty.
-- **A pre-specified negative result (§5.1).** On a mixed-structure stress test the adaptive mixture *lost* to the pure hyperbolic kernel (p = 0.0013): negative curvature is not a hierarchy specialist but a **superset geometry** — it emulates flat attention at small scales while the converse is impossible. Practical prescription: on present evidence, hyperbolic is a safe default.
+- **A pre-specified negative result (§5.1).** On a mixed-structure stress test the adaptive mixture *lost* to the pure hyperbolic kernel (p = 0.0013). One reading — consistent with the data but not yet demonstrated by it — is that negative curvature acts as a **superset geometry**, emulating flat attention at small scales while the converse is impossible; establishing that reading would require robustness across systematically varied task structures, and part of the mixture's loss is attributable to a fixable gate-design weakness. What the data do support: the explicit gate added no accuracy over the pure hyperbolic kernel on these tasks.
 - **A second negative result against the real incumbents (§5.2).** On the canonical WordNet-mammals embedding benchmark, the Fisher–Rao kernel crushes Euclidean (+0.49 MAP at D=10) but is **beaten by Poincaré embeddings** (0.883 vs 0.941, p = 0.0002; our Poincaré reimplementation reproduces the published MAP ≈ 0.93). The kernel's value is specific to *sequence attention* (§4); it is **not** a better hierarchy embedder and does not compete with dedicated hyperbolic graph methods in the ontology/KG domains where those are deployed. This bounds the applied/commercial reading of the work.
 - **Two further commercial hypotheses tested and refuted (out of scope of the attention mechanism, see `verificacion_claude/`).** The scale parameter $\sigma$ is not a usable predictive-uncertainty signal (AUC-ROC ≈ 0.49, chance level). In few-shot hierarchical classification, the Fisher–Rao geometry is *outperformed* by both Euclidean and Poincaré at low sample counts (p ≤ 0.0003 vs. Poincaré at k=10/class) — the opposite of what hyperbolic geometry's known embedding data-efficiency would suggest.
 
@@ -140,7 +140,7 @@ Synthetic task family (Dyck-2 and variants), 2-layer models, n = 5 seeds, CPU sc
 ```bibtex
 @misc{quinelen2026fisherrao,
   title  = {Fisher--Rao Geodesic Attention: Exact Constant-Curvature Kernels
-            at Matmul Cost, with Data-Driven Geometry Selection},
+            at Near-Matmul Cost, with Data-Driven Geometry Selection},
   author = {Qui{\~n}elen, Eduardo},
   year   = {2026},
   note   = {Preprint},
