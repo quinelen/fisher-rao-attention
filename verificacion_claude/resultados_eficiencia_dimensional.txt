@@ -1,0 +1,81 @@
+d_model=  16 seed=1 euclidean  : IN=79.6% OUT=75.7% params=   8645 (2s)
+d_model=  16 seed=1 fisher_rao : IN=77.7% OUT=74.9% params=   8919 (4s)
+d_model=  16 seed=2 euclidean  : IN=77.5% OUT=76.2% params=   8645 (2s)
+d_model=  16 seed=2 fisher_rao : IN=79.3% OUT=76.7% params=   8919 (4s)
+d_model=  16 seed=3 euclidean  : IN=78.9% OUT=76.8% params=   8645 (2s)
+d_model=  16 seed=3 fisher_rao : IN=79.1% OUT=76.7% params=   8919 (4s)
+d_model=  16 seed=4 euclidean  : IN=79.0% OUT=77.0% params=   8645 (2s)
+d_model=  16 seed=4 fisher_rao : IN=79.3% OUT=77.4% params=   8919 (4s)
+d_model=  16 seed=5 euclidean  : IN=78.6% OUT=76.1% params=   8645 (2s)
+d_model=  16 seed=5 fisher_rao : IN=79.1% OUT=77.0% params=   8919 (4s)
+d_model=  32 seed=1 euclidean  : IN=84.4% OUT=79.2% params=  29573 (3s)
+d_model=  32 seed=1 fisher_rao : IN=84.1% OUT=79.1% params=  30103 (4s)
+d_model=  32 seed=2 euclidean  : IN=83.8% OUT=78.6% params=  29573 (2s)
+d_model=  32 seed=2 fisher_rao : IN=85.6% OUT=79.8% params=  30103 (4s)
+d_model=  32 seed=3 euclidean  : IN=84.6% OUT=79.3% params=  29573 (2s)
+d_model=  32 seed=3 fisher_rao : IN=83.2% OUT=78.9% params=  30103 (4s)
+d_model=  32 seed=4 euclidean  : IN=84.4% OUT=79.4% params=  29573 (2s)
+d_model=  32 seed=4 fisher_rao : IN=84.6% OUT=79.7% params=  30103 (4s)
+d_model=  32 seed=5 euclidean  : IN=83.6% OUT=79.1% params=  29573 (2s)
+d_model=  32 seed=5 fisher_rao : IN=84.3% OUT=79.4% params=  30103 (4s)
+d_model=  64 seed=1 euclidean  : IN=88.0% OUT=80.9% params= 108293 (3s)
+d_model=  64 seed=1 fisher_rao : IN=89.2% OUT=81.9% params= 109335 (4s)
+d_model=  64 seed=2 euclidean  : IN=87.9% OUT=80.7% params= 108293 (3s)
+d_model=  64 seed=2 fisher_rao : IN=89.4% OUT=82.2% params= 109335 (4s)
+d_model=  64 seed=3 euclidean  : IN=88.0% OUT=81.0% params= 108293 (3s)
+d_model=  64 seed=3 fisher_rao : IN=88.8% OUT=82.2% params= 109335 (4s)
+d_model=  64 seed=4 euclidean  : IN=87.8% OUT=81.1% params= 108293 (3s)
+d_model=  64 seed=4 fisher_rao : IN=89.2% OUT=82.0% params= 109335 (4s)
+d_model=  64 seed=5 euclidean  : IN=88.4% OUT=81.0% params= 108293 (3s)
+d_model=  64 seed=5 fisher_rao : IN=89.4% OUT=81.8% params= 109335 (4s)
+d_model= 128 seed=1 euclidean  : IN=89.0% OUT=82.3% params= 413189 (4s)
+d_model= 128 seed=1 fisher_rao : IN=90.2% OUT=82.8% params= 415255 (6s)
+d_model= 128 seed=2 euclidean  : IN=89.0% OUT=81.8% params= 413189 (4s)
+d_model= 128 seed=2 fisher_rao : IN=90.4% OUT=83.0% params= 415255 (6s)
+d_model= 128 seed=3 euclidean  : IN=88.7% OUT=81.6% params= 413189 (4s)
+d_model= 128 seed=3 fisher_rao : IN=90.7% OUT=83.5% params= 415255 (6s)
+d_model= 128 seed=4 euclidean  : IN=88.8% OUT=81.8% params= 413189 (4s)
+d_model= 128 seed=4 fisher_rao : IN=90.2% OUT=82.3% params= 415255 (6s)
+d_model= 128 seed=5 euclidean  : IN=88.6% OUT=81.6% params= 413189 (4s)
+d_model= 128 seed=5 fisher_rao : IN=91.0% OUT=82.0% params= 415255 (6s)
+d_model= 256 seed=1 euclidean  : IN=90.0% OUT=83.5% params=1612805 (9s)
+d_model= 256 seed=1 fisher_rao : IN=90.9% OUT=84.2% params=1616919 (11s)
+d_model= 256 seed=2 euclidean  : IN=89.1% OUT=82.5% params=1612805 (9s)
+d_model= 256 seed=2 fisher_rao : IN=90.8% OUT=83.2% params=1616919 (11s)
+d_model= 256 seed=3 euclidean  : IN=90.1% OUT=82.8% params=1612805 (9s)
+d_model= 256 seed=3 fisher_rao : IN=90.4% OUT=84.3% params=1616919 (11s)
+d_model= 256 seed=4 euclidean  : IN=89.2% OUT=82.6% params=1612805 (9s)
+d_model= 256 seed=4 fisher_rao : IN=91.3% OUT=84.2% params=1616919 (11s)
+d_model= 256 seed=5 euclidean  : IN=89.8% OUT=82.9% params=1612805 (9s)
+d_model= 256 seed=5 fisher_rao : IN=91.2% OUT=83.8% params=1616919 (11s)
+
+========================================================================================
+ d_model  d_head arm                  OUT acc    params
+========================================================================================
+      16       4 euclidean       0.7633±0.0047      8645
+      16       4 fisher_rao      0.7653±0.0087      8919
+      32       8 euclidean       0.7912±0.0027     29573
+      32       8 fisher_rao      0.7941±0.0036     30103
+      64      16 euclidean       0.8094±0.0013    108293
+      64      16 fisher_rao      0.8204±0.0016    109335
+     128      32 euclidean       0.8181±0.0027    413189
+     128      32 fisher_rao      0.8274±0.0051    415255
+     256      64 euclidean       0.8286±0.0034   1612805
+     256      64 fisher_rao      0.8395±0.0041   1616919
+
+Contraste pareado por d_model (Fisher-Rao vs Euclidiano, n=5):
+  d_model=  16: Δ=+0.0020  t=+0.65  p=0.5510
+  d_model=  32: Δ=+0.0028  t=+1.07  p=0.3467
+  d_model=  64: Δ=+0.0110  t=+10.44  p=0.0005
+  d_model= 128: Δ=+0.0093  t=+3.27  p=0.0309
+  d_model= 256: Δ=+0.0109  t=+5.58  p=0.0051
+
+¿Con cuántas dimensiones MENOS alcanza Fisher-Rao lo que Euclidiano logra en d=256?
+  Euclidiano en d=256: 0.8286
+  Fisher-Rao en d=  16 (params=8919): 0.7653
+  Fisher-Rao en d=  32 (params=30103): 0.7941
+  Fisher-Rao en d=  64 (params=109335): 0.8204
+  Fisher-Rao en d= 128 (params=415255): 0.8274
+  Fisher-Rao en d= 256 (params=1616919): 0.8395
+
+Guardado: resultados_eficiencia_dimensional.json

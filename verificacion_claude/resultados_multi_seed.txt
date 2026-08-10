@@ -1,0 +1,35 @@
+seed 1 | estandar   : IN acc=91.1% OUT acc=83.2% OUT loss=1.2838 (5s)
+seed 1 | ricci      : IN acc=91.1% OUT acc=83.6% OUT loss=1.2714 (15s)
+seed 1 | fisher_rao : IN acc=88.1% OUT acc=81.9% OUT loss=1.2568 (6s)
+seed 1 | poincare   : IN acc=82.6% OUT acc=78.4% OUT loss=1.2696 (8s)
+seed 2 | estandar   : IN acc=92.4% OUT acc=83.7% OUT loss=1.3432 (4s)
+seed 2 | ricci      : IN acc=92.6% OUT acc=84.2% OUT loss=1.3292 (15s)
+seed 2 | fisher_rao : IN acc=89.1% OUT acc=82.1% OUT loss=1.2787 (6s)
+seed 2 | poincare   : IN acc=83.2% OUT acc=78.3% OUT loss=1.2562 (8s)
+seed 3 | estandar   : IN acc=92.3% OUT acc=83.8% OUT loss=1.2871 (5s)
+seed 3 | ricci      : IN acc=93.1% OUT acc=84.6% OUT loss=1.2922 (15s)
+seed 3 | fisher_rao : IN acc=90.1% OUT acc=82.5% OUT loss=1.2835 (6s)
+seed 3 | poincare   : IN acc=83.2% OUT acc=78.2% OUT loss=1.2548 (8s)
+seed 4 | estandar   : IN acc=92.3% OUT acc=84.0% OUT loss=1.2750 (5s)
+seed 4 | ricci      : IN acc=93.0% OUT acc=84.7% OUT loss=1.2667 (14s)
+seed 4 | fisher_rao : IN acc=89.1% OUT acc=82.3% OUT loss=1.2687 (6s)
+seed 4 | poincare   : IN acc=83.6% OUT acc=78.7% OUT loss=1.2653 (8s)
+seed 5 | estandar   : IN acc=92.4% OUT acc=83.6% OUT loss=1.3823 (4s)
+seed 5 | ricci      : IN acc=93.7% OUT acc=84.2% OUT loss=1.3997 (15s)
+seed 5 | fisher_rao : IN acc=91.0% OUT acc=82.7% OUT loss=1.2805 (6s)
+seed 5 | poincare   : IN acc=82.2% OUT acc=78.1% OUT loss=1.2680 (8s)
+
+==============================================================================
+modelo                 IN acc    OUT acc (extrap.)         OUT loss
+==============================================================================
+estandar        92.1%±0.5%        83.6%±0.3%     1.3143±0.0416
+ricci           92.7%±0.9%        84.3%±0.4%     1.3118±0.0491
+fisher_rao      89.5%±1.0%        82.3%±0.3%     1.2737±0.0098
+poincare        83.0%±0.5%        78.3%±0.2%     1.2628±0.0061
+
+Diferencia pareada de OUT acc vs estándar (por semilla):
+  ricci      : Δ = +0.64% ± 0.15%  (t pareado = +8.46, n=5)
+  fisher_rao : Δ = -1.36% ± 0.28%  (t pareado = -9.71, n=5)
+  poincare   : Δ = -5.31% ± 0.27%  (t pareado = -39.49, n=5)
+
+Guardado: multi_seed_results.json

@@ -1,0 +1,125 @@
+Árbol: branching=4 depth=3 -> 64 hojas
+seed=1 k=  5 euclidean  : acc=0.3102  treeDist_err=2.119  (1s)
+seed=1 k=  5 poincare   : acc=0.3383  treeDist_err=2.067  (1s)
+seed=1 k=  5 fisher_rao : acc=0.2797  treeDist_err=2.430  (1s)
+seed=1 k= 10 euclidean  : acc=0.3578  treeDist_err=1.972  (1s)
+seed=1 k= 10 poincare   : acc=0.4094  treeDist_err=1.778  (1s)
+seed=1 k= 10 fisher_rao : acc=0.3586  treeDist_err=2.038  (1s)
+seed=1 k= 20 euclidean  : acc=0.4484  treeDist_err=1.653  (1s)
+seed=1 k= 20 poincare   : acc=0.4055  treeDist_err=1.663  (2s)
+seed=1 k= 20 fisher_rao : acc=0.4531  treeDist_err=1.623  (2s)
+seed=1 k= 30 euclidean  : acc=0.4664  treeDist_err=1.534  (2s)
+seed=1 k= 30 poincare   : acc=0.4852  treeDist_err=1.423  (3s)
+seed=1 k= 30 fisher_rao : acc=0.4664  treeDist_err=1.495  (3s)
+seed=1 k= 50 euclidean  : acc=0.5367  treeDist_err=1.245  (4s)
+seed=1 k= 50 poincare   : acc=0.5070  treeDist_err=1.356  (5s)
+seed=1 k= 50 fisher_rao : acc=0.5070  treeDist_err=1.364  (5s)
+seed=1 k=100 euclidean  : acc=0.5680  treeDist_err=1.128  (7s)
+seed=1 k=100 poincare   : acc=0.5344  treeDist_err=1.214  (10s)
+seed=1 k=100 fisher_rao : acc=0.5734  treeDist_err=1.098  (9s)
+seed=2 k=  5 euclidean  : acc=0.3383  treeDist_err=1.975  (0s)
+seed=2 k=  5 poincare   : acc=0.3508  treeDist_err=1.873  (1s)
+seed=2 k=  5 fisher_rao : acc=0.3187  treeDist_err=2.281  (1s)
+seed=2 k= 10 euclidean  : acc=0.4164  treeDist_err=1.702  (1s)
+seed=2 k= 10 poincare   : acc=0.4219  treeDist_err=1.644  (1s)
+seed=2 k= 10 fisher_rao : acc=0.3844  treeDist_err=1.859  (1s)
+seed=2 k= 20 euclidean  : acc=0.4688  treeDist_err=1.511  (1s)
+seed=2 k= 20 poincare   : acc=0.4641  treeDist_err=1.484  (2s)
+seed=2 k= 20 fisher_rao : acc=0.4781  treeDist_err=1.519  (2s)
+seed=2 k= 30 euclidean  : acc=0.5000  treeDist_err=1.386  (2s)
+seed=2 k= 30 poincare   : acc=0.4719  treeDist_err=1.430  (3s)
+seed=2 k= 30 fisher_rao : acc=0.4883  treeDist_err=1.370  (3s)
+seed=2 k= 50 euclidean  : acc=0.5648  treeDist_err=1.142  (4s)
+seed=2 k= 50 poincare   : acc=0.5586  treeDist_err=1.145  (5s)
+seed=2 k= 50 fisher_rao : acc=0.5484  treeDist_err=1.173  (5s)
+seed=2 k=100 euclidean  : acc=0.5961  treeDist_err=1.020  (7s)
+seed=2 k=100 poincare   : acc=0.5867  treeDist_err=1.025  (10s)
+seed=2 k=100 fisher_rao : acc=0.6000  treeDist_err=1.009  (10s)
+seed=3 k=  5 euclidean  : acc=0.3367  treeDist_err=2.002  (0s)
+seed=3 k=  5 poincare   : acc=0.3461  treeDist_err=1.961  (1s)
+seed=3 k=  5 fisher_rao : acc=0.3156  treeDist_err=2.297  (1s)
+seed=3 k= 10 euclidean  : acc=0.4180  treeDist_err=1.762  (1s)
+seed=3 k= 10 poincare   : acc=0.4180  treeDist_err=1.752  (1s)
+seed=3 k= 10 fisher_rao : acc=0.3797  treeDist_err=1.939  (1s)
+seed=3 k= 20 euclidean  : acc=0.4562  treeDist_err=1.553  (1s)
+seed=3 k= 20 poincare   : acc=0.4445  treeDist_err=1.597  (2s)
+seed=3 k= 20 fisher_rao : acc=0.4367  treeDist_err=1.677  (2s)
+seed=3 k= 30 euclidean  : acc=0.4945  treeDist_err=1.447  (2s)
+seed=3 k= 30 poincare   : acc=0.5094  treeDist_err=1.391  (3s)
+seed=3 k= 30 fisher_rao : acc=0.4992  treeDist_err=1.464  (3s)
+seed=3 k= 50 euclidean  : acc=0.5430  treeDist_err=1.269  (3s)
+seed=3 k= 50 poincare   : acc=0.5242  treeDist_err=1.334  (5s)
+seed=3 k= 50 fisher_rao : acc=0.5477  treeDist_err=1.239  (5s)
+seed=3 k=100 euclidean  : acc=0.5867  treeDist_err=1.106  (7s)
+seed=3 k=100 poincare   : acc=0.5813  treeDist_err=1.128  (10s)
+seed=3 k=100 fisher_rao : acc=0.5945  treeDist_err=1.086  (9s)
+seed=4 k=  5 euclidean  : acc=0.3336  treeDist_err=2.044  (0s)
+seed=4 k=  5 poincare   : acc=0.3359  treeDist_err=2.017  (1s)
+seed=4 k=  5 fisher_rao : acc=0.2883  treeDist_err=2.391  (1s)
+seed=4 k= 10 euclidean  : acc=0.4102  treeDist_err=1.645  (1s)
+seed=4 k= 10 poincare   : acc=0.4062  treeDist_err=1.708  (1s)
+seed=4 k= 10 fisher_rao : acc=0.3734  treeDist_err=1.864  (1s)
+seed=4 k= 20 euclidean  : acc=0.4531  treeDist_err=1.531  (1s)
+seed=4 k= 20 poincare   : acc=0.4508  treeDist_err=1.489  (2s)
+seed=4 k= 20 fisher_rao : acc=0.4344  treeDist_err=1.589  (2s)
+seed=4 k= 30 euclidean  : acc=0.4516  treeDist_err=1.531  (2s)
+seed=4 k= 30 poincare   : acc=0.4859  treeDist_err=1.352  (3s)
+seed=4 k= 30 fisher_rao : acc=0.4734  treeDist_err=1.398  (3s)
+seed=4 k= 50 euclidean  : acc=0.5281  treeDist_err=1.208  (4s)
+seed=4 k= 50 poincare   : acc=0.5172  treeDist_err=1.242  (5s)
+seed=4 k= 50 fisher_rao : acc=0.5414  treeDist_err=1.169  (5s)
+seed=4 k=100 euclidean  : acc=0.5695  treeDist_err=1.109  (7s)
+seed=4 k=100 poincare   : acc=0.5531  treeDist_err=1.116  (10s)
+seed=4 k=100 fisher_rao : acc=0.5758  treeDist_err=1.056  (9s)
+seed=5 k=  5 euclidean  : acc=0.3289  treeDist_err=1.998  (0s)
+seed=5 k=  5 poincare   : acc=0.3195  treeDist_err=1.958  (1s)
+seed=5 k=  5 fisher_rao : acc=0.3141  treeDist_err=2.252  (1s)
+seed=5 k= 10 euclidean  : acc=0.4273  treeDist_err=1.686  (1s)
+seed=5 k= 10 poincare   : acc=0.4359  treeDist_err=1.589  (1s)
+seed=5 k= 10 fisher_rao : acc=0.4031  treeDist_err=1.767  (1s)
+seed=5 k= 20 euclidean  : acc=0.4625  treeDist_err=1.592  (1s)
+seed=5 k= 20 poincare   : acc=0.4719  treeDist_err=1.514  (2s)
+seed=5 k= 20 fisher_rao : acc=0.4437  treeDist_err=1.591  (2s)
+seed=5 k= 30 euclidean  : acc=0.4938  treeDist_err=1.387  (2s)
+seed=5 k= 30 poincare   : acc=0.4891  treeDist_err=1.408  (3s)
+seed=5 k= 30 fisher_rao : acc=0.4789  treeDist_err=1.461  (3s)
+seed=5 k= 50 euclidean  : acc=0.5430  treeDist_err=1.233  (4s)
+seed=5 k= 50 poincare   : acc=0.5328  treeDist_err=1.227  (5s)
+seed=5 k= 50 fisher_rao : acc=0.5453  treeDist_err=1.227  (5s)
+seed=5 k=100 euclidean  : acc=0.5953  treeDist_err=1.053  (7s)
+seed=5 k=100 poincare   : acc=0.5711  treeDist_err=1.136  (10s)
+seed=5 k=100 fisher_rao : acc=0.5914  treeDist_err=1.061  (9s)
+
+================================================================================
+   k        euclidean         poincare       fisher_rao
+================================================================================
+   5    0.3295±0.0102    0.3381±0.0107    0.3033±0.0161
+  10    0.4059±0.0247    0.4183±0.0105    0.3798±0.0145
+  20    0.4578±0.0071    0.4473±0.0230    0.4492±0.0159
+  30    0.4813±0.0189    0.4883±0.0121    0.4813±0.0115
+  50    0.5431±0.0121    0.5280±0.0175    0.5380±0.0157
+ 100    0.5831±0.0122    0.5653±0.0192    0.5870±0.0105
+
+Contrastes pareados (accuracy, n=5, df=4) -- Bonferroni: 12 tests, alpha_corr=0.0042
+  k=  5  FR vs euclidean : Δ=-0.0262  t=-4.86  p=0.0083  -> FR pierde
+  k=  5  FR vs poincare  : Δ=-0.0348  t=-3.87  p=0.0179  -> FR pierde
+  k= 10  FR vs euclidean : Δ=-0.0261  t=-3.65  p=0.0218  -> FR pierde
+  k= 10  FR vs poincare  : Δ=-0.0384  t=-11.68  p=0.0003  -> FR pierde  **sobrevive Bonferroni**
+  k= 20  FR vs euclidean : Δ=-0.0086  t=-1.34  p=0.2519  -> FR pierde
+  k= 20  FR vs poincare  : Δ=+0.0019  t=+0.14  p=0.8952  -> FR gana
+  k= 30  FR vs euclidean : Δ=+0.0000  t=+0.00  p=1.0000  -> FR pierde
+  k= 30  FR vs poincare  : Δ=-0.0070  t=-1.16  p=0.3109  -> FR pierde
+  k= 50  FR vs euclidean : Δ=-0.0052  t=-0.66  p=0.5454  -> FR pierde
+  k= 50  FR vs poincare  : Δ=+0.0100  t=+1.49  p=0.2093  -> FR gana
+  k=100  FR vs euclidean : Δ=+0.0039  t=+1.90  p=0.1297  -> FR gana
+  k=100  FR vs poincare  : Δ=+0.0217  t=+4.60  p=0.0100  -> FR gana
+
+Distancia en el árbol del error (menor = se equivoca 'más cerca'; media±sd):
+  k=  5  euclid=2.028±0.051  poincare=1.975±0.065  fisher_rao=2.330±0.068
+  k= 10  euclid=1.753±0.116  poincare=1.694±0.069  fisher_rao=1.893±0.090
+  k= 20  euclid=1.568±0.050  poincare=1.549±0.070  fisher_rao=1.600±0.051
+  k= 30  euclid=1.457±0.066  poincare=1.401±0.028  fisher_rao=1.438±0.046
+  k= 50  euclid=1.219±0.043  poincare=1.261±0.077  fisher_rao=1.234±0.071
+  k=100  euclid=1.083±0.040  poincare=1.124±0.060  fisher_rao=1.062±0.031
+
+Guardado: resultados_fewshot_jerarquia.json

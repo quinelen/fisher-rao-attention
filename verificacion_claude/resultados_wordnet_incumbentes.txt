@@ -1,0 +1,68 @@
+Construyendo subárbol de mamíferos de WordNet (cierre transitivo)...
+  nodos=1170  aristas(cierre transitivo)=6448
+  (referencia Nickel & Kiela 2017: 1180 nodos, 6540 aristas)
+
+===== dimensión por nodo D=5 (presupuesto igualado) =====
+  D=5 seed=1 euclidean  : MAP=0.2299  MeanRank=  83.96  (25s)
+  D=5 seed=1 poincare   : MAP=0.9326  MeanRank=   1.70  (39s)
+  D=5 seed=1 lorentz    : MAP=0.0060  MeanRank= 611.11  (39s)
+  D=5 seed=1 fisher_rao : MAP=0.5167  MeanRank= 405.26  (36s)
+  D=5 seed=2 euclidean  : MAP=0.2294  MeanRank=  82.34  (25s)
+  D=5 seed=2 poincare   : MAP=0.9319  MeanRank=   1.65  (39s)
+  D=5 seed=2 lorentz    : MAP=0.0060  MeanRank= 611.11  (38s)
+  D=5 seed=2 fisher_rao : MAP=0.5054  MeanRank= 364.73  (36s)
+  D=5 seed=3 euclidean  : MAP=0.2317  MeanRank=  82.23  (26s)
+  D=5 seed=3 poincare   : MAP=0.9282  MeanRank=   1.76  (39s)
+  D=5 seed=3 lorentz    : MAP=0.0060  MeanRank= 611.11  (38s)
+  D=5 seed=3 fisher_rao : MAP=0.5596  MeanRank= 286.35  (37s)
+  D=5 seed=4 euclidean  : MAP=0.2309  MeanRank=  80.42  (26s)
+  D=5 seed=4 poincare   : MAP=0.9183  MeanRank=   1.87  (41s)
+  D=5 seed=4 lorentz    : MAP=0.0060  MeanRank= 611.11  (38s)
+  D=5 seed=4 fisher_rao : MAP=0.5508  MeanRank= 226.56  (37s)
+  D=5 seed=5 euclidean  : MAP=0.2330  MeanRank=  79.89  (26s)
+  D=5 seed=5 poincare   : MAP=0.9287  MeanRank=   1.77  (39s)
+  D=5 seed=5 lorentz    : MAP=0.0060  MeanRank= 611.11  (39s)
+  D=5 seed=5 fisher_rao : MAP=0.4863  MeanRank= 472.11  (39s)
+===== dimensión por nodo D=10 (presupuesto igualado) =====
+  D=10 seed=1 euclidean  : MAP=0.3970  MeanRank=  32.06  (28s)
+  D=10 seed=1 poincare   : MAP=0.9381  MeanRank=   1.47  (43s)
+  D=10 seed=1 lorentz    : MAP=0.9540  MeanRank=   1.18  (40s)
+  D=10 seed=1 fisher_rao : MAP=0.8883  MeanRank=   1.60  (39s)
+  D=10 seed=2 euclidean  : MAP=0.3994  MeanRank=  31.92  (28s)
+  D=10 seed=2 poincare   : MAP=0.9449  MeanRank=   1.46  (43s)
+  D=10 seed=2 lorentz    : MAP=0.0060  MeanRank= 611.11  (41s)
+  D=10 seed=2 fisher_rao : MAP=0.8815  MeanRank=   1.62  (40s)
+  D=10 seed=3 euclidean  : MAP=0.3958  MeanRank=  31.69  (27s)
+  D=10 seed=3 poincare   : MAP=0.9369  MeanRank=   1.49  (42s)
+  D=10 seed=3 lorentz    : MAP=0.9590  MeanRank=   1.16  (40s)
+  D=10 seed=3 fisher_rao : MAP=0.8907  MeanRank=   1.55  (40s)
+  D=10 seed=4 euclidean  : MAP=0.3972  MeanRank=  32.61  (27s)
+  D=10 seed=4 poincare   : MAP=0.9437  MeanRank=   1.50  (42s)
+  D=10 seed=4 lorentz    : MAP=0.9520  MeanRank=   1.20  (52s)
+  D=10 seed=4 fisher_rao : MAP=0.8826  MeanRank=   1.63  (65s)
+  D=10 seed=5 euclidean  : MAP=0.3956  MeanRank=  32.22  (60s)
+  D=10 seed=5 poincare   : MAP=0.9433  MeanRank=   1.42  (92s)
+  D=10 seed=5 lorentz    : MAP=0.9465  MeanRank=   1.21  (87s)
+  D=10 seed=5 fisher_rao : MAP=0.8713  MeanRank=   1.71  (86s)
+
+==========================================================================
+ dim modelo             MAP (media±sd)           MeanRank
+==========================================================================
+   5 euclidean          0.2310±0.0013        81.77±1.46
+   5 poincare           0.9279±0.0051         1.75±0.08
+   5 lorentz            0.0060±0.0000       611.11±0.00
+   5 fisher_rao         0.5238±0.0276       351.00±86.56
+  10 euclidean          0.3970±0.0013        32.10±0.31
+  10 poincare           0.9414±0.0032         1.47±0.03
+  10 lorentz            0.7635±0.3788       123.17±243.97
+  10 fisher_rao         0.8829±0.0067         1.62±0.05
+
+Contrastes pareados (Fisher-Rao vs cada incumbente, MAP, n=5):
+  D=5  FR vs euclidean : Δ=+0.2928  t=+21.12  p=0.0000  -> FR gana
+  D=5  FR vs poincare  : Δ=-0.4042  t=-26.36  p=0.0000  -> FR pierde
+  D=5  FR vs lorentz   : Δ=+0.5178  t=+37.56  p=0.0000  -> FR gana
+  D=10  FR vs euclidean : Δ=+0.4859  t=+144.30  p=0.0000  -> FR gana
+  D=10  FR vs poincare  : Δ=-0.0585  t=-12.47  p=0.0002  -> FR pierde
+  D=10  FR vs lorentz   : Δ=+0.1194  t=+0.63  p=0.5619  -> FR gana
+
+Guardado: resultados_wordnet_incumbentes.json

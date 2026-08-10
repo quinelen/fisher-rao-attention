@@ -1,0 +1,46 @@
+TEST 0: DataLoader original (sin collate de padding, longitudes variables)
+  -> RuntimeError confirmado: stack expects each tensor to be equal size, but got [44] at entry 0 and [20] at entry 1
+
+TEST 1: FUGA — Ricci SIN máscara causal (como el código original) — 2 epochs
+--- Ricci sin máscara (código original) (108933 params) ---
+  ep1: train=1.2553 | IN loss=1.1565 acc_cierre=79.4% | OUT loss=1.2584 acc_cierre=76.7% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+  ep2: train=1.1293 | IN loss=1.0305 acc_cierre=82.6% | OUT loss=1.2832 acc_cierre=77.3% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+
+TEST 2: comparación justa CON máscara causal — 4 epochs
+--- Transformer estándar (causal) (108933 params) ---
+  ep1: train=1.2513 | IN loss=1.1561 acc_cierre=84.4% | OUT loss=1.2452 acc_cierre=78.9% | 1s
+  ep2: train=1.1359 | IN loss=1.1229 acc_cierre=86.4% | OUT loss=1.2733 acc_cierre=80.7% | 1s
+  ep3: train=1.1098 | IN loss=1.1071 acc_cierre=88.3% | OUT loss=1.2955 acc_cierre=81.0% | 1s
+  ep4: train=1.0973 | IN loss=1.0910 acc_cierre=89.5% | OUT loss=1.2885 acc_cierre=81.6% | 1s
+--- Ricci-Transformer (causal) (108933 params) ---
+  ep1: train=1.2521 | IN loss=1.1478 acc_cierre=84.1% | OUT loss=1.2518 acc_cierre=79.0% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+  ep2: train=1.1320 | IN loss=1.1181 acc_cierre=87.6% | OUT loss=1.2544 acc_cierre=81.1% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+  ep3: train=1.1070 | IN loss=1.1164 acc_cierre=87.7% | OUT loss=1.2990 acc_cierre=80.8% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+  ep4: train=1.0919 | IN loss=1.0956 acc_cierre=89.2% | OUT loss=1.2802 acc_cierre=82.1% | 3s | g: min=10.00 mean=10.00 max=10.00 %clamp0.1=0%
+
+RESUMEN: {
+ "vanilla": {
+  "in_loss": 1.0910393238067626,
+  "out_loss": 1.2884641981124878,
+  "in_acc": 0.8945999504582611,
+  "out_acc": 0.8159666398713826
+ },
+ "ricci": {
+  "in_loss": 1.0955939865112305,
+  "out_loss": 1.2802163982391357,
+  "in_acc": 0.8919990091652217,
+  "out_acc": 0.820689308681672
+ }
+}
+Fisher-Rao exacta (geodésica esférica, causal) — 4 epochs
+--- FisherRao-Transformer (causal) (108935 params) ---
+  ep1: train=1.2487 | IN loss=1.1516 acc_cierre=82.6% | OUT loss=1.2556 acc_cierre=78.7% | 1s
+  ep2: train=1.1358 | IN loss=1.1279 acc_cierre=85.5% | OUT loss=1.2731 acc_cierre=79.8% | 1s
+  ep3: train=1.1142 | IN loss=1.1201 acc_cierre=86.5% | OUT loss=1.2444 acc_cierre=80.5% | 1s
+  ep4: train=1.1008 | IN loss=1.1119 acc_cierre=86.4% | OUT loss=1.2804 acc_cierre=80.7% | 1s
+{
+ "in_loss": 1.1119302606582642,
+ "out_loss": 1.2804292297363282,
+ "in_acc": 0.8643794897200892,
+ "out_acc": 0.807475884244373
+}

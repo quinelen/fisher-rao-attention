@@ -1,0 +1,52 @@
+--- v2 del usuario (scores = -d^2, sin temperatura) ---
+  ep1: train=1.1318 | IN loss=1.0794 acc=89.5% | OUT loss=1.2479 acc=82.3% | 9s
+  ep2: train=1.0437 | IN loss=1.0363 acc=91.0% | OUT loss=1.2839 acc=84.1% | 9s
+  ep3: train=1.0045 | IN loss=0.9935 acc=95.0% | OUT loss=1.2821 acc=86.2% | 9s
+  ep4: train=0.9879 | IN loss=0.9862 acc=95.5% | OUT loss=1.2895 acc=86.3% | 9s
+  ep5: train=0.9754 | IN loss=0.9676 acc=97.0% | OUT loss=1.2767 acc=87.6% | 9s
+--- v2 + beta aprendible (init 8.0) ---
+  ep1: train=1.1434 | IN loss=1.0947 acc=87.9% | OUT loss=1.2291 acc=81.7% | 9s | betas=['7.94', '7.95']
+  ep2: train=1.0723 | IN loss=1.0527 acc=90.9% | OUT loss=1.2419 acc=83.4% | 9s | betas=['7.87', '7.90']
+  ep3: train=1.0327 | IN loss=1.0182 acc=93.2% | OUT loss=1.2464 acc=84.8% | 9s | betas=['7.79', '7.85']
+  ep4: train=1.0069 | IN loss=1.0173 acc=94.1% | OUT loss=1.2735 acc=85.3% | 9s | betas=['7.71', '7.80']
+  ep5: train=0.9884 | IN loss=0.9941 acc=95.6% | OUT loss=1.2823 acc=86.2% | 9s | betas=['7.64', '7.75']
+{
+ "v2_usuario": {
+  "in_loss": 0.9675598540306092,
+  "out_loss": 1.2766646852493286,
+  "in_acc": 0.9697549673877458,
+  "out_acc": 0.8763407508204595
+ },
+ "v2_beta": {
+  "in_loss": 0.994114616394043,
+  "out_loss": 1.282290719985962,
+  "in_acc": 0.95580347024604,
+  "out_acc": 0.8619026654926759
+ }
+}
+--- estandar (config v2: d128, 10k, bs64, 5ep, seed1) ---
+  ep1: train=1.1346 | IN loss=1.0844 acc=89.3% | OUT loss=1.2490 acc=82.0% | 8s
+  ep2: train=1.0580 | IN loss=1.0356 acc=91.9% | OUT loss=1.2689 acc=84.0% | 8s
+  ep3: train=1.0197 | IN loss=1.0067 acc=93.8% | OUT loss=1.2832 acc=85.1% | 8s
+  ep4: train=0.9968 | IN loss=0.9850 acc=95.6% | OUT loss=1.2845 acc=86.5% | 8s
+  ep5: train=0.9851 | IN loss=0.9765 acc=96.2% | OUT loss=1.2931 acc=86.9% | 8s
+--- ricci (config v2: d128, 10k, bs64, 5ep, seed1) ---
+  ep1: train=1.1324 | IN loss=1.0783 acc=90.0% | OUT loss=1.2396 acc=82.7% | 30s
+  ep2: train=1.0485 | IN loss=1.0323 acc=91.6% | OUT loss=1.2631 acc=84.0% | 30s
+  ep3: train=1.0108 | IN loss=1.0222 acc=92.8% | OUT loss=1.2817 acc=84.8% | 30s
+  ep4: train=0.9897 | IN loss=0.9843 acc=95.8% | OUT loss=1.2477 acc=86.9% | 33s
+  ep5: train=0.9783 | IN loss=0.9718 acc=96.9% | OUT loss=1.2571 acc=87.7% | 36s
+{
+ "estandar": {
+  "in_loss": 0.9764702548980713,
+  "out_loss": 1.2930776805877686,
+  "in_acc": 0.9617215240877383,
+  "out_acc": 0.8693168174177539
+ },
+ "ricci": {
+  "in_loss": 0.9718499164581299,
+  "out_loss": 1.2570728082656861,
+  "in_acc": 0.9686720894507542,
+  "out_acc": 0.8769610982150003
+ }
+}
