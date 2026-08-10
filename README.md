@@ -21,6 +21,8 @@ Standard attention measures token similarity in an arbitrary flat vector space. 
 | **Hyperbolic isotropic (exact, ours)** | **< 0** | **88.43% ± 0.77** | **415k** | **≈2.3×** |
 | Mixed-curvature adaptive (gated) | learned | 86.94% ± 0.68 | ≈415k | ≈2.7× |
 
+**Robustness update (§4.8):** the headline contrast holds over **20 paired seeds** (Δ=+2.10 pp, p=1.9×10⁻¹⁰, 20/20) and **widens at 46× model scale** (+4.7 pp at 19M params, 3/3 seeds). Two pre-specified probes bound it: the advantage does **not** grow with hierarchy depth (present at all depths, front-loaded shallow–mid; pre-registered H1 refuted), and it does **not** transfer to in-distribution char-level modeling of real Python code (directionally worse, 3/3 seeds).
+
 Further findings (Sections 4.6, 4.7, 5 and 5.1 of the paper):
 
 - **The gain comes from the curvature, not just from Gaussian tokens (§4.6).** Holding the Gaussian token representation fixed and swapping only the distance, the Wasserstein–Bures kernel (the geometry used by prior stochastic transformers, arXiv:2311.18645) gains +1.12 pp over point-token attention, while the Fisher–Rao (hyperbolic) geometry adds a further **+1.52 pp on top** (p = 0.029) — the larger share of the advantage.
