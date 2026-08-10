@@ -63,10 +63,27 @@ gaussianas.
 - Existe teoría reciente (arXiv:2604.14702) sobre Fisher-Rao y gating en atención que el
   paper debe citar y discutir.
 
-## Limitaciones de esta búsqueda
+## Barrido manual de Google Scholar (COMPLETADO 10-ago-2026)
+
+Realizado vía navegador sobre scholar.google.com. Resultados por frase exacta:
+
+| Query | Resultados | Veredicto |
+|---|---|---|
+| "Fisher-Rao attention" | **1** | DyCo-RL (arXiv:2606.08035, jun-2026, Lin et al.): usa la distancia FR para ANALIZAR distribuciones de atención existentes (asignar roles funcionales a tokens en MLLMs) — plugin diagnóstico sobre atención estándar, NO un kernel. Concurrente y adyacente; citado como [20]. |
+| "information geometric attention" | 0 | — |
+| "Gaussian hyperbolic attention" | 0 | — |
+| "Fisher-Rao geodesic attention" | 0 | (nuestra frase de título: inédita) |
+| "Fisher-Rao" + "attention kernel" + transformer (amplia) | 6 | Todos tangenciales. El más cercano: Mtetwa et al. (Mathematics/MDPI 2026) relaciona la temperatura de RoPE con la geometría FR de las distribuciones de atención — teoría adyacente tipo [17], citado como [21]. Resto: teoría de flujos de medida, difusión de video, correspondencias cuánticas — menciones de pasada. |
+
+**Conclusión del barrido:** ningún trabajo indexado en Google Scholar computa scores de
+atención como distancia geodésica Fisher-Rao entre tokens distribucionales. Los dos usos
+existentes del objeto matemático en atención (DyCo-RL, Mtetwa et al.) son analíticos —
+miden la geometría DE la atención estándar; el nuestro construye la atención DESDE la
+geometría. La afirmación de novedad-como-síntesis de §7 queda verificada en las tres
+fuentes principales (arXiv, OpenReview, Google Scholar) más Semantic Scholar parcial.
+
+## Limitaciones residuales
 
 - Semantic Scholar quedó cubierto solo parcialmente (rate-limit sin API key).
-- Google Scholar no tiene API; no fue barrido sistemáticamente.
-- Solo inglés; ventana hasta julio 2026.
-- Recomendación: repetir el barrido en Semantic Scholar con API key y en Google Scholar
-  manualmente antes del envío formal a un venue.
+- Solo inglés; ventana hasta agosto 2026 (trabajo concurrente posterior puede aparecer;
+  repetir el barrido de frases exactas la semana del envío es trivial y recomendado).
