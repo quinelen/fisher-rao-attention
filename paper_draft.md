@@ -49,6 +49,14 @@ equips the family with a Riemannian structure. By **Chentsov's theorem** [1], th
 
 The categorical (spherical) case: the map $\phi(p) = 2\sqrt{p}$ is an isometry from $(\Delta^{d-1}, g_F)$ onto the positive octant of the radius-2 sphere; the geodesic distance is the Bhattacharyya angle, bounded in $[0, \pi]$.
 
+![Figure 2: the three constant-curvature geometries, with exact geodesics](verificacion_claude/fig_topologias_3d.png)
+
+*Figure 2 — The three topologies of the family: the categorical Fisher–Rao octant (left, with an exact great-circle geodesic between two distributions), the local flat regime (center), and constant negative curvature (right, pseudosphere). Figure 3 shows the Gaussian half-space manifold with Fisher–Rao geodesics and the generality-radius interpretation; Figure 4 shows real token distributions from a trained spherical-attention model ($d_h = 3$) rendered on their exact manifold via $\phi(p) = 2\sqrt p$ — an interactive version of all three scenes is included in the repository (`topologias_interactivas.html`).*
+
+![Figure 3: the hyperbolic half-space manifold of the isotropic Gaussian kernel](verificacion_claude/fig_semiespacio_hiperbolico.png)
+
+![Figure 4: real trained tokens on the exact spherical manifold](verificacion_claude/fig_tokens_reales_esfera.png)
+
 The isotropic Gaussian (hyperbolic) case: for $\mathcal{N}(\mu, \sigma^2 I_d)$ with $\mu \in \mathbb{R}^d$, $\sigma > 0$, the exact Fisher line element carries a dimension factor on the scale coordinate,
 
 $$ds^2 = \frac{\lVert d\mu \rVert^2 + 2d\,d\sigma^2}{\sigma^2}, \tag{1}$$
@@ -120,7 +128,7 @@ where $\bar{x}_{\le i}$ is the **cumulative (causal) mean** of the input up to p
 
 *\*The quadratic midpoint-metric approximation from an earlier iteration of this project, retained as an ablation arm.*
 
-![Main results and gate analysis](verificacion_claude/fig_results.png)
+![Figure 1: main results and gate analysis](verificacion_claude/fig_results.png)
 
 **Accuracy orders exactly by curvature: flat < spherical < hyperbolic**, consistent with the volume-growth argument for hierarchy embedding [3, 5]. The parameter-matched isotropic mechanism is the strongest arm and wins all five seeds against every baseline.
 
