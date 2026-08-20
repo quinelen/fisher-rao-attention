@@ -1,6 +1,6 @@
 # Fisher–Rao Geodesic Attention
 
-**Exact constant-curvature attention kernels at near-matmul cost, with data-driven geometry selection.**
+**Exact constant-curvature attention kernels for sequence models at near-matmul cost.**
 
 This repository accompanies the preprint [`paper_draft.md`](paper_draft.md). It contains everything needed to reproduce every number in the paper on a laptop CPU (~2.5 h total, no GPU required).
 
@@ -141,8 +141,8 @@ Synthetic task family (Dyck-2 and variants), 2-layer models, n = 5 seeds, CPU sc
 
 ```bibtex
 @misc{quinelen2026fisherrao,
-  title  = {Fisher--Rao Geodesic Attention: Exact Constant-Curvature Kernels
-            at Near-Matmul Cost, with Data-Driven Geometry Selection},
+  title  = {Fisher--Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models
+            at Near-Matmul Cost},
   author = {Qui{\~n}elen, Eduardo},
   year   = {2026},
   note   = {Preprint},
