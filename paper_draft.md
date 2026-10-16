@@ -1,7 +1,7 @@
 # Fisher–Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models at Near-Matmul Cost
 
-**Author:** Eduardo Quiñelen
-**Affiliation:** Independent Researcher in Information Topology and Geometric Deep Learning
+**Authors:** Eduardo Quiñelen Rojas, Miguel Contreras Torrejon
+**Affiliation:** Independent Researchers in Information Topology and Geometric Deep Learning
 **Date:** July 2026
 **Code:** all experiments reproducible from the scripts in `verificacion_claude/` (see Reproducibility Statement)
 

@@ -143,7 +143,7 @@ Synthetic task family (Dyck-2 and variants), 2-layer models, n = 5 seeds, CPU sc
   doi    = {10.5281/zenodo.23424909},
   title  = {Fisher--Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models
             at Near-Matmul Cost},
-  author = {Qui{\~n}elen, Eduardo},
+  author = {Qui{\~n}elen Rojas, Eduardo and Contreras Torrejon, Miguel},
   year   = {2026},
   note   = {Preprint. Code and data: https://github.com/quinelen/fisher-rao-attention},
 }
@@ -151,4 +151,4 @@ Synthetic task family (Dyck-2 and variants), 2-layer models, n = 5 seeds, CPU sc
 
 ## License
 
-Code released under the [MIT License](LICENSE). The paper text (`paper_draft.md`) is © 2026 Eduardo Quiñelen.
+Code released under the [MIT License](LICENSE). The paper text (`paper_draft.md`) is © 2026 Eduardo Quiñelen Rojas and Miguel Contreras Torrejon.

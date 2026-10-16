@@ -1,10 +1,22 @@
 {
   "title": "Fisher–Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models at Near-Matmul Cost",
   "creators": [
-    {"name": "Quiñelen, Eduardo"}
+    {
+      "name": "Quiñelen Rojas, Eduardo"
+    },
+    {
+      "name": "Contreras Torrejon, Miguel"
+    }
   ],
   "description": "Preprint and fully reproducible codebase (CPU). Attention mechanisms whose similarity is the exact Fisher–Rao geodesic distance between distributional token representations: categorical tokens yield a spherical kernel, isotropic Gaussian tokens yield a genuinely hyperbolic kernel computable at near-matmul cost. Includes 20-seed statistics, a 46x scale probe, a threshold-gated parameter-efficiency result, a pre-registered natural-data length-extrapolation result, and seven pre-specified negative results reported in full.",
   "license": "MIT",
   "upload_type": "software",
-  "keywords": ["information geometry", "Fisher-Rao metric", "hyperbolic attention", "transformers", "geometric deep learning", "length extrapolation"]
+  "keywords": [
+    "information geometry",
+    "Fisher-Rao metric",
+    "hyperbolic attention",
+    "transformers",
+    "geometric deep learning",
+    "length extrapolation"
+  ]
 }

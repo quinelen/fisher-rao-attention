@@ -2,8 +2,10 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Fisher–Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models at Near-Matmul Cost"
 authors:
-  - family-names: "Quiñelen"
+  - family-names: "Quiñelen Rojas"
     given-names: "Eduardo"
+  - family-names: "Contreras Torrejon"
+    given-names: "Miguel"
 type: software
 doi: 10.5281/zenodo.23424909
 repository-code: "https://github.com/quinelen/fisher-rao-attention"
