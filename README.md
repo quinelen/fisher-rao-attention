@@ -1,6 +1,6 @@
 # Fisher–Rao Geodesic Attention
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23424910.svg)](https://doi.org/10.5281/zenodo.23424910)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23424909.svg)](https://doi.org/10.5281/zenodo.23424909)
 
 **Exact constant-curvature attention kernels for sequence models at near-matmul cost.**
 
@@ -140,7 +140,7 @@ Synthetic task family (Dyck-2 and variants), 2-layer models, n = 5 seeds, CPU sc
 
 ```bibtex
 @misc{quinelen2026fisherrao,
-  doi    = {10.5281/zenodo.23424910},
+  doi    = {10.5281/zenodo.23424909},
   title  = {Fisher--Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models
             at Near-Matmul Cost},
   author = {Qui{\~n}elen, Eduardo},
