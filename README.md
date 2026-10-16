@@ -40,8 +40,6 @@ Further findings (Sections 4.6, 4.7, 5 and 5.1 of the paper):
 ├── README.md
 ├── LICENSE                         # MIT (code); paper text © the author
 ├── requirements.txt
-├── historico_ricci/                # Original Ricci-flow-era files (July 2026), kept for
-│                                   #   provenance — the starting point this project evolved from
 └── verificacion_claude/            # All code, raw outputs, and figures
     │
     │   # --- Core experiments (Sections 4–5 of the paper) ---
@@ -82,8 +80,7 @@ Further findings (Sections 4.6, 4.7, 5 and 5.1 of the paper):
     ├── train_fisher_rao.py         # First exact spherical kernel
     ├── v2_test.py, v2_baselines.py # Intermediate verification runs
     ├── multi_seed.py               # Pilot multi-seed comparison
-    ├── resultados_*.txt, multi_seed_results.json
-    └── paper_draft_v{1,2}_backup.md  # Earlier drafts, kept for transparency
+    └── resultados_*.txt, multi_seed_results.json
 ```
 
 ## Reproducing the benchmark
