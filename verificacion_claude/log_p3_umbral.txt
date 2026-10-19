@@ -1,0 +1,26 @@
+d_model=  16 (d_h= 4) seed 6: attw_d/R=1.510  med=1.732  p90=2.831  frac>R=0.87  beta=['1.05', '1.06']  (9s)
+d_model=  16 (d_h= 4) seed 7: attw_d/R=1.500  med=1.817  p90=2.878  frac>R=0.92  beta=['1.05', '1.05']  (8s)
+d_model=  16 (d_h= 4) seed 8: attw_d/R=1.847  med=2.216  p90=3.444  frac>R=0.96  beta=['1.04', '1.06']  (7s)
+d_model=  32 (d_h= 8) seed 6: attw_d/R=2.413  med=2.727  p90=3.971  frac>R=0.99  beta=['1.04', '1.05']  (9s)
+d_model=  32 (d_h= 8) seed 7: attw_d/R=2.436  med=2.681  p90=3.861  frac>R=1.00  beta=['1.03', '1.08']  (9s)
+d_model=  32 (d_h= 8) seed 8: attw_d/R=2.256  med=2.572  p90=3.870  frac>R=0.99  beta=['1.04', '1.06']  (8s)
+d_model=  64 (d_h=16) seed 6: attw_d/R=3.219  med=3.512  p90=4.857  frac>R=1.00  beta=['1.04', '1.06']  (10s)
+d_model=  64 (d_h=16) seed 7: attw_d/R=3.045  med=3.183  p90=4.298  frac>R=1.00  beta=['1.03', '1.06']  (10s)
+d_model=  64 (d_h=16) seed 8: attw_d/R=3.105  med=3.309  p90=4.590  frac>R=1.00  beta=['1.02', '1.06']  (10s)
+d_model= 128 (d_h=32) seed 6: attw_d/R=4.232  med=4.484  p90=5.933  frac>R=1.00  beta=['1.02', '1.04']  (14s)
+d_model= 128 (d_h=32) seed 7: attw_d/R=4.207  med=4.346  p90=5.615  frac>R=1.00  beta=['1.02', '1.04']  (13s)
+d_model= 128 (d_h=32) seed 8: attw_d/R=3.994  med=4.154  p90=5.773  frac>R=1.00  beta=['1.01', '1.04']  (16s)
+
+==============================================================================
+  d_h    attw d/R (PRIMARIA)    mediana d/R   frac pares >R
+    4        1.619±0.161      1.922±0.211        0.92±0.04
+    8        2.368±0.080      2.660±0.065        0.99±0.00
+   16        3.123±0.072      3.335±0.135        1.00±0.00
+   32        4.144±0.107      4.328±0.135        1.00±0.00
+
+*** VEREDICTO PRE-REGISTRADO (H-c, régimen de curvatura) ***
+  (i)  monotonía de attw d/R con d_h en las 3 semillas: SÍ
+  (ii) cruce de 1.0 entre d_h=8 (2.368) y d_h=16 (3.123): NO
+  => APOYO PARCIAL: el régimen escala con d_h pero el cruce de R no coincide con el umbral
+
+Guardado: resultados_mecanismo_umbral.json

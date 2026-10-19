@@ -1,0 +1,35 @@
+Corpus man construido: 274 páginas, train=2733491 test=416380 bytes
+Prosa man: train=2733491 test=416380 vocab=119
+Train (4000, 128) (len 128); eval [128, 256, 512]
+
+seed 46 euclidean  : extra256=3.9720 extra512=3.9538 in128=3.6040 (17s)
+seed 46 fr_estable : extra256=3.9215 extra512=3.9105 in128=3.6453 (34s)
+seed 47 euclidean  : extra256=4.0136 extra512=4.0147 in128=3.6164 (17s)
+seed 47 fr_estable : extra256=3.9698 extra512=3.9906 in128=3.6290 (34s)
+seed 48 euclidean  : extra256=4.0832 extra512=4.0438 in128=3.6065 (17s)
+seed 48 fr_estable : extra256=3.9397 extra512=3.9672 in128=3.6318 (34s)
+seed 49 euclidean  : extra256=4.0348 extra512=4.0042 in128=3.6163 (19s)
+seed 49 fr_estable : extra256=3.9746 extra512=3.9690 in128=3.6411 (35s)
+seed 50 euclidean  : extra256=4.1224 extra512=4.0740 in128=3.6010 (17s)
+seed 50 fr_estable : extra256=3.9511 extra512=3.9685 in128=3.6409 (34s)
+seed 51 euclidean  : extra256=4.0505 extra512=4.0085 in128=3.6065 (17s)
+seed 51 fr_estable : extra256=3.9290 extra512=3.9159 in128=3.6472 (37s)
+seed 52 euclidean  : extra256=4.0469 extra512=4.0149 in128=3.5914 (17s)
+seed 52 fr_estable : extra256=3.9483 extra512=3.9354 in128=3.6333 (35s)
+seed 53 euclidean  : extra256=4.0894 extra512=4.0383 in128=3.6007 (18s)
+seed 53 fr_estable : extra256=4.0208 extra512=4.0250 in128=3.6374 (34s)
+seed 54 euclidean  : extra256=4.0019 extra512=4.0150 in128=3.6008 (15s)
+seed 54 fr_estable : extra256=3.9670 extra512=3.9510 in128=3.6270 (32s)
+seed 55 euclidean  : extra256=4.0973 extra512=4.0578 in128=3.6029 (15s)
+seed 55 fr_estable : extra256=4.0107 extra512=4.0124 in128=3.6330 (31s)
+
+*** VEREDICTO PRE-REGISTRADO (prosa man, n=10, semillas 46-55) ***
+  [  PRIMARIO] bpc_extra_L512: Euc=4.0225±0.0317  FRs=3.9646±0.0361  Δ=-0.0579  t=-6.02  p=0.0002
+  [secundario] bpc_extra_L256: Euc=4.0512±0.0448  FRs=3.9632±0.0310  Δ=-0.0880  t=-6.12  p=0.0002
+  [control IN] bpc_L128: Euc=3.6046±0.0071  FRs=3.6366±0.0065  Δ=+0.0319  t=+10.35  p=0.0000
+
+  semillas ganadas por FR en extra_L512: 10/10
+  estabilidad (sd_FR <= 1.5 sd_Euc): SÍ (sd_FR=0.0361, sd_Euc=0.0317)
+  ENDPOINT PRIMARIO: CUMPLIDO — la transferencia extrapolativa alcanza PROSA natural (piloto CPU)
+
+Guardado: resultados_prosa_man.json

@@ -1,0 +1,15 @@
+kl_bregman seed 1: IN=98.09% OUT=88.59% (79s, 415255 params)
+kl_bregman seed 2: IN=97.58% OUT=86.98% (80s, 415255 params)
+kl_bregman seed 3: IN=97.55% OUT=87.79% (80s, 415255 params)
+kl_bregman seed 4: IN=96.94% OUT=86.52% (77s, 415255 params)
+kl_bregman seed 5: IN=96.38% OUT=86.73% (80s, 415255 params)
+  kl_bregman: OUT 87.32% | Fisher-Rao - kl_bregman: {'delta_pp': 1.1114223965420655, 'ci95_pp': [0.4400684005100074, 1.7827763925741238], 't': 4.596387734227582, 'p': 0.010058241557657882, 'wins': 5} | kl_bregman - Euclidean: {'delta_pp': 1.524453694068677, 'ci95_pp': [1.0979363852168602, 1.950971002920494], 't': 9.923540989207975, 'p': 0.0005789502072100128, 'wins': 5}
+
+laplaciano seed 1: IN=97.97% OUT=88.71% (80s, 415255 params)
+laplaciano seed 2: IN=97.30% OUT=88.23% (81s, 415255 params)
+laplaciano seed 3: IN=97.97% OUT=89.22% (89s, 415255 params)
+laplaciano seed 4: IN=96.18% OUT=85.95% (98s, 415255 params)
+laplaciano seed 5: IN=97.68% OUT=87.27% (83s, 415255 params)
+  laplaciano: OUT 87.88% | Fisher-Rao - laplaciano: {'delta_pp': 0.5549107500200123, 'ci95_pp': [-0.3466772396213196, 1.4564987396613442], 't': 1.7088506650666595, 'p': 0.16265955132083967, 'wins': 4} | laplaciano - Euclidean: {'delta_pp': 2.0809653405907302, 'ci95_pp': [0.9054260213305061, 3.256504659850954], 't': 4.914923677419267, 'p': 0.007958293051906462, 'wins': 5}
+
+Guardado: resultados_ablacion_kernel.json

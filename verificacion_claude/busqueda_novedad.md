@@ -14,7 +14,7 @@ reclamados como novedosos en §7, ya están publicados.
 | Semantic Scholar | Graph API (sin key) | **parcial**: 5 de 8 queries fallaron por rate-limit |
 | Búsqueda web general | motor de búsqueda (sesiones previas) | CAT, Curve Your Attention, HELM, Stochastic ViT, DAAM |
 
-Queries ejecutados (script: `../scratchpad/novelty_search.py`, copia de resultados abajo):
+Queries ejecutados (copia de resultados abajo):
 `"Fisher-Rao attention"`, `"information geometric attention"`, `"geodesic attention"`,
 `abs:"Fisher-Rao" AND abs:"transformer" AND abs:"attention"`, `"Bhattacharyya attention
 transformer"`, `"hyperbolic attention isotropic Gaussian"`, `"Chentsov attention"`,
@@ -48,7 +48,7 @@ gaussianas.
    transformer estándar; la métrica no entra al score de atención.
 5. **Stochastic ViT (Wasserstein)** (arXiv:2311.18645, 2023) — tokens gaussianos +
    atención por distancia entre distribuciones, con Wasserstein/Bures. Nuestra ablación
-   §4.6 la usa como control: la geometría FR aporta +1.52 pp por encima (p=0.029).
+   §4.6 la usa como control: la geometría FR aporta +1,52 pp por encima (p = 0,029).
 6. **Curve Your Attention** (arXiv:2309.04082), **HELM** (arXiv:2505.24722),
    **DAAM** (arXiv:2401.11143) — curvatura mixta / mixture-of-curvature / atención
    adaptativa por densidad; ninguna usa Fisher-Rao como score.
@@ -69,16 +69,16 @@ Realizado vía navegador sobre scholar.google.com. Resultados por frase exacta:
 
 | Query | Resultados | Veredicto |
 |---|---|---|
-| "Fisher-Rao attention" | **1** | DyCo-RL (arXiv:2606.08035, jun-2026, Lin et al.): usa la distancia FR para ANALIZAR distribuciones de atención existentes (asignar roles funcionales a tokens en MLLMs) — plugin diagnóstico sobre atención estándar, NO un kernel. Concurrente y adyacente; citado como [20]. |
+| "Fisher-Rao attention" | **1** | DyCo-RL (arXiv:2606.08035, jun-2026, Lin et al.): usa la distancia FR para MEDIR desplazamientos de atención en un transformer multimodal estándar, asignar roles funcionales a los tokens y reponderar con ello las ventajas en aprendizaje por refuerzo — señal de entrenamiento derivada de la atención estándar, NO un kernel. Concurrente y adyacente; citado en el paper (Lin et al., 2026). |
 | "information geometric attention" | 0 | — |
 | "Gaussian hyperbolic attention" | 0 | — |
 | "Fisher-Rao geodesic attention" | 0 | (nuestra frase de título: inédita) |
-| "Fisher-Rao" + "attention kernel" + transformer (amplia) | 6 | Todos tangenciales. El más cercano: Mtetwa et al. (Mathematics/MDPI 2026) relaciona la temperatura de RoPE con la geometría FR de las distribuciones de atención — teoría adyacente tipo [17], citado como [21]. Resto: teoría de flujos de medida, difusión de video, correspondencias cuánticas — menciones de pasada. |
+| "Fisher-Rao" + "attention kernel" + transformer (amplia) | 6 | Todos tangenciales. El más cercano: Mtetwa et al. (Mathematics/MDPI 2026) relaciona la temperatura de RoPE con la geometría FR de las distribuciones de atención — teoría adyacente del tipo de Bathula y Joshi (2026); citado en el paper (Mtetwa et al., 2026). Resto: teoría de flujos de medida, difusión de video, correspondencias cuánticas — menciones de pasada. |
 
 **Conclusión del barrido:** ningún trabajo indexado en Google Scholar computa scores de
 atención como distancia geodésica Fisher-Rao entre tokens distribucionales. Los dos usos
-existentes del objeto matemático en atención (DyCo-RL, Mtetwa et al.) son analíticos —
-miden la geometría DE la atención estándar; el nuestro construye la atención DESDE la
+existentes del objeto matemático en atención (DyCo-RL, Mtetwa et al.) parten de la atención estándar —
+miden su geometría o la usan como señal de entrenamiento; el nuestro construye la atención DESDE la
 geometría. La afirmación de novedad-como-síntesis de §7 queda verificada en las tres
 fuentes principales (arXiv, OpenReview, Google Scholar) más Semantic Scholar parcial.
 

@@ -1,0 +1,201 @@
+{
+ "description": "Python source corpus of §4.8d: *.py files of the running interpreter's standard library, sorted, files under 2000 characters skipped, split 90/10 by file (file index i -> test if i % 10 == 0), stopping once 1.2M characters are exceeded.",
+ "python_implementation": "CPython",
+ "python_version": "3.9.6",
+ "n_files": 46,
+ "train_files": [
+  {
+   "file": "_aix_support.py",
+   "chars": 3389
+  },
+  {
+   "file": "_bootsubprocess.py",
+   "chars": 2675
+  },
+  {
+   "file": "_collections_abc.py",
+   "chars": 29377
+  },
+  {
+   "file": "_compat_pickle.py",
+   "chars": 8749
+  },
+  {
+   "file": "_compression.py",
+   "chars": 5340
+  },
+  {
+   "file": "_markupbase.py",
+   "chars": 14598
+  },
+  {
+   "file": "_osx_support.py",
+   "chars": 23616
+  },
+  {
+   "file": "_pydecimal.py",
+   "chars": 228666
+  },
+  {
+   "file": "_pyio.py",
+   "chars": 93412
+  },
+  {
+   "file": "_sitebuiltins.py",
+   "chars": 3115
+  },
+  {
+   "file": "_strptime.py",
+   "chars": 25277
+  },
+  {
+   "file": "_sysconfigdata__darwin_darwin.py",
+   "chars": 39353
+  },
+  {
+   "file": "_threading_local.py",
+   "chars": 7220
+  },
+  {
+   "file": "_weakrefset.py",
+   "chars": 5817
+  },
+  {
+   "file": "abc.py",
+   "chars": 4920
+  },
+  {
+   "file": "aifc.py",
+   "chars": 32605
+  },
+  {
+   "file": "argparse.py",
+   "chars": 97714
+  },
+  {
+   "file": "ast.py",
+   "chars": 56179
+  },
+  {
+   "file": "asynchat.py",
+   "chars": 11321
+  },
+  {
+   "file": "asyncore.py",
+   "chars": 20102
+  },
+  {
+   "file": "base64.py",
+   "chars": 19861
+  },
+  {
+   "file": "bdb.py",
+   "chars": 31389
+  },
+  {
+   "file": "binhex.py",
+   "chars": 14784
+  },
+  {
+   "file": "bisect.py",
+   "chars": 2350
+  },
+  {
+   "file": "bz2.py",
+   "chars": 12447
+  },
+  {
+   "file": "calendar.py",
+   "chars": 24832
+  },
+  {
+   "file": "cgi.py",
+   "chars": 33935
+  },
+  {
+   "file": "cgitb.py",
+   "chars": 12096
+  },
+  {
+   "file": "chunk.py",
+   "chars": 5435
+  },
+  {
+   "file": "cmd.py",
+   "chars": 14860
+  },
+  {
+   "file": "code.py",
+   "chars": 10622
+  },
+  {
+   "file": "codecs.py",
+   "chars": 36673
+  },
+  {
+   "file": "codeop.py",
+   "chars": 6326
+  },
+  {
+   "file": "colorsys.py",
+   "chars": 4064
+  },
+  {
+   "file": "configparser.py",
+   "chars": 54584
+  },
+  {
+   "file": "contextlib.py",
+   "chars": 23676
+  },
+  {
+   "file": "copy.py",
+   "chars": 8661
+  },
+  {
+   "file": "copyreg.py",
+   "chars": 7274
+  },
+  {
+   "file": "crypt.py",
+   "chars": 3819
+  },
+  {
+   "file": "csv.py",
+   "chars": 16144
+  },
+  {
+   "file": "dataclasses.py",
+   "chars": 49504
+  },
+  {
+   "file": "datetime.py",
+   "chars": 89150
+  }
+ ],
+ "test_files": [
+  {
+   "file": "__future__.py",
+   "chars": 5147
+  },
+  {
+   "file": "_py_abc.py",
+   "chars": 6189
+  },
+  {
+   "file": "cProfile.py",
+   "chars": 6335
+  },
+  {
+   "file": "compileall.py",
+   "chars": 20100
+  }
+ ],
+ "train_chars": 1195931,
+ "test_chars": 37771,
+ "total_chars": 1233702,
+ "train_sha256": "0d2fd6e4ee32dae1fe03790723b78d014a7d34d8c23784ebac2bd4dd262fb1c6",
+ "test_sha256": "5ef37122967a772074a2c0fc3b3098775168b131710b6730e159f166dab06149",
+ "vocab_size": 97,
+ "vocab_note": "distinct characters of the train text + 1 (index 0 = padding/unknown)"
+}

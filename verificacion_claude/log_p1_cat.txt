@@ -1,0 +1,35 @@
+PILOTO CAT-style (semilla 1): lr x c_init
+  lr=5e-04 c_init=0.5: OUT=86.2% IN=94.3% (48s, 413989 params)
+  lr=5e-04 c_init=1.0: OUT=86.5% IN=96.3% (49s, 413989 params)
+  lr=1e-03 c_init=0.5: OUT=87.6% IN=95.9% (48s, 413989 params)
+  lr=1e-03 c_init=1.0: OUT=87.8% IN=97.9% (49s, 413989 params)
+Config elegida para confirmatorio: lr=1e-03, c_init=1.0
+
+seed 1 euclid   : IN=96.1% OUT=87.0% (25s, 413189 params)
+seed 1 fr_iso   : IN=98.8% OUT=89.2% (34s, 415255 params)
+seed 1 cat_style: IN=97.9% OUT=87.8% (48s, 413989 params)
+seed 2 euclid   : IN=96.1% OUT=85.7% (25s, 413189 params)
+seed 2 fr_iso   : IN=98.7% OUT=88.8% (35s, 415255 params)
+seed 2 cat_style: IN=99.5% OUT=88.2% (50s, 413989 params)
+seed 3 euclid   : IN=95.2% OUT=85.8% (25s, 413189 params)
+seed 3 fr_iso   : IN=98.9% OUT=89.2% (34s, 415255 params)
+seed 3 cat_style: IN=99.0% OUT=88.3% (48s, 413989 params)
+seed 4 euclid   : IN=94.3% OUT=85.0% (25s, 413189 params)
+seed 4 fr_iso   : IN=98.4% OUT=87.7% (35s, 415255 params)
+seed 4 cat_style: IN=99.4% OUT=88.7% (49s, 413989 params)
+seed 5 euclid   : IN=96.3% OUT=85.6% (26s, 413189 params)
+seed 5 fr_iso   : IN=97.0% OUT=87.3% (40s, 415255 params)
+seed 5 cat_style: IN=99.0% OUT=87.8% (58s, 413989 params)
+
+======================================================================
+euclid     OUT acc = 85.80% ± 0.65%  (params 413189)
+fr_iso     OUT acc = 88.43% ± 0.77%  (params 415255)
+cat_style  OUT acc = 88.13% ± 0.34%  (params 413989)
+
+*** VEREDICTO PRE-REGISTRADO ***
+  [PRIMARIO  FR vs CAT]: Δ=+0.30%  t=+0.69  p=0.5293
+  [secundario CAT vs Euc]: Δ=+2.34%  t=+5.07  p=0.0071
+  [sanidad    FR vs Euc]: Δ=+2.64%  t=+8.80  p=0.0009
+  => FR >= CAT-style: la lectura superconjunto SOBREVIVE al incumbente (empate estadístico)
+
+Guardado: resultados_cat_incumbente.json

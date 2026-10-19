@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 archivo_privado/
+# corpus renderizado de páginas man (licencias heterogéneas; el script lo regenera)
+verificacion_claude/corpus_man_*.txt
+verificacion_claude/manifiesto_corpus_man_local.json

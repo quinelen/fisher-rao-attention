@@ -10,4 +10,5 @@ type: software
 doi: 10.5281/zenodo.23424909
 repository-code: "https://github.com/quinelen/fisher-rao-attention"
 license: MIT
-date-released: 2026-10-16
+version: "1.1"
+date-released: 2026-10-19

@@ -1,0 +1,17 @@
+ semilla   tipo  bpc_extra512             σ zona<128            σ zona>=128
+       4  buena        3.6284   (ver siguiente fase)
+       9  buena        3.6192   (ver siguiente fase)
+       2   mala        3.9200   (ver siguiente fase)
+       7   mala        3.8878   (ver siguiente fase)
+
+NOTA: para sigma por zona se requiere acceso al modelo; ver fase B abajo.
+
+ semilla  capa  σ mediana <128  σ mediana >=128  σ max <128  σ max >=128
+       4(b)    0           0.234            0.256        4.86         4.22
+       4(b)    1           0.059            0.071        1.60         2.45
+       9(b)    0           0.347            0.369        4.05         4.32
+       9(b)    1           0.065            0.087        2.21         2.33
+       2(m)    0           0.246            0.255        4.61         5.46
+       2(m)    1           0.067            0.071        1.90         2.24
+       7(m)    0           0.248            0.278        5.48         5.25
+       7(m)    1           0.061            0.063        1.37         2.32

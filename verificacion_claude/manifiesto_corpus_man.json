@@ -1,0 +1,1382 @@
+{
+ "description": "Technical English prose corpus of \u00a74.8e, rendered from local man1 pages (MANWIDTH=80, man -P cat | col -b); split 90/10 by page.",
+ "os": "macOS-26.5.2-arm64-arm-64bit",
+ "mac_ver": "26.5.2",
+ "n_pages": 274,
+ "train_chars": 2733491,
+ "test_chars": 416380,
+ "train_sha256": "d5cca17a44c31766f92d1c37153f41d28c541ff985c30a6c54793411a605df34",
+ "test_sha256": "03c569407365814cca0291baf96e9f639c3912a1744db360efc02aa27d1cdf37",
+ "pages": [
+  {
+   "page": "@TSET@",
+   "split": "test",
+   "chars": 10961
+  },
+  {
+   "page": "MetalValidation",
+   "split": "train",
+   "chars": 10567
+  },
+  {
+   "page": "Mio",
+   "split": "train",
+   "chars": 12059
+  },
+  {
+   "page": "[",
+   "split": "train",
+   "chars": 6056
+  },
+  {
+   "page": "aa",
+   "split": "train",
+   "chars": 10458
+  },
+  {
+   "page": "ab",
+   "split": "train",
+   "chars": 9967
+  },
+  {
+   "page": "aea",
+   "split": "train",
+   "chars": 5599
+  },
+  {
+   "page": "agentxtrap",
+   "split": "train",
+   "chars": 2098
+  },
+  {
+   "page": "alias",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "alloc",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "app-sso",
+   "split": "test",
+   "chars": 6340
+  },
+  {
+   "page": "applesingle",
+   "split": "train",
+   "chars": 2083
+  },
+  {
+   "page": "apply",
+   "split": "train",
+   "chars": 1924
+  },
+  {
+   "page": "apropos",
+   "split": "train",
+   "chars": 7413
+  },
+  {
+   "page": "arch",
+   "split": "train",
+   "chars": 7074
+  },
+  {
+   "page": "assetutil",
+   "split": "train",
+   "chars": 3184
+  },
+  {
+   "page": "at",
+   "split": "train",
+   "chars": 7225
+  },
+  {
+   "page": "atos",
+   "split": "train",
+   "chars": 6684
+  },
+  {
+   "page": "atq",
+   "split": "train",
+   "chars": 7225
+  },
+  {
+   "page": "atrm",
+   "split": "train",
+   "chars": 7225
+  },
+  {
+   "page": "auditreduce",
+   "split": "test",
+   "chars": 5031
+  },
+  {
+   "page": "authopen",
+   "split": "train",
+   "chars": 3933
+  },
+  {
+   "page": "auval",
+   "split": "train",
+   "chars": 1742
+  },
+  {
+   "page": "auvaltool",
+   "split": "train",
+   "chars": 1611
+  },
+  {
+   "page": "avbdiagnose",
+   "split": "train",
+   "chars": 2282
+  },
+  {
+   "page": "avbutil",
+   "split": "train",
+   "chars": 4640
+  },
+  {
+   "page": "avconvert",
+   "split": "train",
+   "chars": 11510
+  },
+  {
+   "page": "avmediainfo",
+   "split": "train",
+   "chars": 3237
+  },
+  {
+   "page": "awk",
+   "split": "train",
+   "chars": 11333
+  },
+  {
+   "page": "b64decode",
+   "split": "train",
+   "chars": 5434
+  },
+  {
+   "page": "b64encode",
+   "split": "test",
+   "chars": 5434
+  },
+  {
+   "page": "base64",
+   "split": "train",
+   "chars": 5434
+  },
+  {
+   "page": "basename",
+   "split": "train",
+   "chars": 1599
+  },
+  {
+   "page": "bash",
+   "split": "train",
+   "chars": 251529
+  },
+  {
+   "page": "batch",
+   "split": "train",
+   "chars": 7225
+  },
+  {
+   "page": "bc",
+   "split": "train",
+   "chars": 93202
+  },
+  {
+   "page": "bg",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "bind",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "bindkey",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "binhex",
+   "split": "train",
+   "chars": 2083
+  },
+  {
+   "page": "bintrans",
+   "split": "test",
+   "chars": 5434
+  },
+  {
+   "page": "bioutil",
+   "split": "train",
+   "chars": 3010
+  },
+  {
+   "page": "bkctl",
+   "split": "train",
+   "chars": 1812
+  },
+  {
+   "page": "bputil",
+   "split": "train",
+   "chars": 14858
+  },
+  {
+   "page": "brctl",
+   "split": "train",
+   "chars": 2012
+  },
+  {
+   "page": "break",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "breaksw",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "bsdtar",
+   "split": "train",
+   "chars": 41363
+  },
+  {
+   "page": "builtin",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "builtins",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "bundle-binstubs",
+   "split": "test",
+   "chars": 1661
+  },
+  {
+   "page": "bundle-config",
+   "split": "train",
+   "chars": 20089
+  },
+  {
+   "page": "bundle-exec",
+   "split": "train",
+   "chars": 6468
+  },
+  {
+   "page": "bundle-gem",
+   "split": "train",
+   "chars": 3073
+  },
+  {
+   "page": "bundle-install",
+   "split": "train",
+   "chars": 16668
+  },
+  {
+   "page": "bundle-lock",
+   "split": "train",
+   "chars": 3131
+  },
+  {
+   "page": "bundle-outdated",
+   "split": "train",
+   "chars": 3544
+  },
+  {
+   "page": "bundle-package",
+   "split": "train",
+   "chars": 3244
+  },
+  {
+   "page": "bundle-pristine",
+   "split": "train",
+   "chars": 1642
+  },
+  {
+   "page": "bundle-update",
+   "split": "train",
+   "chars": 13406
+  },
+  {
+   "page": "bundle",
+   "split": "test",
+   "chars": 3253
+  },
+  {
+   "page": "bunzip2",
+   "split": "train",
+   "chars": 17491
+  },
+  {
+   "page": "bzcat",
+   "split": "train",
+   "chars": 17491
+  },
+  {
+   "page": "bzegrep",
+   "split": "train",
+   "chars": 14037
+  },
+  {
+   "page": "bzfgrep",
+   "split": "train",
+   "chars": 14037
+  },
+  {
+   "page": "bzgrep",
+   "split": "train",
+   "chars": 14037
+  },
+  {
+   "page": "bzip2",
+   "split": "train",
+   "chars": 17491
+  },
+  {
+   "page": "bzip2recover",
+   "split": "train",
+   "chars": 17491
+  },
+  {
+   "page": "bzless",
+   "split": "train",
+   "chars": 4487
+  },
+  {
+   "page": "bzmore",
+   "split": "train",
+   "chars": 4487
+  },
+  {
+   "page": "cal",
+   "split": "test",
+   "chars": 4417
+  },
+  {
+   "page": "calendar",
+   "split": "train",
+   "chars": 8968
+  },
+  {
+   "page": "cancel",
+   "split": "train",
+   "chars": 1696
+  },
+  {
+   "page": "cap_mkdb",
+   "split": "train",
+   "chars": 2006
+  },
+  {
+   "page": "case",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "cat",
+   "split": "train",
+   "chars": 3534
+  },
+  {
+   "page": "cd",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "certtool",
+   "split": "train",
+   "chars": 16604
+  },
+  {
+   "page": "chdir",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "chflags",
+   "split": "train",
+   "chars": 3776
+  },
+  {
+   "page": "chfn",
+   "split": "test",
+   "chars": 4259
+  },
+  {
+   "page": "chgrp",
+   "split": "train",
+   "chars": 2895
+  },
+  {
+   "page": "chmod",
+   "split": "train",
+   "chars": 15288
+  },
+  {
+   "page": "chpass",
+   "split": "train",
+   "chars": 4259
+  },
+  {
+   "page": "chsh",
+   "split": "train",
+   "chars": 4259
+  },
+  {
+   "page": "cksum",
+   "split": "train",
+   "chars": 3696
+  },
+  {
+   "page": "cmp",
+   "split": "train",
+   "chars": 3532
+  },
+  {
+   "page": "codesign",
+   "split": "train",
+   "chars": 39484
+  },
+  {
+   "page": "col",
+   "split": "train",
+   "chars": 3392
+  },
+  {
+   "page": "colrm",
+   "split": "train",
+   "chars": 1645
+  },
+  {
+   "page": "comm",
+   "split": "test",
+   "chars": 2085
+  },
+  {
+   "page": "command",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "complete",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "compress",
+   "split": "train",
+   "chars": 6756
+  },
+  {
+   "page": "compression_tool",
+   "split": "train",
+   "chars": 2406
+  },
+  {
+   "page": "config_data",
+   "split": "train",
+   "chars": 3927
+  },
+  {
+   "page": "config_data5.34",
+   "split": "train",
+   "chars": 3927
+  },
+  {
+   "page": "continue",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "corelist",
+   "split": "train",
+   "chars": 5030
+  },
+  {
+   "page": "cp",
+   "split": "train",
+   "chars": 8265
+  },
+  {
+   "page": "cpan",
+   "split": "test",
+   "chars": 8466
+  },
+  {
+   "page": "cpio",
+   "split": "train",
+   "chars": 11671
+  },
+  {
+   "page": "createhomedir",
+   "split": "train",
+   "chars": 1779
+  },
+  {
+   "page": "crlrefresh",
+   "split": "train",
+   "chars": 3196
+  },
+  {
+   "page": "crontab",
+   "split": "train",
+   "chars": 2969
+  },
+  {
+   "page": "cryptexctl-create",
+   "split": "train",
+   "chars": 4448
+  },
+  {
+   "page": "cryptexctl-device",
+   "split": "train",
+   "chars": 2180
+  },
+  {
+   "page": "cryptexctl-generate-trust-cache",
+   "split": "train",
+   "chars": 2413
+  },
+  {
+   "page": "cryptexctl-install",
+   "split": "train",
+   "chars": 2424
+  },
+  {
+   "page": "cryptexctl-nonce",
+   "split": "train",
+   "chars": 2529
+  },
+  {
+   "page": "cryptexctl-personalize",
+   "split": "test",
+   "chars": 6525
+  },
+  {
+   "page": "cryptexctl-uninstall",
+   "split": "train",
+   "chars": 1577
+  },
+  {
+   "page": "csh",
+   "split": "train",
+   "chars": 208666
+  },
+  {
+   "page": "csplit",
+   "split": "train",
+   "chars": 2941
+  },
+  {
+   "page": "csreq",
+   "split": "train",
+   "chars": 2925
+  },
+  {
+   "page": "cu",
+   "split": "train",
+   "chars": 8052
+  },
+  {
+   "page": "cups-config",
+   "split": "train",
+   "chars": 2332
+  },
+  {
+   "page": "cups",
+   "split": "train",
+   "chars": 6557
+  },
+  {
+   "page": "cupstestppd",
+   "split": "train",
+   "chars": 3672
+  },
+  {
+   "page": "curl-config",
+   "split": "train",
+   "chars": 3658
+  },
+  {
+   "page": "curl",
+   "split": "test",
+   "chars": 243480
+  },
+  {
+   "page": "cut",
+   "split": "train",
+   "chars": 3224
+  },
+  {
+   "page": "cvaffinity",
+   "split": "train",
+   "chars": 4321
+  },
+  {
+   "page": "cvcp",
+   "split": "train",
+   "chars": 8747
+  },
+  {
+   "page": "cvmkfile",
+   "split": "train",
+   "chars": 3464
+  },
+  {
+   "page": "dash",
+   "split": "train",
+   "chars": 65244
+  },
+  {
+   "page": "date",
+   "split": "train",
+   "chars": 13473
+  },
+  {
+   "page": "db_archive",
+   "split": "train",
+   "chars": 4759
+  },
+  {
+   "page": "db_checkpoint",
+   "split": "train",
+   "chars": 3360
+  },
+  {
+   "page": "db_deadlock",
+   "split": "train",
+   "chars": 3625
+  },
+  {
+   "page": "db_dump",
+   "split": "test",
+   "chars": 5573
+  },
+  {
+   "page": "db_load",
+   "split": "train",
+   "chars": 7655
+  },
+  {
+   "page": "db_printlog",
+   "split": "train",
+   "chars": 2348
+  },
+  {
+   "page": "db_recover",
+   "split": "train",
+   "chars": 4173
+  },
+  {
+   "page": "db_stat",
+   "split": "train",
+   "chars": 4527
+  },
+  {
+   "page": "db_upgrade",
+   "split": "train",
+   "chars": 4033
+  },
+  {
+   "page": "db_verify",
+   "split": "train",
+   "chars": 3116
+  },
+  {
+   "page": "dbicadmin",
+   "split": "train",
+   "chars": 2561
+  },
+  {
+   "page": "dbicadmin5.34",
+   "split": "train",
+   "chars": 2561
+  },
+  {
+   "page": "dbiprof",
+   "split": "train",
+   "chars": 3860
+  },
+  {
+   "page": "dbiprof5.34",
+   "split": "test",
+   "chars": 3860
+  },
+  {
+   "page": "dbiproxy",
+   "split": "train",
+   "chars": 5084
+  },
+  {
+   "page": "dbiproxy5.34",
+   "split": "train",
+   "chars": 5084
+  },
+  {
+   "page": "dbmmanage",
+   "split": "train",
+   "chars": 5263
+  },
+  {
+   "page": "dc",
+   "split": "train",
+   "chars": 57351
+  },
+  {
+   "page": "dd",
+   "split": "train",
+   "chars": 12397
+  },
+  {
+   "page": "default",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "defaults",
+   "split": "train",
+   "chars": 8456
+  },
+  {
+   "page": "delv",
+   "split": "train",
+   "chars": 13239
+  },
+  {
+   "page": "demandoc",
+   "split": "train",
+   "chars": 1945
+  },
+  {
+   "page": "derq",
+   "split": "test",
+   "chars": 5738
+  },
+  {
+   "page": "df",
+   "split": "train",
+   "chars": 8960
+  },
+  {
+   "page": "diff",
+   "split": "train",
+   "chars": 18412
+  },
+  {
+   "page": "diff3",
+   "split": "train",
+   "chars": 3945
+  },
+  {
+   "page": "diffstat",
+   "split": "train",
+   "chars": 7648
+  },
+  {
+   "page": "dig",
+   "split": "train",
+   "chars": 21735
+  },
+  {
+   "page": "dirname",
+   "split": "train",
+   "chars": 1599
+  },
+  {
+   "page": "dirs",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "disk_license",
+   "split": "train",
+   "chars": 2729
+  },
+  {
+   "page": "ditto",
+   "split": "train",
+   "chars": 13612
+  },
+  {
+   "page": "dmc",
+   "split": "test",
+   "chars": 4908
+  },
+  {
+   "page": "dns-sd",
+   "split": "train",
+   "chars": 9048
+  },
+  {
+   "page": "do",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "done",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "dot_clean",
+   "split": "train",
+   "chars": 2050
+  },
+  {
+   "page": "drutil",
+   "split": "train",
+   "chars": 10341
+  },
+  {
+   "page": "dscacheutil",
+   "split": "train",
+   "chars": 3258
+  },
+  {
+   "page": "dscl",
+   "split": "train",
+   "chars": 15073
+  },
+  {
+   "page": "dsconfigldap",
+   "split": "train",
+   "chars": 5165
+  },
+  {
+   "page": "dsexport",
+   "split": "train",
+   "chars": 3400
+  },
+  {
+   "page": "dsimport",
+   "split": "test",
+   "chars": 5806
+  },
+  {
+   "page": "dsmemberutil",
+   "split": "train",
+   "chars": 2390
+  },
+  {
+   "page": "dtrace",
+   "split": "train",
+   "chars": 43848
+  },
+  {
+   "page": "du",
+   "split": "train",
+   "chars": 5725
+  },
+  {
+   "page": "dyld",
+   "split": "train",
+   "chars": 12718
+  },
+  {
+   "page": "dyld_info",
+   "split": "train",
+   "chars": 3817
+  },
+  {
+   "page": "dyld_usage",
+   "split": "train",
+   "chars": 2452
+  },
+  {
+   "page": "echotc",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "ed",
+   "split": "train",
+   "chars": 22432
+  },
+  {
+   "page": "egrep",
+   "split": "train",
+   "chars": 14037
+  },
+  {
+   "page": "elif",
+   "split": "test",
+   "chars": 6620
+  },
+  {
+   "page": "else",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "enc2xs",
+   "split": "train",
+   "chars": 8152
+  },
+  {
+   "page": "encguess",
+   "split": "train",
+   "chars": 1974
+  },
+  {
+   "page": "encode_keychange",
+   "split": "train",
+   "chars": 2120
+  },
+  {
+   "page": "end",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "endif",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "endsw",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "env",
+   "split": "train",
+   "chars": 10669
+  },
+  {
+   "page": "erb",
+   "split": "train",
+   "chars": 3061
+  },
+  {
+   "page": "esac",
+   "split": "test",
+   "chars": 6620
+  },
+  {
+   "page": "eslogger",
+   "split": "train",
+   "chars": 5765
+  },
+  {
+   "page": "eval",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "evim",
+   "split": "train",
+   "chars": 1574
+  },
+  {
+   "page": "ex",
+   "split": "train",
+   "chars": 18998
+  },
+  {
+   "page": "exec",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "exit",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "expand",
+   "split": "train",
+   "chars": 1806
+  },
+  {
+   "page": "expect",
+   "split": "train",
+   "chars": 83456
+  },
+  {
+   "page": "export",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "expr",
+   "split": "test",
+   "chars": 5683
+  },
+  {
+   "page": "eyapp",
+   "split": "train",
+   "chars": 6827
+  },
+  {
+   "page": "eyapp5.34",
+   "split": "train",
+   "chars": 6827
+  },
+  {
+   "page": "fc",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "fg",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "fgrep",
+   "split": "train",
+   "chars": 14037
+  },
+  {
+   "page": "fi",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "file",
+   "split": "train",
+   "chars": 20768
+  },
+  {
+   "page": "filetest",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "fileurltool",
+   "split": "train",
+   "chars": 2575
+  },
+  {
+   "page": "find",
+   "split": "test",
+   "chars": 26655
+  },
+  {
+   "page": "findrule",
+   "split": "train",
+   "chars": 1820
+  },
+  {
+   "page": "findrule5.34",
+   "split": "train",
+   "chars": 1820
+  },
+  {
+   "page": "finger",
+   "split": "train",
+   "chars": 5413
+  },
+  {
+   "page": "fmt",
+   "split": "train",
+   "chars": 3825
+  },
+  {
+   "page": "fold",
+   "split": "train",
+   "chars": 1981
+  },
+  {
+   "page": "footprint",
+   "split": "train",
+   "chars": 16914
+  },
+  {
+   "page": "for",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "foreach",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "fs_usage",
+   "split": "train",
+   "chars": 5227
+  },
+  {
+   "page": "funzip",
+   "split": "test",
+   "chars": 3780
+  },
+  {
+   "page": "fuser",
+   "split": "train",
+   "chars": 5790
+  },
+  {
+   "page": "gcore",
+   "split": "train",
+   "chars": 4402
+  },
+  {
+   "page": "gen_bridge_metadata",
+   "split": "train",
+   "chars": 6992
+  },
+  {
+   "page": "gencat",
+   "split": "train",
+   "chars": 4208
+  },
+  {
+   "page": "getconf",
+   "split": "train",
+   "chars": 4692
+  },
+  {
+   "page": "getopt",
+   "split": "train",
+   "chars": 3435
+  },
+  {
+   "page": "getopts",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "glob",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "goto",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "grep",
+   "split": "test",
+   "chars": 14037
+  },
+  {
+   "page": "gunzip",
+   "split": "train",
+   "chars": 5012
+  },
+  {
+   "page": "gzcat",
+   "split": "train",
+   "chars": 5012
+  },
+  {
+   "page": "gzip",
+   "split": "train",
+   "chars": 5012
+  },
+  {
+   "page": "h2ph",
+   "split": "train",
+   "chars": 3343
+  },
+  {
+   "page": "h2xs",
+   "split": "train",
+   "chars": 14181
+  },
+  {
+   "page": "hash",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "hashstat",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "hdiutil",
+   "split": "train",
+   "chars": 77580
+  },
+  {
+   "page": "heap",
+   "split": "train",
+   "chars": 6078
+  },
+  {
+   "page": "hexdump",
+   "split": "test",
+   "chars": 10018
+  },
+  {
+   "page": "history",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "hiutil",
+   "split": "train",
+   "chars": 6237
+  },
+  {
+   "page": "host",
+   "split": "train",
+   "chars": 6042
+  },
+  {
+   "page": "htdbm",
+   "split": "train",
+   "chars": 8235
+  },
+  {
+   "page": "htdigest",
+   "split": "train",
+   "chars": 1565
+  },
+  {
+   "page": "htpasswd",
+   "split": "train",
+   "chars": 8875
+  },
+  {
+   "page": "hup",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "iconutil",
+   "split": "train",
+   "chars": 1780
+  },
+  {
+   "page": "iconv",
+   "split": "train",
+   "chars": 1710
+  },
+  {
+   "page": "id",
+   "split": "test",
+   "chars": 3334
+  },
+  {
+   "page": "if",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "imptrace",
+   "split": "train",
+   "chars": 2655
+  },
+  {
+   "page": "install",
+   "split": "train",
+   "chars": 6916
+  },
+  {
+   "page": "ipcrm",
+   "split": "train",
+   "chars": 1688
+  },
+  {
+   "page": "ipcs",
+   "split": "train",
+   "chars": 3094
+  },
+  {
+   "page": "ippeveprinter",
+   "split": "train",
+   "chars": 8331
+  },
+  {
+   "page": "ippfind",
+   "split": "train",
+   "chars": 6760
+  },
+  {
+   "page": "ipptool",
+   "split": "train",
+   "chars": 5921
+  },
+  {
+   "page": "irb",
+   "split": "train",
+   "chars": 3086
+  },
+  {
+   "page": "java_home",
+   "split": "test",
+   "chars": 2361
+  },
+  {
+   "page": "jobid",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "jobs",
+   "split": "train",
+   "chars": 6620
+  },
+  {
+   "page": "join",
+   "split": "train",
+   "chars": 6085
+  },
+  {
+   "page": "jot",
+   "split": "train",
+   "chars": 6550
+  },
+  {
+   "page": "jq",
+   "split": "train",
+   "chars": 116461
+  },
+  {
+   "page": "json_pp",
+   "split": "train",
+   "chars": 2283
+  },
+  {
+   "page": "json_xs",
+   "split": "train",
+   "chars": 3652
+  },
+  {
+   "page": "json_xs5.34",
+   "split": "train",
+   "chars": 3652
+  },
+  {
+   "page": "kill",
+   "split": "train",
+   "chars": 2269
+  },
+  {
+   "page": "killall",
+   "split": "test",
+   "chars": 4041
+  },
+  {
+   "page": "kinit",
+   "split": "train",
+   "chars": 5183
+  },
+  {
+   "page": "klist",
+   "split": "train",
+   "chars": 2222
+  },
+  {
+   "page": "ksh",
+   "split": "train",
+   "chars": 173011
+  }
+ ]
+}

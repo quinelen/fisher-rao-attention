@@ -8,7 +8,7 @@
       "name": "Contreras Torrejon, Miguel"
     }
   ],
-  "description": "Preprint and fully reproducible codebase (CPU). Attention mechanisms whose similarity is the exact Fisher–Rao geodesic distance between distributional token representations: categorical tokens yield a spherical kernel, isotropic Gaussian tokens yield a genuinely hyperbolic kernel computable at near-matmul cost. Includes 20-seed statistics, a 46x scale probe, a threshold-gated parameter-efficiency result, a pre-registered natural-data length-extrapolation result, and seven pre-specified negative results reported in full.",
+  "description": "Preprint and codebase reproducing all attention experiments on CPU. Attention mechanisms whose similarity is the exact Fisher–Rao geodesic distance between distributional token representations: categorical tokens yield a spherical kernel, isotropic Gaussian tokens yield a genuinely hyperbolic kernel computable at near-matmul cost. Includes 20-seed statistics, a 46x scale probe, a pre-registered relative-position (RoPE) test, ablations attributing the gain to the global hyperbolic geometry (Wasserstein-Bures and KL/Bregman controls), a positive-definite Laplacian variant, a threshold-gated parameter-efficiency result, pre-registered length-extrapolation results on two natural-data families (code, technical English prose), a tie with a reimplementation of the curvature-adaptive incumbent (CAT), and pre-specified negative results.",
   "license": "MIT",
   "upload_type": "software",
   "keywords": [
