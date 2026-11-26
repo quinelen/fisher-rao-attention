@@ -1,0 +1,14 @@
+Comparación byte a byte con los resultados publicados (JSON regenerados en esta corrida)
+DIFIERE   resultados_ablacion_kernel.json
+DIFIERE   resultados_cat_incumbente.json
+IDENTICO  resultados_eficiencia_dimensional.json
+DIFIERE   resultados_estabilizado.json
+DIFIERE   resultados_fast_gaussian.json
+DIFIERE   resultados_mixta.json
+IDENTICO  resultados_mixta2.json
+DIFIERE   resultados_prosa_man.json
+IDENTICO  resultados_ricci_addendum.json
+DIFIERE   resultados_rope.json
+IDENTICO  resultados_tres_geometrias.json
+IDENTICO  resultados_wasserstein_vs_fr.json
+IDENTICO  resultados_wordnet_incumbentes.json

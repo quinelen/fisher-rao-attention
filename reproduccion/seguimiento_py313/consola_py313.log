@@ -1,0 +1,21 @@
+2026-10-25 20:46:01 Pre-registro verificado: 96cbe2bcb427400469e73e9c2477faf83226aa1f09fcd8379ab54e3a494a9722
+2026-10-25 20:46:01 Esperando a que la corrida principal termine el benchmark de velocidad (/Users/miguelcontreras/code/fisher-rao-attention/corridas/20261025-201624-core)
+2026-10-25 20:46:01 Listo para empezar
+2026-10-25 20:46:01 No hay Python 3.13 instalado; lo instalo con uv (queda en la caché de uv)
+2026-10-25 20:46:03 Intérprete: /Users/miguelcontreras/.local/share/uv/python/cpython-3.13-macos-aarch64-none/bin/python3.13 (Python 3.13.15)
+2026-10-25 20:46:04 Instalando dependencias
+Entorno: macOS-27.0.1-arm64-arm-64bit-Mach-O | Python 3.13.15 | torch 2.14.1 | numpy 2.5.4 | scipy 1.18.1
+2026-10-25 20:46:45 Corpus: "train_chars":1099928,"test_chars":113196,"vocab_size":111,
+2026-10-25 20:46:45 INICIO fase A (semillas 1–5)
+2026-10-25 20:49:13 FIN    fase A rc=0
+2026-10-25 20:49:13 INICIO fase B (semillas 6–15, endpoint pre-registrado)
+2026-10-25 20:54:02 FIN    fase B rc=0
+A_semillas_1_5   bpc_extra_L512  Δ=-0.1027  p=0.0095  FR gana 5/5  dispersión 0.46×
+A_semillas_1_5   bpc_extra_L256  Δ=-0.1444  p=0.0073  FR gana 5/5  dispersión 0.35×
+A_semillas_1_5   bpc_L128        Δ=+0.0174  p=0.0289  FR gana 0/5  dispersión 0.92×
+B_semillas_6_15  bpc_extra_L512  Δ=-0.0232  p=0.3592  FR gana 7/10  dispersión 1.48×
+B_semillas_6_15  bpc_extra_L256  Δ=-0.0511  p=0.0376  FR gana 8/10  dispersión 0.99×
+B_semillas_6_15  bpc_L128        Δ=+0.0385  p=0.0005  FR gana 0/10  dispersión 1.38×
+post hoc n=15    bpc_extra_L512  Δ=-0.0497  p=0.0252
+ENDPOINT PRIMARIO: NO CUMPLIDO | estabilidad: cumplida
+2026-10-25 20:54:02 === Terminado. Resultados en /Users/miguelcontreras/code/fisher-rao-attention/corridas/20261025-204601-py313 ===

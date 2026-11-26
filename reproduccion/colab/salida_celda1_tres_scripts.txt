@@ -1,0 +1,160 @@
+🔍 Preparando entorno...
+📥 Repositorio no encontrado. Clonando...
+Note: switching to 'b7cd4b4fd5feead3931180711de157999f70f32d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+/content/fisher-rao-attention/verificacion_claude
+📦 Instalando dependencias (esto puede tardar unos segundos)...
+
+======================================================================
+PRUEBA 1: BENCHMARK DE VELOCIDAD (El truco 'Near-Matmul')
+Objetivo: Demostrar que la geometría hiperbólica optimizada es rápida.
+======================================================================
+Micro-benchmark fwd+bwd, B=32 L=60 d=128 H=4, 1 hilo (bajo contención):
+  euclidiana (referencia)                16.7 ms/paso
+  gaussiana exacta (arccosh 5D)        1841.1 ms/paso
+  FastBC del usuario (log-BC 5D)       1123.6 ms/paso
+  isotropica exacta (matmul)             41.7 ms/paso
+
+======================================================================
+PRUEBA 2: EXTRAPOLACIÓN DE LONGITUD EN CÓDIGO (La Joya de la Corona)
+Objetivo: El modelo entrenado con código corto intentará leer código LARGO.
+Aquí es donde la geometría Hiperbólica aplasta a la Euclidiana.
+======================================================================
+Corpus: train=1130080 test=125909 vocab=111
+Train: (4000, 128) (len 128); eval lens [128, 256, 512]
+
+seed 1 euclidean  : bpc_L128=3.4300 bpc_L256=3.6581 bpc_extra_L256=3.8640 bpc_L512=3.7341 bpc_extra_L512=3.8294 (31s)
+seed 1 fisher_rao : bpc_L128=3.4608 bpc_L256=3.6094 bpc_extra_L256=3.7455 bpc_L512=3.6797 bpc_extra_L512=3.7485 (75s)
+seed 2 euclidean  : bpc_L128=3.4298 bpc_L256=3.6454 bpc_extra_L256=3.8513 bpc_L512=3.7278 bpc_extra_L512=3.8236 (29s)
+seed 2 fisher_rao : bpc_L128=3.4640 bpc_L256=3.6178 bpc_extra_L256=3.7550 bpc_L512=3.6884 bpc_extra_L512=3.7585 (74s)
+seed 3 euclidean  : bpc_L128=3.4507 bpc_L256=3.7020 bpc_extra_L256=3.9424 bpc_L512=3.7964 bpc_extra_L512=3.9078 (29s)
+seed 3 fisher_rao : bpc_L128=3.4854 bpc_L256=3.6324 bpc_extra_L256=3.7618 bpc_L512=3.6917 bpc_extra_L512=3.7546 (75s)
+seed 4 euclidean  : bpc_L128=3.4271 bpc_L256=3.6505 bpc_extra_L256=3.8586 bpc_L512=3.7204 bpc_extra_L512=3.8137 (30s)
+seed 4 fisher_rao : bpc_L128=3.4787 bpc_L256=3.6263 bpc_extra_L256=3.7614 bpc_L512=3.6853 bpc_extra_L512=3.7494 (78s)
+seed 5 euclidean  : bpc_L128=3.4026 bpc_L256=3.7431 bpc_extra_L256=4.0672 bpc_L512=3.8755 bpc_extra_L512=4.0244 (31s)
+seed 5 fisher_rao : bpc_L128=3.4598 bpc_L256=3.6562 bpc_extra_L256=3.8369 bpc_L512=3.7471 bpc_extra_L512=3.8384 (75s)
+
+====================================================================================
+         métrica          euclidean         fisher_rao    Δ(FR-Euc)         p
+        bpc_L128     3.4280±0.0153     3.4697±0.0104      +0.0417    0.0014
+        bpc_L256     3.6798±0.0375     3.6284±0.0159      -0.0514    0.0130
+  bpc_extra_L256     3.9167±0.0822     3.7721±0.0329      -0.1446    0.0054
+        bpc_L512     3.7708±0.0589     3.6984±0.0247      -0.0724    0.0179
+  bpc_extra_L512     3.8798±0.0797     3.7699±0.0344      -0.1099    0.0119
+
+*** VEREDICTO DE LA PREDICCIÓN PRE-REGISTRADA ***
+  Zona extrapolativa L=512: Δ=-0.1099 bpc (negativo=FR mejor), p=0.0119
+  Umbral (FR mejor, p<0.05): CUMPLIDO — LA VENTAJA EXTRAPOLATIVA TRANSFIERE A CÓDIGO
+
+Guardado: resultados_codigo_extrapolativo.json
+
+======================================================================
+PRUEBA 3: POSICIÓN RELATIVA (RoPE Pre-registrado)
+Objetivo: Validar que el modelo entiende el orden de los tokens.
+======================================================================
+dyck seed  6 euc_rope: IN=95.66% OUT=91.69% (63s, 413189 params)
+dyck seed  6 fr_rope : IN=97.56% OUT=93.32% (86s, 415255 params)
+dyck seed  7 euc_rope: IN=95.53% OUT=90.60% (61s, 413189 params)
+dyck seed  7 fr_rope : IN=97.61% OUT=93.39% (86s, 415255 params)
+dyck seed  8 euc_rope: IN=95.03% OUT=90.22% (61s, 413189 params)
+dyck seed  8 fr_rope : IN=95.10% OUT=88.37% (86s, 415255 params)
+dyck seed  9 euc_rope: IN=96.63% OUT=92.60% (61s, 413189 params)
+dyck seed  9 fr_rope : IN=98.19% OUT=94.04% (85s, 415255 params)
+dyck seed 10 euc_rope: IN=95.32% OUT=90.66% (62s, 413189 params)
+dyck seed 10 fr_rope : IN=97.90% OUT=92.19% (85s, 415255 params)
+dyck seed 11 euc_rope: IN=96.20% OUT=89.94% (61s, 413189 params)
+dyck seed 11 fr_rope : IN=96.55% OUT=92.71% (85s, 415255 params)
+dyck seed 12 euc_rope: IN=95.81% OUT=91.47% (61s, 413189 params)
+dyck seed 12 fr_rope : IN=97.62% OUT=93.41% (85s, 415255 params)
+dyck seed 13 euc_rope: IN=95.85% OUT=87.53% (61s, 413189 params)
+dyck seed 13 fr_rope : IN=97.10% OUT=92.62% (86s, 415255 params)
+dyck seed 14 euc_rope: IN=95.49% OUT=90.02% (61s, 413189 params)
+dyck seed 14 fr_rope : IN=98.05% OUT=93.91% (85s, 415255 params)
+dyck seed 15 euc_rope: IN=95.89% OUT=91.64% (61s, 413189 params)
+dyck seed 15 fr_rope : IN=96.35% OUT=91.16% (88s, 415255 params)
+dyck seed 16 euc_rope: IN=95.53% OUT=91.42% (61s, 413189 params)
+dyck seed 16 fr_rope : IN=97.01% OUT=92.39% (87s, 415255 params)
+dyck seed 17 euc_rope: IN=95.44% OUT=91.63% (62s, 413189 params)
+dyck seed 17 fr_rope : IN=96.34% OUT=91.29% (86s, 415255 params)
+dyck seed 18 euc_rope: IN=97.50% OUT=91.93% (62s, 413189 params)
+dyck seed 18 fr_rope : IN=97.38% OUT=93.17% (88s, 415255 params)
+dyck seed 19 euc_rope: IN=96.23% OUT=91.47% (61s, 413189 params)
+dyck seed 19 fr_rope : IN=97.77% OUT=91.40% (86s, 415255 params)
+dyck seed 20 euc_rope: IN=96.18% OUT=91.88% (61s, 413189 params)
+dyck seed 20 fr_rope : IN=96.41% OUT=91.19% (87s, 415255 params)
+dyck seed 21 euc_rope: IN=96.90% OUT=92.33% (61s, 413189 params)
+dyck seed 21 fr_rope : IN=96.82% OUT=91.01% (86s, 415255 params)
+dyck seed 22 euc_rope: IN=95.73% OUT=89.63% (60s, 413189 params)
+dyck seed 22 fr_rope : IN=97.92% OUT=93.23% (86s, 415255 params)
+dyck seed 23 euc_rope: IN=96.33% OUT=89.81% (61s, 413189 params)
+dyck seed 23 fr_rope : IN=97.59% OUT=93.44% (86s, 415255 params)
+dyck seed 24 euc_rope: IN=94.98% OUT=90.33% (61s, 413189 params)
+dyck seed 24 fr_rope : IN=98.32% OUT=94.37% (85s, 415255 params)
+dyck seed 25 euc_rope: IN=96.15% OUT=92.06% (61s, 413189 params)
+dyck seed 25 fr_rope : IN=98.08% OUT=94.09% (86s, 415255 params)
+
+DYCK: Euc+RoPE 90.94% ± 1.18 | FR+RoPE 92.54% ± 1.42 | FR-Euc {'delta_pp': 1.591691347154404, 'ci95_pp': [0.6828859031868985, 2.50049679112191], 't': 3.6657441907959973, 'p': 0.0016431362710064613, 'wins': 14, 'n': 20}
+
+*** ENDPOINT PRIMARIO: CUMPLIDO — la ventaja de Fisher-Rao sobrevive con posiciones relativas
+
+copy seed  6 euc_rope: IN=90.27% OUT=41.02% (45s, 413189 params)
+copy seed  6 fr_rope : IN=92.78% OUT=52.70% (70s, 415255 params)
+copy seed  7 euc_rope: IN=90.78% OUT=40.98% (45s, 413189 params)
+copy seed  7 fr_rope : IN=92.79% OUT=49.91% (70s, 415255 params)
+copy seed  8 euc_rope: IN=89.83% OUT=40.48% (45s, 413189 params)
+copy seed  8 fr_rope : IN=92.97% OUT=48.76% (70s, 415255 params)
+copy seed  9 euc_rope: IN=89.31% OUT=31.24% (46s, 413189 params)
+copy seed  9 fr_rope : IN=92.96% OUT=42.65% (71s, 415255 params)
+copy seed 10 euc_rope: IN=90.16% OUT=35.20% (46s, 413189 params)
+copy seed 10 fr_rope : IN=92.43% OUT=41.41% (75s, 415255 params)
+copy seed 11 euc_rope: IN=90.51% OUT=41.66% (49s, 413189 params)
+copy seed 11 fr_rope : IN=92.41% OUT=38.21% (74s, 415255 params)
+copy seed 12 euc_rope: IN=89.41% OUT=38.15% (48s, 413189 params)
+copy seed 12 fr_rope : IN=91.86% OUT=37.95% (74s, 415255 params)
+copy seed 13 euc_rope: IN=90.81% OUT=39.07% (48s, 413189 params)
+copy seed 13 fr_rope : IN=93.09% OUT=43.33% (74s, 415255 params)
+copy seed 14 euc_rope: IN=90.09% OUT=36.85% (48s, 413189 params)
+copy seed 14 fr_rope : IN=92.34% OUT=41.06% (70s, 415255 params)
+copy seed 15 euc_rope: IN=90.02% OUT=35.84% (46s, 413189 params)
+copy seed 15 fr_rope : IN=93.33% OUT=44.38% (70s, 415255 params)
+copy seed 16 euc_rope: IN=90.43% OUT=41.67% (45s, 413189 params)
+copy seed 16 fr_rope : IN=93.14% OUT=38.25% (70s, 415255 params)
+copy seed 17 euc_rope: IN=89.76% OUT=33.60% (46s, 413189 params)
+copy seed 17 fr_rope : IN=93.38% OUT=36.99% (74s, 415255 params)
+copy seed 18 euc_rope: IN=90.25% OUT=36.68% (46s, 413189 params)
+copy seed 18 fr_rope : IN=93.22% OUT=52.31% (71s, 415255 params)
+copy seed 19 euc_rope: IN=90.34% OUT=40.35% (46s, 413189 params)
+copy seed 19 fr_rope : IN=92.33% OUT=49.55% (70s, 415255 params)
+copy seed 20 euc_rope: IN=88.98% OUT=33.91% (46s, 413189 params)
+copy seed 20 fr_rope : IN=92.72% OUT=46.63% (70s, 415255 params)
+copy seed 21 euc_rope: IN=90.78% OUT=39.74% (46s, 413189 params)
+copy seed 21 fr_rope : IN=93.14% OUT=45.53% (74s, 415255 params)
+copy seed 22 euc_rope: IN=90.02% OUT=41.14% (46s, 413189 params)
+copy seed 22 fr_rope : IN=93.18% OUT=41.86% (71s, 415255 params)
+copy seed 23 euc_rope: IN=90.22% OUT=35.81% (45s, 413189 params)
+copy seed 23 fr_rope : IN=93.10% OUT=39.61% (70s, 415255 params)
+copy seed 24 euc_rope: IN=90.76% OUT=37.49% (45s, 413189 params)
+copy seed 24 fr_rope : IN=92.78% OUT=36.03% (70s, 415255 params)
+copy seed 25 euc_rope: IN=89.11% OUT=36.09% (47s, 413189 params)
+copy seed 25 fr_rope : IN=93.72% OUT=41.88% (70s, 415255 params)
+
+COPY: Euc+RoPE 37.85% ± 2.97 | FR+RoPE 43.45% ± 4.99 | FR-Euc {'delta_pp': 5.601591150477945, 'ci95_pp': [3.0960491153109997, 8.10713318564489], 't': 4.679332797595472, 'p': 0.00016336934645134075, 'wins': 16, 'n': 20}
+
+Guardado: resultados_rope.json
+
+✅ ¡EXPERIMENTOS COMPLETADOS! Revisa los resultados en la consola.

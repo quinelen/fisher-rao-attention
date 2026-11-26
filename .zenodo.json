@@ -1,5 +1,5 @@
 {
-  "title": "Fisher–Rao Geodesic Attention: Exact Constant-Curvature Kernels for Sequence Models at Near-Matmul Cost",
+  "title": "Fisher–Rao Geodesic Attention: Spherical and Hyperbolic Attention from Information Geometry",
   "creators": [
     {
       "name": "Quiñelen Rojas, Eduardo"
@@ -8,15 +8,17 @@
       "name": "Contreras Torrejon, Miguel"
     }
   ],
-  "description": "Preprint and codebase reproducing all attention experiments on CPU. Attention mechanisms whose similarity is the exact Fisher–Rao geodesic distance between distributional token representations: categorical tokens yield a spherical kernel, isotropic Gaussian tokens yield a genuinely hyperbolic kernel computable at near-matmul cost. Includes 20-seed statistics, a 46x scale probe, a pre-registered relative-position (RoPE) test, ablations attributing the gain to the global hyperbolic geometry (Wasserstein-Bures and KL/Bregman controls), a positive-definite Laplacian variant, a threshold-gated parameter-efficiency result, pre-registered length-extrapolation results on two natural-data families (code, technical English prose), a tie with a reimplementation of the curvature-adaptive incumbent (CAT), and pre-specified negative results.",
+  "description": "Preprint source and code for attention mechanisms whose score is the exact Fisher–Rao geodesic distance between distributional token representations: categorical tokens give a spherical kernel and isotropic Gaussian tokens a hyperbolic one, which is hyperbolic distance attention in half-space coordinates computed with one matrix multiplication plus an elementwise arccosh. Includes the Dyck-2 benchmark with 20-seed statistics, a 19M-parameter probe, a pre-registered relative-position (RoPE) test, Wasserstein–Bures and KL/Bregman controls, a positive-definite Laplacian variant, a threshold-gated parameter-efficiency result, pre-registered character-level tests on program source, English prose and Spanish clinical text, pre-registered probes of what the learned scales encode, a comparison with a reimplementation of curvature-adaptive routing (CAT), a re-execution on separate hardware, and pre-specified negative results. All experiments run on CPU. Code under the MIT licence; paper text and figures © the authors.",
   "license": "MIT",
   "upload_type": "software",
   "keywords": [
     "information geometry",
     "Fisher-Rao metric",
     "hyperbolic attention",
+    "mixed curvature",
+    "statistical manifolds",
     "transformers",
-    "geometric deep learning",
-    "length extrapolation"
+    "length extrapolation",
+    "geometric deep learning"
   ]
 }

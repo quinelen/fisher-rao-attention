@@ -1,0 +1,6 @@
+Sello del prerregistro — prueba ¿qué aprende σ?
+Fecha (UTC): 2026-10-24 23:46:21
+Sellado antes de la corrida completa (solo se ejecutó la prueba de humo: formas y NaN).
+SHA-256:
+dbd717fea892d1b430e69baa6cc218714886e94e446fefceae202728e6fb3aca  PREREGISTRO_SIGMA.md
+69ee0e60ab6d83766abab80da706f503b3c1919f0a9e0b81116652f6764ce2cd  exp_sigma_profundidad.py

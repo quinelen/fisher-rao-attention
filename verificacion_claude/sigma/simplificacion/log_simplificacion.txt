@@ -1,0 +1,50 @@
+Prueba de no inferioridad (σ fijo en capa 1) | inicio 2026-10-25 18:24:06 UTC
+Semillas [701, 702, 703, 704, 705, 706, 707, 708, 709, 710]; margen -0.5 pp; torch 2.8.0
+Equivalencia θ fijo (máx |dif|): {'atencion': 7.450580596923828e-08, 'modelo_B': 5.364418029785156e-07, 'modelo_C': 0.0, 'ok': True}
+semilla 701: FD A 0.8838 B 0.8829 C 0.8793 | DD A 0.9877 B 0.9880 C 0.9702 | s A 32.4 B 32.2 C 32.1 | S_q2 DD A 0.5602 B 0.5773 | σ capa1 B q [1.038, 1.014, 1.026, 1.007] k [1.038, 1.014, 1.026, 1.007] | NaN False/False/False
+semilla 702: FD A 0.8852 B 0.8887 C 0.8815 | DD A 0.9836 B 0.9854 C 0.9695 | s A 36.5 B 43.0 C 42.8 | S_q2 DD A 0.5171 B 0.4705 | σ capa1 B q [0.984, 1.015, 1.034, 1.029] k [0.984, 1.015, 1.034, 1.029] | NaN False/False/False
+semilla 703: FD A 0.8813 B 0.8792 C 0.8814 | DD A 0.9809 B 0.9800 C 0.9761 | s A 41.7 B 41.7 C 39.3 | S_q2 DD A 0.5384 B 0.4511 | σ capa1 B q [1.026, 1.013, 1.073, 0.986] k [1.026, 1.013, 1.073, 0.986] | NaN False/False/False
+semilla 704: FD A 0.8919 B 0.8908 C 0.8822 | DD A 0.9907 B 0.9885 C 0.9727 | s A 39.6 B 42.4 C 42.9 | S_q2 DD A 0.5203 B 0.5494 | σ capa1 B q [0.995, 1.024, 1.023, 1.005] k [0.995, 1.024, 1.023, 1.005] | NaN False/False/False
+semilla 705: FD A 0.8825 B 0.8810 C 0.8725 | DD A 0.9746 B 0.9805 C 0.9656 | s A 43.0 B 44.4 C 35.6 | S_q2 DD A 0.6465 B 0.6506 | σ capa1 B q [1.001, 0.992, 1.035, 0.991] k [1.001, 0.992, 1.035, 0.991] | NaN False/False/False
+semilla 706: FD A 0.8844 B 0.8913 C 0.8836 | DD A 0.9803 B 0.9841 C 0.9743 | s A 32.3 B 32.3 C 32.1 | S_q2 DD A 0.5698 B 0.5662 | σ capa1 B q [0.997, 1.018, 1.028, 0.977] k [0.997, 1.018, 1.028, 0.977] | NaN False/False/False
+semilla 707: FD A 0.8841 B 0.8794 C 0.8761 | DD A 0.9870 B 0.9841 C 0.9722 | s A 32.6 B 33.6 C 34.6 | S_q2 DD A 0.5565 B 0.5826 | σ capa1 B q [1.046, 1.018, 1.017, 1.018] k [1.046, 1.018, 1.017, 1.018] | NaN False/False/False
+semilla 708: FD A 0.8695 B 0.8696 C 0.8523 | DD A 0.9735 B 0.9836 C 0.9609 | s A 35.1 B 35.2 C 35.1 | S_q2 DD A 0.6123 B 0.6141 | σ capa1 B q [1.012, 1.01, 1.051, 1.015] k [1.012, 1.01, 1.051, 1.015] | NaN False/False/False
+semilla 709: FD A 0.8865 B 0.8896 C 0.8833 | DD A 0.9815 B 0.9880 C 0.9767 | s A 35.6 B 35.4 C 36.0 | S_q2 DD A 0.5911 B 0.5910 | σ capa1 B q [1.013, 0.983, 0.997, 1.033] k [1.013, 0.983, 0.997, 1.033] | NaN False/False/False
+semilla 710: FD A 0.8916 B 0.8925 C 0.8769 | DD A 0.9872 B 0.9879 C 0.9669 | s A 37.9 B 37.4 C 36.5 | S_q2 DD A 0.6074 B 0.5961 | σ capa1 B q [0.999, 0.999, 1.047, 1.031] k [0.999, 0.999, 1.047, 1.031] | NaN False/False/False
+
+=== Exactitud de cierre (media de semillas, %) ===
+A: FD 88.41 (86.95–89.19) | DD 98.27 (97.35–99.07)
+B: FD 88.45 (86.96–89.25) | DD 98.50 (98.00–98.85)
+C: FD 87.69 (85.23–88.36) | DD 97.05 (96.09–97.67)
+
+=== Endpoint primario: B − A, FD 80–120 (pp) ===
+d por semilla: [-0.084, 0.355, -0.205, -0.112, -0.147, 0.691, -0.476, 0.016, 0.303, 0.093]
+media +0.043 pp (DE 0.333); IC 95 % -0.195 a +0.281; margen -0.5; n = 10
+VEREDICTO: NO INFERIOR
+Superioridad (descriptiva): t(9) = 0.413, p = 0.6895
+
+=== Secundaria 1–2: B − A, DD 20–60 (pp) ===
+d: [0.035, 0.174, -0.086, -0.227, 0.589, 0.388, -0.29, 1.002, 0.65, 0.073]; media +0.231; IC 95 % -0.068 a +0.530; no inferior: True; t(9) = 1.748, p = 0.1144
+
+=== Secundaria 3: C − A (pp); predicción C peor que A ===
+FD: d [-0.447, -0.362, 0.014, -0.966, -1.002, -0.072, -0.8, -1.717, -0.319, -1.474]; media -0.715; IC 95 % -1.130 a -0.299; t(9) = -3.894, p = 0.003651; predicción apoyada: True
+DD: d [-1.748, -1.415, -0.473, -1.801, -0.904, -0.599, -1.481, -1.262, -0.478, -2.027]; media -1.219; IC 95 % -1.630 a -0.808; t(9) = -6.713, p = 8.727e-05; predicción apoyada: True
+
+=== Secundaria 4: parámetros ===
+{'A': 415255, 'B': 414231, 'C': 413207}; ahorro B 1024 (0.25 %), C 2048 (0.49 %)
+
+=== Secundaria 5: tiempo de entrenamiento (s, 5 épocas) ===
+A: media 36.7 (32.3–43.0)
+B: media 37.8 (32.2–44.4)
+C: media 36.7 (32.1–42.9)
+razón B/A 1.030; C/A 1.001
+
+=== Secundaria 6: mecanismo — ΔR² de la profundidad sobre log σ_q de la capa 2 ===
+DD: S_q2 A [0.56, 0.517, 0.538, 0.52, 0.646, 0.57, 0.556, 0.612, 0.591, 0.607] media 0.5720 | B [0.577, 0.47, 0.451, 0.549, 0.651, 0.566, 0.583, 0.614, 0.591, 0.596] media 0.5649; B − A -0.0071 (IC -0.0324 a +0.0182, p = 0.5435); media 4 cabezas A 0.4260 B 0.4194; coef medio A -0.3293 B -0.3336; se conserva (B ≥ 0,10): True
+FD: S_q2 A [0.457, 0.45, 0.478, 0.404, 0.5, 0.456, 0.46, 0.499, 0.526, 0.512] media 0.4742 | B [0.445, 0.429, 0.391, 0.427, 0.505, 0.456, 0.473, 0.504, 0.532, 0.513] media 0.4675; B − A -0.0067 (IC -0.0287 a +0.0153, p = 0.5087); media 4 cabezas A 0.3403 B 0.3332; coef medio A -0.1717 B -0.1728; se conserva (B ≥ 0,10): True
+
+=== σ fijo aprendido (media de semillas, por cabeza) ===
+B: capa1_q [1.011, 1.009, 1.033, 1.009]; capa1_k [1.011, 1.009, 1.033, 1.009]
+C: capa1_q [0.998, 0.997, 1.024, 1.003]; capa1_k [0.998, 0.997, 1.024, 1.003]; capa2_q [0.86, 0.865, 0.846, 0.846]; capa2_k [0.86, 0.865, 0.846, 0.846]
+
+Guardado: resultados_simplificacion.json | fin 2026-10-25 18:49:46 UTC

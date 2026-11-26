@@ -1,0 +1,8 @@
+A_semillas_1_5   bpc_extra_L512  Δ=-0.1027  p=0.0095  FR gana 5/5  dispersión 0.46×
+A_semillas_1_5   bpc_extra_L256  Δ=-0.1444  p=0.0073  FR gana 5/5  dispersión 0.35×
+A_semillas_1_5   bpc_L128        Δ=+0.0174  p=0.0289  FR gana 0/5  dispersión 0.92×
+B_semillas_6_15  bpc_extra_L512  Δ=-0.0232  p=0.3592  FR gana 7/10  dispersión 1.48×
+B_semillas_6_15  bpc_extra_L256  Δ=-0.0511  p=0.0376  FR gana 8/10  dispersión 0.99×
+B_semillas_6_15  bpc_L128        Δ=+0.0385  p=0.0005  FR gana 0/10  dispersión 1.38×
+post hoc n=15    bpc_extra_L512  Δ=-0.0497  p=0.0252
+ENDPOINT PRIMARIO: NO CUMPLIDO | estabilidad: cumplida

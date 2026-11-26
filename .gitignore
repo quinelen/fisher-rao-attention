@@ -5,3 +5,9 @@ archivo_privado/
 # corpus renderizado de páginas man (licencias heterogéneas; el script lo regenera)
 verificacion_claude/corpus_man_*.txt
 verificacion_claude/manifiesto_corpus_man_local.json
+
+# corpus no redistribuible que exp_guias_es.py guarda en caché, y carpetas de trabajo de los envoltorios de reproduccion/
+verificacion_claude/guias_es/corpus_guias_es_*.txt
+corridas/
+.venv/
+.venv313/

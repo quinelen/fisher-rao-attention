@@ -1,0 +1,15 @@
+{
+  "corpus": "prosa en inglés de páginas man (exp_prosa_man.py)",
+  "caracteres_entrenamiento": 2733491,
+  "caracteres_prueba": 416380,
+  "sha256_entrenamiento": "d5cca17a44c31766f92d1c37153f41d28c541ff985c30a6c54793411a605df34",
+  "sha256_prueba": "03c569407365814cca0291baf96e9f639c3912a1744db360efc02aa27d1cdf37",
+  "suavizado_aditivo": 0.05,
+  "tam_vocabulario": 119,
+  "bpc": {
+    "1-grama": 4.650552456730512,
+    "2-grama": 3.7371207450102673,
+    "3-grama": 2.9032382388940063,
+    "4-grama": 2.4218955668305964
+  }
+}

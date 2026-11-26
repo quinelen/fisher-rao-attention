@@ -1,0 +1,55 @@
+Corpus guías ES: train=5,549,216 test=913,858 caracteres
+vocab=250; train (4000, 128) (len 128); eval [128, 256, 512]
+
+seed 201 euclidean  : extra256=4.0011 extra512=4.0235 in128=3.7274 (14s)
+seed 201 fr_estable : extra256=4.0049 extra512=4.0282 in128=3.7399 (26s)
+seed 202 euclidean  : extra256=3.9961 extra512=4.0309 in128=3.7177 (14s)
+seed 202 fr_estable : extra256=4.0254 extra512=4.0435 in128=3.7403 (26s)
+seed 203 euclidean  : extra256=4.0113 extra512=4.0551 in128=3.7238 (14s)
+seed 203 fr_estable : extra256=4.0047 extra512=4.0343 in128=3.7575 (26s)
+seed 204 euclidean  : extra256=4.0260 extra512=4.0490 in128=3.7259 (14s)
+seed 204 fr_estable : extra256=3.9960 extra512=4.0049 in128=3.7311 (26s)
+seed 205 euclidean  : extra256=3.9910 extra512=4.0174 in128=3.7198 (14s)
+seed 205 fr_estable : extra256=4.0282 extra512=4.0521 in128=3.7463 (27s)
+seed 206 euclidean  : extra256=3.9967 extra512=4.0147 in128=3.7338 (14s)
+seed 206 fr_estable : extra256=4.0202 extra512=4.0377 in128=3.7518 (27s)
+seed 207 euclidean  : extra256=4.0277 extra512=4.0465 in128=3.7475 (14s)
+seed 207 fr_estable : extra256=4.0112 extra512=4.0513 in128=3.7419 (28s)
+seed 208 euclidean  : extra256=4.0241 extra512=4.0695 in128=3.7325 (14s)
+seed 208 fr_estable : extra256=4.0245 extra512=4.0543 in128=3.7360 (28s)
+seed 209 euclidean  : extra256=4.0212 extra512=4.0650 in128=3.7319 (14s)
+seed 209 fr_estable : extra256=4.0264 extra512=4.0768 in128=3.7279 (30s)
+seed 210 euclidean  : extra256=3.9836 extra512=4.0219 in128=3.7187 (15s)
+seed 210 fr_estable : extra256=4.0244 extra512=4.0536 in128=3.7404 (31s)
+seed 211 euclidean  : extra256=4.0335 extra512=4.0780 in128=3.7216 (15s)
+seed 211 fr_estable : extra256=4.0237 extra512=4.0566 in128=3.7218 (31s)
+seed 212 euclidean  : extra256=4.0259 extra512=4.0645 in128=3.7213 (15s)
+seed 212 fr_estable : extra256=4.0337 extra512=4.0662 in128=3.7564 (31s)
+seed 213 euclidean  : extra256=3.9945 extra512=4.0344 in128=3.7291 (15s)
+seed 213 fr_estable : extra256=3.9946 extra512=4.0287 in128=3.7371 (32s)
+seed 214 euclidean  : extra256=4.0166 extra512=4.0508 in128=3.7252 (16s)
+seed 214 fr_estable : extra256=4.0493 extra512=4.0981 in128=3.7542 (32s)
+seed 215 euclidean  : extra256=4.0657 extra512=4.0829 in128=3.7489 (18s)
+seed 215 fr_estable : extra256=4.0339 extra512=4.0701 in128=3.7513 (33s)
+seed 216 euclidean  : extra256=4.0393 extra512=4.0840 in128=3.7444 (16s)
+seed 216 fr_estable : extra256=4.0554 extra512=4.0823 in128=3.7597 (34s)
+seed 217 euclidean  : extra256=3.9971 extra512=4.0330 in128=3.7233 (17s)
+seed 217 fr_estable : extra256=4.0283 extra512=4.0552 in128=3.7535 (35s)
+seed 218 euclidean  : extra256=4.0210 extra512=4.0656 in128=3.7333 (17s)
+seed 218 fr_estable : extra256=4.0225 extra512=4.0476 in128=3.7655 (33s)
+seed 219 euclidean  : extra256=4.0001 extra512=4.0155 in128=3.7123 (16s)
+seed 219 fr_estable : extra256=4.0116 extra512=4.0207 in128=3.7455 (34s)
+seed 220 euclidean  : extra256=4.0187 extra512=4.0473 in128=3.7328 (16s)
+seed 220 fr_estable : extra256=4.0302 extra512=4.0649 in128=3.7572 (34s)
+
+*** VEREDICTO PRERREGISTRADO (guías ES, n=20, semillas 201–220) ***
+  [  PRIMARIO] bpc_extra_L512: Euc=4.0475±0.0222  FRs=4.0513±0.0216  Δ=+0.0039  t=+0.78  p=0.4475
+  [secundario] bpc_extra_L256: Euc=4.0146±0.0194  FRs=4.0225±0.0151  Δ=+0.0079  t=+1.70  p=0.1053
+  [control IN] bpc_L128: Euc=3.7286±0.0096  FRs=3.7458±0.0113  Δ=+0.0172  t=+5.68  p=0.0000
+
+  semillas ganadas por FR en extra_L512: 8/20
+  estabilidad (sd_FR <= 1.5 sd_Euc): SÍ (sd_FR=0.0216, sd_Euc=0.0222)
+  ENDPOINT PRIMARIO: NO CUMPLIDO — negativo declarado
+
+Guardado: resultados_guias_es.json
+EXIT=0

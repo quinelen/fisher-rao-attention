@@ -1,0 +1,7 @@
+Sello del protocolo ES-GUÍAS (antes de ejecutar el entrenamiento)
+fecha_utc: 2026-10-21T18:51:15Z
+sha256  PREREGISTRO_GUIAS_ES.md  8cfab4d3e7fa8e9ddbcd5bf9cee3d8754ecf94fb030dba77a3817a2d71ee0242
+sha256  exp_guias_es.py  96b8fc9f00656479112555bea52e081550aed3793d61245830a66470082256fd
+sha256  manifiesto_corpus_guias_es.json  273af0b6cc47b6690fd44645f53ef11f1375d3b7f25758499a10b115549cc0ca
+sha256  corpus_guias_es_train.txt  10e414fc0f9b95998d1cd962a3f65da62e5b6e930e4a98a24d6f3bde97d976e7
+sha256  corpus_guias_es_test.txt  679322412d57e8e02d7a827e089c7195fa5b35c140d5d1cc2c8925f7a0a0585b

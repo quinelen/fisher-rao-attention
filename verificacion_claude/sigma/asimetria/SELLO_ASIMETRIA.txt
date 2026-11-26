@@ -1,0 +1,10 @@
+Sello del prerregistro — pruebas de asimetría σ_q/σ_k (alcance, intervención, generalidad)
+Fecha (UTC): 2026-10-29 18:16:43
+Sellado antes de la corrida completa (solo se ejecutó la prueba de humo: formas, NaN, equivalencias y descripción de datos).
+SHA-256:
+8b1ad8dae475ca45cefbb9110ebe25fb35133a8499a974c4fda404346f687658  PREREGISTRO_ASIMETRIA.md
+8b847c597f453f5152c78749bbd669299975b870030937ab8900ac04e040bb04  exp_asimetria.py
+69ee0e60ab6d83766abab80da706f503b3c1919f0a9e0b81116652f6764ce2cd  ../exp_sigma_profundidad.py  (importado, sin modificar)
+7aa4cb1b0d0d62e3c41d20e65a950617f84a6740aa37f4874985984d63374f74  verificacion_claude/exp_tres_geometrias.py  (código del paper, solo lectura)
+0c436f1b3f0b4da60f71d2b797fda3ce53d507f7c6a295b5b03b16ed3e634148  verificacion_claude/fast_gaussian_test.py  (código del paper, solo lectura)
+732ac01f1ab7e47653a4556173df6259c3f433b23c661b78fb55bc8ab6a53a9b  verificacion_claude/exp1_profundidad.py  (código del paper, solo lectura)

@@ -1,0 +1,7 @@
+Sello del prerregistro — pruebas confirmatorias 3 y 5 sobre σ
+Fecha (UTC): 2026-10-25 16:42:17
+Sellado antes de la corrida completa (solo se ejecutó la prueba de humo: formas y NaN).
+SHA-256:
+212139915ca13c21923f2959c76af6f7d620aee429d107b36a6e22ef6ec5ae95  PREREGISTRO_CONFIRMATORIAS.md
+69a1c8d7092b8e67bc77fade4bae646fc2234ea4b2fcad5e6ae9ac3437d356f6  exp_confirmatorias.py
+69ee0e60ab6d83766abab80da706f503b3c1919f0a9e0b81116652f6764ce2cd  ../exp_sigma_profundidad.py  (importado, sin modificar)

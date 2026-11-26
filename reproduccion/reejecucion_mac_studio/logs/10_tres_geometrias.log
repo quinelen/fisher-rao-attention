@@ -1,0 +1,29 @@
+seed 1 | euclidiana (K=0)      : IN acc=96.1%  OUT acc=87.0%  OUT loss=1.2922  (21s, 413189 params)
+seed 1 | esferica (K=+1/4)     : IN acc=97.0%  OUT acc=87.6%  OUT loss=1.2768  (24s, 413189 params)
+seed 1 | hiperbolica (K=-1/2)  : IN acc=98.8%  OUT acc=88.6%  OUT loss=1.2879  (135s, 479239 params)
+seed 2 | euclidiana (K=0)      : IN acc=96.1%  OUT acc=85.7%  OUT loss=1.3408  (21s, 413189 params)
+seed 2 | esferica (K=+1/4)     : IN acc=96.1%  OUT acc=85.8%  OUT loss=1.3583  (24s, 413189 params)
+seed 2 | hiperbolica (K=-1/2)  : IN acc=97.6%  OUT acc=87.6%  OUT loss=1.2779  (166s, 479239 params)
+seed 3 | euclidiana (K=0)      : IN acc=95.2%  OUT acc=85.8%  OUT loss=1.2703  (25s, 413189 params)
+seed 3 | esferica (K=+1/4)     : IN acc=95.7%  OUT acc=86.8%  OUT loss=1.2851  (28s, 413189 params)
+seed 3 | hiperbolica (K=-1/2)  : IN acc=97.2%  OUT acc=87.4%  OUT loss=1.2615  (178s, 479239 params)
+seed 4 | euclidiana (K=0)      : IN acc=94.3%  OUT acc=85.0%  OUT loss=1.3355  (24s, 413189 params)
+seed 4 | esferica (K=+1/4)     : IN acc=96.1%  OUT acc=86.7%  OUT loss=1.3259  (29s, 413189 params)
+seed 4 | hiperbolica (K=-1/2)  : IN acc=97.8%  OUT acc=87.9%  OUT loss=1.2478  (150s, 479239 params)
+seed 5 | euclidiana (K=0)      : IN acc=96.3%  OUT acc=85.6%  OUT loss=1.3287  (21s, 413189 params)
+seed 5 | esferica (K=+1/4)     : IN acc=96.1%  OUT acc=86.2%  OUT loss=1.3350  (24s, 413189 params)
+seed 5 | hiperbolica (K=-1/2)  : IN acc=97.7%  OUT acc=86.5%  OUT loss=1.3994  (128s, 479239 params)
+
+====================================================================================
+geometría                        IN acc    OUT acc (extrap.)         OUT loss
+====================================================================================
+euclidiana (K=0)           95.6%±0.8%        85.8%±0.6%     1.3135±0.0275
+esferica (K=+1/4)          96.2%±0.4%        86.6%±0.6%     1.3162±0.0308
+hiperbolica (K=-1/2)       97.8%±0.5%        87.6%±0.7%     1.2949±0.0540
+
+Contrastes pareados de OUT acc (n=5, t crítico bilateral 5% = 2.776):
+  esferica (K=+1/4)  vs  euclidiana (K=0):  Δ = +0.83% ± 0.64%   t = +2.92
+  hiperbolica (K=-1/2)  vs  euclidiana (K=0):  Δ = +1.79% ± 0.72%   t = +5.57
+  hiperbolica (K=-1/2)  vs  esferica (K=+1/4):  Δ = +0.96% ± 0.58%   t = +3.69
+
+Guardado: resultados_tres_geometrias.json

@@ -1,0 +1,17 @@
+archivo                                        sin secs   def. 679  otros
+resultados_ablacion_kernel.json               74/74       64/64    0
+resultados_cat_incumbente.json                51/51       26/26    0
+resultados_eficiencia_dimensional.json        80/80       10/10    0
+resultados_estabilizado.json                   0/200       0/200   0  (corpus distinto, ver A.4)
+resultados_fast_gaussian.json                 30/30       20/20    0
+resultados_mixta.json                        234/234     220/220   0
+resultados_mixta2.json                        86/86        6/6     0
+resultados_prosa_man.json                      0/100       0/100   0  (corpus distinto, ver A.4)
+resultados_ricci_addendum.json                16/16       15/15    0
+resultados_rope.json                         262/262     178/178   0
+resultados_tres_geometrias.json               48/48       45/45    0
+resultados_wasserstein_vs_fr.json             15/15       15/15    0
+resultados_wordnet_incumbentes.json           80/80       80/80    0
+
+Experimentos sintéticos (11), excluyendo solo 'secs': 976/976 valores idénticos
+Mismos experimentos con el filtro de progreso_mac.py (tabla A.2): 679/679

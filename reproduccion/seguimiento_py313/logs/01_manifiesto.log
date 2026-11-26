@@ -1,0 +1,16 @@
+{
+ "python": "3.13.15",
+ "implementation": "CPython",
+ "executable": "/Users/miguelcontreras/code/fisher-rao-attention/.venv313/bin/python",
+ "stdlib": "/Users/miguelcontreras/.local/share/uv/python/cpython-3.13.15-macos-aarch64-none/lib/python3.13",
+ "train_chars": 1099928,
+ "test_chars": 113196,
+ "vocab_size": 111,
+ "train_sha256": "e5e1a427b400c3c5734b536129bfe6077aa7c074fda432df9d144430de5d001a",
+ "test_sha256": "380e56aeb0d1f9f81fb65aabbb6505abe1e5e958ad5baa41bac9c6884636f56e",
+ "colab_observado": {
+  "train_chars": 1130080,
+  "test_chars": 125909,
+  "vocab_size": 111
+ }
+}

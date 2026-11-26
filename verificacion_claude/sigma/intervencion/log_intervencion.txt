@@ -1,0 +1,31 @@
+Prueba de intervención sobre σ | inicio 2026-10-25 00:15:31 UTC
+semilla 401 (32s): close_acc DD 0.9872 FD 0.8903 | dif. vs prueba anterior DD 0.0e+00 FD 0.0e+00 | FD sitio A: base 0.8903 M1 0.8884 M2 0.8906 M3 0.8888 identidad 0.8903
+semilla 402 (32s): close_acc DD 0.9804 FD 0.8826 | dif. vs prueba anterior DD 0.0e+00 FD 0.0e+00 | FD sitio A: base 0.8826 M1 0.8830 M2 0.8828 M3 0.8829 identidad 0.8826
+semilla 403 (54s): close_acc DD 0.9725 FD 0.8810 | dif. vs prueba anterior DD 0.0e+00 FD 0.0e+00 | FD sitio A: base 0.8810 M1 0.8785 M2 0.8802 M3 0.8794 identidad 0.8810
+semilla 404 (63s): close_acc DD 0.9913 FD 0.8969 | dif. vs prueba anterior DD 0.0e+00 FD 0.0e+00 | FD sitio A: base 0.8969 M1 0.8958 M2 0.8971 M3 0.8959 identidad 0.8969
+semilla 405 (33s): close_acc DD 0.9937 FD 0.8943 | dif. vs prueba anterior DD 0.0e+00 FD 0.0e+00 | FD sitio A: base 0.8943 M1 0.8917 M2 0.8945 M3 0.8934 identidad 0.8943
+
+=== Caídas de exactitud (acc base − acc intervenida), media de 5 semillas [rango] ===
+DD A_c2_q: identidad +0.0000 [+0.0000, +0.0000] | M1 +0.0046 [+0.0023, +0.0059] | M2 +0.0006 [-0.0001, +0.0008] | M3 +0.0034 [+0.0026, +0.0046] || fidelidad R² M1 0.220 M2 0.768 M3 0.331 || tope M1 0.0000 M2 0.0414 M3 0.0000
+DD B_c2_k: identidad +0.0000 [+0.0000, +0.0000] | M1 +0.0019 [-0.0013, +0.0037] | M2 +0.0033 [-0.0022, +0.0060] | M3 +0.0040 [-0.0007, +0.0071] || fidelidad R² M1 0.240 M2 0.860 M3 0.573 || tope M1 0.0000 M2 0.0005 M3 0.0000
+DD C_c1_q: identidad +0.0000 [+0.0000, +0.0000] | M1 +0.0007 [+0.0002, +0.0011] | M2 +0.0005 [+0.0003, +0.0010] | M3 +0.0005 [+0.0003, +0.0010] || fidelidad R² M1 0.603 M2 0.693 M3 0.693 || tope M1 0.0000 M2 0.0000 M3 0.0000
+FD A_c2_q: identidad +0.0000 [+0.0000, +0.0000] | M1 +0.0015 [-0.0004, +0.0025] | M2 -0.0001 [-0.0003, +0.0008] | M3 +0.0009 [-0.0003, +0.0016] || fidelidad R² M1 0.281 M2 0.706 M3 0.361 || tope M1 0.0000 M2 0.0401 M3 0.0000
+FD B_c2_k: identidad +0.0000 [+0.0000, +0.0000] | M1 +0.0031 [+0.0025, +0.0039] | M2 +0.0012 [-0.0001, +0.0016] | M3 +0.0018 [+0.0010, +0.0028] || fidelidad R² M1 0.270 M2 0.779 M3 0.548 || tope M1 0.0000 M2 0.0000 M3 0.0000
+FD C_c1_q: identidad +0.0000 [+0.0000, +0.0000] | M1 -0.0002 [-0.0004, +0.0000] | M2 -0.0001 [-0.0005, +0.0001] | M3 -0.0001 [-0.0005, +0.0001] || fidelidad R² M1 0.608 M2 0.647 M3 0.647 || tope M1 0.0000 M2 0.0000 M3 0.0000
+
+=== Endpoint primario: sitio A (σ_q capa 2), FD 80–120, caída(M1) − caída(M2) ===
+por semilla [0.0022, -0.0002, 0.0017, 0.0013, 0.0028]; media +0.0015, t(4) = 3.040, p = 0.03838; caída media M1 +0.0015
+VEREDICTO: CONFIRMADA
+
+=== Secundarias (no decisorias) ===
+A_DD_M1-M2: [0.0052, 0.0024, 0.004, 0.0045, 0.0043]; media +0.0041, t(4) = 8.668, p = 0.0009748
+B_FD_M1-M2: [0.0016, 0.004, 0.0009, 0.0019, 0.0009]; media +0.0018, t(4) = 3.278, p = 0.03057
+B_DD_M1-M2: [-0.0015, -0.0047, 0.001, -0.0005, -0.0013]; media -0.0014, t(4) = -1.530, p = 0.2007
+C_FD_M1-M2: [-0.0, -0.0002, -0.0002, 0.0, 0.0]; media -0.0001, t(4) = -1.450, p = 0.2205
+C_DD_M1-M2: [-0.0003, 0.0004, 0.0001, 0.0, 0.0006]; media +0.0002, t(4) = 1.149, p = 0.3147
+A_FD_M3-M2: [0.0018, -0.0001, 0.0008, 0.0012, 0.0011]; media +0.0009, t(4) = 3.000, p = 0.03993
+A_DD_M3-M2: [0.004, 0.0027, 0.0028, 0.0022, 0.0025]; media +0.0028, t(4) = 9.298, p = 0.0007445
+
+Determinismo: máxima diferencia de close_acc vs prueba anterior = 0.00e+00
+
+Guardado: resultados_intervencion.json | fin 2026-10-25 00:23:49 UTC

@@ -1,0 +1,26 @@
+seed 1 | euclidiana          : IN acc=96.1%  OUT acc=87.0%  OUT loss=1.2922  (20s, 413189 params)
+seed 1 | wasserstein (Bures) : IN acc=97.4%  OUT acc=88.1%  OUT loss=1.2718  (24s, 415255 params)
+seed 1 | fisher-rao (hiperb) : IN acc=98.8%  OUT acc=89.2%  OUT loss=1.3264  (27s, 415255 params)
+seed 2 | euclidiana          : IN acc=96.1%  OUT acc=85.7%  OUT loss=1.3408  (20s, 413189 params)
+seed 2 | wasserstein (Bures) : IN acc=94.2%  OUT acc=85.6%  OUT loss=1.3257  (24s, 415255 params)
+seed 2 | fisher-rao (hiperb) : IN acc=98.7%  OUT acc=88.8%  OUT loss=1.2635  (27s, 415255 params)
+seed 3 | euclidiana          : IN acc=95.2%  OUT acc=85.8%  OUT loss=1.2703  (20s, 413189 params)
+seed 3 | wasserstein (Bures) : IN acc=97.2%  OUT acc=87.5%  OUT loss=1.2642  (24s, 415255 params)
+seed 3 | fisher-rao (hiperb) : IN acc=98.9%  OUT acc=89.2%  OUT loss=1.2593  (27s, 415255 params)
+seed 4 | euclidiana          : IN acc=94.3%  OUT acc=85.0%  OUT loss=1.3355  (20s, 413189 params)
+seed 4 | wasserstein (Bures) : IN acc=97.3%  OUT acc=86.9%  OUT loss=1.3399  (24s, 415255 params)
+seed 4 | fisher-rao (hiperb) : IN acc=98.4%  OUT acc=87.7%  OUT loss=1.3507  (27s, 415255 params)
+seed 5 | euclidiana          : IN acc=96.3%  OUT acc=85.6%  OUT loss=1.3287  (20s, 413189 params)
+seed 5 | wasserstein (Bures) : IN acc=96.2%  OUT acc=86.5%  OUT loss=1.3225  (24s, 415255 params)
+seed 5 | fisher-rao (hiperb) : IN acc=97.0%  OUT acc=87.3%  OUT loss=1.3468  (27s, 415255 params)
+
+============================================================================
+euclidiana             OUT acc = 85.80% ± 0.65%
+wasserstein (Bures)    OUT acc = 86.91% ± 0.85%
+fisher-rao (hiperb)    OUT acc = 88.43% ± 0.77%
+
+Contraste decisivo (n=5, df=4):
+  Fisher-Rao vs Wasserstein (mismos tokens gaussianos): Δ=+1.52%  t=+3.33  p=0.0291
+  Wasserstein vs Euclidiana (¿aportan las gaussianas per se?): Δ=+1.12%  t=+3.07  p=0.0374
+
+Guardado: resultados_wasserstein_vs_fr.json

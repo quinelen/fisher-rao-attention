@@ -1,0 +1,51 @@
+seed 16 euclidean  : extra256=3.7647 extra512=3.7165 in128=3.2751 (9s)
+seed 16 fr_estable : extra256=3.6856 extra512=3.6726 in128=3.3041 (16s)
+seed 17 euclidean  : extra256=3.9015 extra512=3.8288 in128=3.2452 (9s)
+seed 17 fr_estable : extra256=3.7231 extra512=3.7065 in128=3.3053 (16s)
+seed 18 euclidean  : extra256=3.8515 extra512=3.8320 in128=3.2663 (9s)
+seed 18 fr_estable : extra256=3.6957 extra512=3.6900 in128=3.3075 (16s)
+seed 19 euclidean  : extra256=3.7889 extra512=3.7535 in128=3.2561 (9s)
+seed 19 fr_estable : extra256=3.7885 extra512=3.8297 in128=3.3411 (16s)
+seed 20 euclidean  : extra256=3.9696 extra512=3.8999 in128=3.2418 (9s)
+seed 20 fr_estable : extra256=3.6722 extra512=3.6624 in128=3.2931 (16s)
+seed 21 euclidean  : extra256=3.9546 extra512=3.9625 in128=3.2754 (9s)
+seed 21 fr_estable : extra256=3.8036 extra512=3.8333 in128=3.3094 (16s)
+seed 22 euclidean  : extra256=4.0403 extra512=3.9746 in128=3.2413 (9s)
+seed 22 fr_estable : extra256=3.8708 extra512=3.9259 in128=3.3221 (16s)
+seed 23 euclidean  : extra256=4.0289 extra512=3.9832 in128=3.2771 (9s)
+seed 23 fr_estable : extra256=3.7079 extra512=3.7121 in128=3.2981 (16s)
+seed 24 euclidean  : extra256=3.8150 extra512=3.7569 in128=3.2677 (9s)
+seed 24 fr_estable : extra256=3.6550 extra512=3.6549 in128=3.2905 (16s)
+seed 25 euclidean  : extra256=3.7736 extra512=3.7104 in128=3.2627 (9s)
+seed 25 fr_estable : extra256=3.8659 extra512=3.8682 in128=3.3187 (16s)
+seed 26 euclidean  : extra256=3.8742 extra512=3.8058 in128=3.2823 (9s)
+seed 26 fr_estable : extra256=3.7089 extra512=3.7037 in128=3.3276 (16s)
+seed 27 euclidean  : extra256=4.0104 extra512=3.9697 in128=3.2682 (9s)
+seed 27 fr_estable : extra256=3.7945 extra512=3.7847 in128=3.3257 (16s)
+seed 28 euclidean  : extra256=3.8808 extra512=3.7844 in128=3.2571 (9s)
+seed 28 fr_estable : extra256=3.6736 extra512=3.6657 in128=3.3031 (16s)
+seed 29 euclidean  : extra256=3.9408 extra512=3.8586 in128=3.2774 (9s)
+seed 29 fr_estable : extra256=3.8025 extra512=3.7575 in128=3.3189 (16s)
+seed 30 euclidean  : extra256=3.7045 extra512=3.6699 in128=3.2618 (9s)
+seed 30 fr_estable : extra256=3.8750 extra512=3.8395 in128=3.3196 (16s)
+seed 31 euclidean  : extra256=3.7288 extra512=3.6914 in128=3.2683 (9s)
+seed 31 fr_estable : extra256=3.8146 extra512=3.8554 in128=3.3073 (16s)
+seed 32 euclidean  : extra256=4.0149 extra512=3.9061 in128=3.2617 (9s)
+seed 32 fr_estable : extra256=3.6803 extra512=3.6561 in128=3.2957 (16s)
+seed 33 euclidean  : extra256=3.8925 extra512=3.8009 in128=3.2825 (9s)
+seed 33 fr_estable : extra256=3.7614 extra512=3.7345 in128=3.3160 (16s)
+seed 34 euclidean  : extra256=3.7475 extra512=3.7144 in128=3.2663 (9s)
+seed 34 fr_estable : extra256=3.6521 extra512=3.6431 in128=3.2825 (16s)
+seed 35 euclidean  : extra256=3.8712 extra512=3.7850 in128=3.2741 (9s)
+seed 35 fr_estable : extra256=3.7221 extra512=3.6855 in128=3.3022 (16s)
+
+*** VEREDICTO PRE-REGISTRADO (n=20, semillas 16-35, kernel estabilizado) ***
+  [  PRIMARIO] bpc_extra_L512: Euc=3.8202±0.0983  FRs=3.7441±0.0841  Δ=-0.0762  t=-2.63  p=0.0163
+  [secundario] bpc_extra_L256: Euc=3.8777±0.1025  FRs=3.7477±0.0722  Δ=-0.1300  t=-4.38  p=0.0003
+  [control IN] bpc_L128: Euc=3.2654±0.0120  FRs=3.3094±0.0140  Δ=+0.0440  t=+10.68  p=0.0000
+
+  semillas ganadas por FR-estable en extra_L512: 16/20
+  estabilidad (sd_FR <= 1.5*sd_Euc): SÍ (sd_FR=0.0841, sd_Euc=0.0983)
+  ENDPOINT PRIMARIO: CUMPLIDO — transferencia extrapolativa a código real DEMOSTRADA con kernel estabilizado
+
+Guardado: resultados_estabilizado.json

@@ -1,0 +1,6 @@
+Sello del prerregistro — prueba de no inferioridad: σ fijo en la capa 1
+Fecha (UTC): 2026-10-25 18:24:01
+Sellado antes de la corrida completa (solo se ejecutó la prueba de humo: formas, NaN, equivalencia de la fórmula, parámetros, reproducción del bucle y cálculo de ΔR²; sin exactitudes).
+SHA-256:
+90e5069f8ba1675f23cd704574de8e6f6b25d50acad382a5ac41d4a69a356a41  PREREGISTRO_SIMPLIFICACION.md
+3d089d47e0141dd2e710f9f87cdcc907ab5cd6f362f74ec856c835a51f29e174  exp_simplificacion.py

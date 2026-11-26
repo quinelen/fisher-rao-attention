@@ -1,0 +1,6 @@
+Sello del prerregistro — prueba de intervención sobre σ
+Fecha (UTC): 2026-10-25 00:15:26
+Sellado antes de la corrida completa (solo se ejecutó la prueba de humo: formas, NaN y control de identidad).
+SHA-256:
+74e90b5dc328e70262404b5ebcd17c31d6361cac42c41069e031ffc560811350  PREREGISTRO_INTERVENCION.md
+82076a613ca0618468eff6544a5c182489ae4828d62997ad11fe0d97327ea167  exp_sigma_intervencion.py

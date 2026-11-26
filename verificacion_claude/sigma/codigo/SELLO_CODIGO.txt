@@ -1,0 +1,6 @@
+Sello del prerregistro — prueba σ–anidamiento en código Python
+Fecha (UTC): 2026-10-25 00:17:45
+Sellado antes de entrenar los modelos de la prueba (solo se ejecutó la prueba de humo: formas, NaN y conteos de inclusión).
+SHA-256:
+d7cfa0e6c6ba265f30cfee0a226f4f9380cba669b18d13c3ab30948b12f6976f  PREREGISTRO_CODIGO.md
+20b25188ae20fab95163ac0ef17480a1ab3800eca63cb84b07dc7f91336a0cdd  exp_sigma_codigo.py

@@ -1,0 +1,590 @@
+{
+ "fuente": "copia_postgres_guias_recs_etd_20260819.sqlite (tabla etd_criteria, campo research_evidence_text)",
+ "sha256_base": "b66c1faed6917c008fb3c392d905f78dbdaec3ce95990791e917a0ebacb01db1",
+ "guias": 82,
+ "guias_train": 73,
+ "guias_test": 9,
+ "caracteres_train": 5549216,
+ "caracteres_test": 913858,
+ "documentos": 2418,
+ "vocabulario_train_con_pad": 250,
+ "fraccion_test_fuera_de_vocabulario": 5e-06,
+ "sha256_train": "10e414fc0f9b95998d1cd962a3f65da62e5b6e930e4a98a24d6f3bde97d976e7",
+ "sha256_test": "679322412d57e8e02d7a827e089c7195fa5b35c140d5d1cc2c8925f7a0a0585b",
+ "por_guia": [
+  {
+   "guide_id": 4,
+   "titulo": "Analgesia del Parto",
+   "parte": "test",
+   "documentos": 42,
+   "caracteres": 135592
+  },
+  {
+   "guide_id": 5,
+   "titulo": "Artritis Idiopática Juvenil",
+   "parte": "train",
+   "documentos": 33,
+   "caracteres": 109833
+  },
+  {
+   "guide_id": 6,
+   "titulo": "Asma Bronquial en Adulto",
+   "parte": "train",
+   "documentos": 31,
+   "caracteres": 8321
+  },
+  {
+   "guide_id": 7,
+   "titulo": "Cáncer Cérvico Uterino",
+   "parte": "train",
+   "documentos": 38,
+   "caracteres": 107395
+  },
+  {
+   "guide_id": 8,
+   "titulo": "AUGE N°81 Cáncer de pulmón en persona de 15 años y más",
+   "parte": "train",
+   "documentos": 3,
+   "caracteres": 651
+  },
+  {
+   "guide_id": 9,
+   "titulo": "Cáncer Renal en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 15,
+   "caracteres": 6727
+  },
+  {
+   "guide_id": 10,
+   "titulo": "AUGE N° 6 - Diabetes Mellitus tipo 1",
+   "parte": "train",
+   "documentos": 19,
+   "caracteres": 8570
+  },
+  {
+   "guide_id": 11,
+   "titulo": "Endoprótesis Total de Cadera en personas de 65 años y más con Artrosis de Cadera con Limitación Funcional Severa",
+   "parte": "train",
+   "documentos": 42,
+   "caracteres": 113805
+  },
+  {
+   "guide_id": 12,
+   "titulo": "Demencia tipo Alzheimer",
+   "parte": "train",
+   "documentos": 53,
+   "caracteres": 38790
+  },
+  {
+   "guide_id": 13,
+   "titulo": "Ataque Cerebrovascular Isquémico en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 47,
+   "caracteres": 222006
+  },
+  {
+   "guide_id": 14,
+   "titulo": "Cáncer Colorrectal en personas de 15 años y más",
+   "parte": "test",
+   "documentos": 24,
+   "caracteres": 11545
+  },
+  {
+   "guide_id": 15,
+   "titulo": "Cáncer de Mama",
+   "parte": "train",
+   "documentos": 23,
+   "caracteres": 20088
+  },
+  {
+   "guide_id": 16,
+   "titulo": "AUGE N°71 - Cáncer de Ovario Epitelial",
+   "parte": "train",
+   "documentos": 19,
+   "caracteres": 5278
+  },
+  {
+   "guide_id": 17,
+   "titulo": "Cáncer Próstata",
+   "parte": "train",
+   "documentos": 27,
+   "caracteres": 15638
+  },
+  {
+   "guide_id": 18,
+   "titulo": "Problema de Salud N°27 - Cáncer Gástrico",
+   "parte": "train",
+   "documentos": 30,
+   "caracteres": 9364
+  },
+  {
+   "guide_id": 19,
+   "titulo": "Consumo perjudicial y Dependencia de Alcohol y otras Drogas en personas menores de 20 años",
+   "parte": "train",
+   "documentos": 23,
+   "caracteres": 112615
+  },
+  {
+   "guide_id": 20,
+   "titulo": "Enfermedad pulmonar obstructiva crónica de tratamiento ambulatorio",
+   "parte": "train",
+   "documentos": 55,
+   "caracteres": 189954
+  },
+  {
+   "guide_id": 21,
+   "titulo": "Epilepsia en el adulto",
+   "parte": "train",
+   "documentos": 20,
+   "caracteres": 77626
+  },
+  {
+   "guide_id": 22,
+   "titulo": "Estrabismo en menores de 9 años",
+   "parte": "train",
+   "documentos": 14,
+   "caracteres": 21731
+  },
+  {
+   "guide_id": 23,
+   "titulo": "Hemodiálisis",
+   "parte": "train",
+   "documentos": 47,
+   "caracteres": 316485
+  },
+  {
+   "guide_id": 24,
+   "titulo": "Hipertensión Arterial Primaria o Esencial en personas de 15 años y más",
+   "parte": "test",
+   "documentos": 60,
+   "caracteres": 320587
+  },
+  {
+   "guide_id": 25,
+   "titulo": "Hipotiroidismo en personas de 15 años y más.",
+   "parte": "train",
+   "documentos": 25,
+   "caracteres": 110377
+  },
+  {
+   "guide_id": 26,
+   "titulo": "Infarto agudo del miocardio",
+   "parte": "train",
+   "documentos": 31,
+   "caracteres": 161894
+  },
+  {
+   "guide_id": 27,
+   "titulo": "AUGE N°45 - Leucemia Aguda en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 20,
+   "caracteres": 8416
+  },
+  {
+   "guide_id": 28,
+   "titulo": "Leucemia Crónica en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 9,
+   "caracteres": 5772
+  },
+  {
+   "guide_id": 29,
+   "titulo": "AUGE N° 17 Linfoma de Hodgkin en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 9,
+   "caracteres": 2515
+  },
+  {
+   "guide_id": 30,
+   "titulo": "AUGE N° 17 Linfoma No Hodgkin en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 22,
+   "caracteres": 5892
+  },
+  {
+   "guide_id": 31,
+   "titulo": "Manejo y Tratamiento de la Infección Crónica por Virus de la Hepatitis C (VHC)",
+   "parte": "train",
+   "documentos": 40,
+   "caracteres": 133585
+  },
+  {
+   "guide_id": 32,
+   "titulo": "Ayudas técnicas para personas mayores de 65 años y más",
+   "parte": "train",
+   "documentos": 32,
+   "caracteres": 180318
+  },
+  {
+   "guide_id": 33,
+   "titulo": "Peritoneodiálisis",
+   "parte": "train",
+   "documentos": 33,
+   "caracteres": 144974
+  },
+  {
+   "guide_id": 34,
+   "titulo": "Prevención de la Progresión de la Enfermedad Renal Crónica",
+   "parte": "test",
+   "documentos": 38,
+   "caracteres": 183209
+  },
+  {
+   "guide_id": 35,
+   "titulo": "Retinopatía del prematuro",
+   "parte": "train",
+   "documentos": 21,
+   "caracteres": 70554
+  },
+  {
+   "guide_id": 36,
+   "titulo": "Problema de Salud AUGE N°47",
+   "parte": "train",
+   "documentos": 33,
+   "caracteres": 150494
+  },
+  {
+   "guide_id": 37,
+   "titulo": "Trasplante Renal",
+   "parte": "train",
+   "documentos": 39,
+   "caracteres": 431932
+  },
+  {
+   "guide_id": 38,
+   "titulo": "Tratamiento Conservador No Dialítico de la Enfermedad Renal Crónica",
+   "parte": "train",
+   "documentos": 48,
+   "caracteres": 220394
+  },
+  {
+   "guide_id": 39,
+   "titulo": "Tratamiento de personas de 15 años y más con Trastorno Bipolar",
+   "parte": "train",
+   "documentos": 36,
+   "caracteres": 197678
+  },
+  {
+   "guide_id": 40,
+   "titulo": "Tratamiento médico en personas de 55 años y más con artrosis de cadera y/o rodilla, leve o moderado",
+   "parte": "train",
+   "documentos": 61,
+   "caracteres": 344141
+  },
+  {
+   "guide_id": 41,
+   "titulo": "Urgencia odontológica ambulatoria",
+   "parte": "train",
+   "documentos": 19,
+   "caracteres": 26259
+  },
+  {
+   "guide_id": 42,
+   "titulo": "Hemofilia",
+   "parte": "train",
+   "documentos": 41,
+   "caracteres": 88782
+  },
+  {
+   "guide_id": 43,
+   "titulo": "Infección respiratoria aguda (IRA) de manejo ambulatorio en personas menores de 5 años",
+   "parte": "train",
+   "documentos": 27,
+   "caracteres": 11879
+  },
+  {
+   "guide_id": 44,
+   "titulo": "Leucemias en menores de 15 años",
+   "parte": "test",
+   "documentos": 11,
+   "caracteres": 3917
+  },
+  {
+   "guide_id": 45,
+   "titulo": "Cánceres (Menores de 15 años)",
+   "parte": "train",
+   "documentos": 16,
+   "caracteres": 9179
+  },
+  {
+   "guide_id": 46,
+   "titulo": "Manejo de Urgencia de los Traumatismos Dentoalveolares",
+   "parte": "train",
+   "documentos": 52,
+   "caracteres": 55803
+  },
+  {
+   "guide_id": 47,
+   "titulo": "Manejo y Tratamiento de la Infección por Virus de la Hepatitis B",
+   "parte": "train",
+   "documentos": 58,
+   "caracteres": 8383
+  },
+  {
+   "guide_id": 48,
+   "titulo": "Mieloma Múltiple en Personas de 15 años y más",
+   "parte": "train",
+   "documentos": 29,
+   "caracteres": 14281
+  },
+  {
+   "guide_id": 49,
+   "titulo": "Osteosarcoma en personas de 15 años y más",
+   "parte": "train",
+   "documentos": 16,
+   "caracteres": 2319
+  },
+  {
+   "guide_id": 50,
+   "titulo": "Rehabilitación sars cov-2",
+   "parte": "train",
+   "documentos": 13,
+   "caracteres": 1497
+  },
+  {
+   "guide_id": 51,
+   "titulo": "Síndrome de la Inmunodeficiencia Adquirida VIH/SIDA - Pediátrico",
+   "parte": "train",
+   "documentos": 30,
+   "caracteres": 71562
+  },
+  {
+   "guide_id": 52,
+   "titulo": "Tratamiento Quirúrgico de Escoliosis en personas menores de 25 años",
+   "parte": "train",
+   "documentos": 37,
+   "caracteres": 83350
+  },
+  {
+   "guide_id": 53,
+   "titulo": "Para minimizar el riesgo de transmisión del SARS-COV-2 durante la Atención Odontológica Generadora de Bioaerosoles",
+   "parte": "train",
+   "documentos": 50,
+   "caracteres": 44805
+  },
+  {
+   "guide_id": 54,
+   "titulo": "Cáncer de Tiroides Diferenciado y Medular en Personas de 15 años y más.",
+   "parte": "test",
+   "documentos": 23,
+   "caracteres": 6844
+  },
+  {
+   "guide_id": 55,
+   "titulo": "Linfoma y Tumores Sólidos Pediátricos",
+   "parte": "train",
+   "documentos": 28,
+   "caracteres": 7736
+  },
+  {
+   "guide_id": 56,
+   "titulo": "Alivio del Dolor y Cuidados Paliativos por Cáncer",
+   "parte": "train",
+   "documentos": 20,
+   "caracteres": 11132
+  },
+  {
+   "guide_id": 57,
+   "titulo": "Asma Bronquial moderada y grave en menores de 15 años",
+   "parte": "train",
+   "documentos": 21,
+   "caracteres": 44051
+  },
+  {
+   "guide_id": 58,
+   "titulo": "Cáncer Vesical en Personas de 15 años y más",
+   "parte": "train",
+   "documentos": 16,
+   "caracteres": 6860
+  },
+  {
+   "guide_id": 59,
+   "titulo": "Cardiopatías Congénitas en menores de 15 años",
+   "parte": "train",
+   "documentos": 33,
+   "caracteres": 44535
+  },
+  {
+   "guide_id": 60,
+   "titulo": "Desprendimiento de retina no regmatógeno",
+   "parte": "train",
+   "documentos": 26,
+   "caracteres": 31405
+  },
+  {
+   "guide_id": 61,
+   "titulo": "Displasia Broncopulmonar del Prematuro",
+   "parte": "train",
+   "documentos": 18,
+   "caracteres": 28081
+  },
+  {
+   "guide_id": 62,
+   "titulo": "Displasia Luxante de Caderas",
+   "parte": "train",
+   "documentos": 13,
+   "caracteres": 5226
+  },
+  {
+   "guide_id": 63,
+   "titulo": "Disrafias Espinales",
+   "parte": "train",
+   "documentos": 9,
+   "caracteres": 11081
+  },
+  {
+   "guide_id": 64,
+   "titulo": "Enfermedad de Parkinson: Tratamiento Farmacológico y Quirúrgico",
+   "parte": "test",
+   "documentos": 22,
+   "caracteres": 56546
+  },
+  {
+   "guide_id": 65,
+   "titulo": "Estudio, Manejo Médico y Quirúrgico de Pacientes con Crecimiento Prostático Benigno Sintomático",
+   "parte": "train",
+   "documentos": 23,
+   "caracteres": 69818
+  },
+  {
+   "guide_id": 66,
+   "titulo": "Hemorragia subaracnoidea a rotura de aneurismas cerebrales",
+   "parte": "train",
+   "documentos": 11,
+   "caracteres": 18095
+  },
+  {
+   "guide_id": 67,
+   "titulo": "Hipoacusia en recién nacidos, niños y niñas menores de 4 años",
+   "parte": "train",
+   "documentos": 39,
+   "caracteres": 78438
+  },
+  {
+   "guide_id": 68,
+   "titulo": "Neumonía Adquirida en la Comunidad de manejo ambulatorio en Mayores de 65 años y más",
+   "parte": "train",
+   "documentos": 30,
+   "caracteres": 171267
+  },
+  {
+   "guide_id": 69,
+   "titulo": "Prevención del Parto Prematuro",
+   "parte": "train",
+   "documentos": 24,
+   "caracteres": 72947
+  },
+  {
+   "guide_id": 70,
+   "titulo": "Retinopatía Diabética",
+   "parte": "train",
+   "documentos": 26,
+   "caracteres": 47500
+  },
+  {
+   "guide_id": 71,
+   "titulo": "Síndrome de Dificultad Respiratoria en el Recién Nacido",
+   "parte": "train",
+   "documentos": 17,
+   "caracteres": 41319
+  },
+  {
+   "guide_id": 72,
+   "titulo": "Síndrome de la inmunodeficiencia adquirida VIH/SIDA",
+   "parte": "train",
+   "documentos": 34,
+   "caracteres": 11577
+  },
+  {
+   "guide_id": 73,
+   "titulo": "Tratamiento Quirúrgico de Cataratas Congénitas y Adquiridas",
+   "parte": "train",
+   "documentos": 23,
+   "caracteres": 20131
+  },
+  {
+   "guide_id": 74,
+   "titulo": "Trauma Ocular Grave",
+   "parte": "test",
+   "documentos": 21,
+   "caracteres": 27395
+  },
+  {
+   "guide_id": 75,
+   "titulo": "Tumores Primarios del Sistema Nervioso Central en personas de 15 años o más",
+   "parte": "train",
+   "documentos": 32,
+   "caracteres": 7968
+  },
+  {
+   "guide_id": 76,
+   "titulo": "Vicios de Refracción en Personas de 65 años y más",
+   "parte": "train",
+   "documentos": 10,
+   "caracteres": 15186
+  },
+  {
+   "guide_id": 77,
+   "titulo": "Sarcopenia",
+   "parte": "train",
+   "documentos": 23,
+   "caracteres": 117443
+  },
+  {
+   "guide_id": 78,
+   "titulo": "Rehabilitación en Personas con Lesión Medular en Unidad de Paciente Crítico",
+   "parte": "train",
+   "documentos": 27,
+   "caracteres": 107675
+  },
+  {
+   "guide_id": 79,
+   "titulo": "CORONAVIRUS / COVID-19",
+   "parte": "train",
+   "documentos": 79,
+   "caracteres": 195272
+  },
+  {
+   "guide_id": 80,
+   "titulo": "Enfermedad Meningocócica",
+   "parte": "train",
+   "documentos": 33,
+   "caracteres": 87970
+  },
+  {
+   "guide_id": 81,
+   "titulo": "Influenza",
+   "parte": "train",
+   "documentos": 20,
+   "caracteres": 10757
+  },
+  {
+   "guide_id": 82,
+   "titulo": "Patología Pulpar y Periapical en Dentición Permanente",
+   "parte": "train",
+   "documentos": 29,
+   "caracteres": 23003
+  },
+  {
+   "guide_id": 83,
+   "titulo": "Prevención y tratamiento de caries dental en niños y niñas con dentición primaria",
+   "parte": "train",
+   "documentos": 39,
+   "caracteres": 104355
+  },
+  {
+   "guide_id": 85,
+   "titulo": "Para el abordaje de Depresión en Adolescentes",
+   "parte": "test",
+   "documentos": 45,
+   "caracteres": 168207
+  },
+  {
+   "guide_id": 86,
+   "titulo": "Trastorno Ansioso",
+   "parte": "train",
+   "documentos": 43,
+   "caracteres": 186332
+  }
+ ]
+}

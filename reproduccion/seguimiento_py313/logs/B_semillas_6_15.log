@@ -1,0 +1,30 @@
+seed  6 euclidean  : extra256=4.3890 extra512=4.3967 in128=4.0276 (10s)
+seed  6 fisher_rao : extra256=4.3033 extra512=4.3283 in128=4.0727 (18s)
+seed  7 euclidean  : extra256=4.4416 extra512=4.4100 in128=4.0104 (10s)
+seed  7 fisher_rao : extra256=4.4895 extra512=4.4863 in128=4.0892 (19s)
+seed  8 euclidean  : extra256=4.3735 extra512=4.4249 in128=4.0314 (10s)
+seed  8 fisher_rao : extra256=4.3128 extra512=4.3283 in128=4.0528 (19s)
+seed  9 euclidean  : extra256=4.3012 extra512=4.3243 in128=4.0430 (10s)
+seed  9 fisher_rao : extra256=4.3265 extra512=4.3690 in128=4.0975 (19s)
+seed 10 euclidean  : extra256=4.3698 extra512=4.3817 in128=4.0214 (10s)
+seed 10 fisher_rao : extra256=4.3550 extra512=4.4630 in128=4.0541 (18s)
+seed 11 euclidean  : extra256=4.5157 extra512=4.4692 in128=4.0404 (10s)
+seed 11 fisher_rao : extra256=4.3720 extra512=4.3867 in128=4.0726 (18s)
+seed 12 euclidean  : extra256=4.3897 extra512=4.3639 in128=4.0313 (10s)
+seed 12 fisher_rao : extra256=4.3275 extra512=4.3601 in128=4.0992 (18s)
+seed 13 euclidean  : extra256=4.3140 extra512=4.3454 in128=4.0286 (10s)
+seed 13 fisher_rao : extra256=4.3034 extra512=4.3438 in128=4.0398 (18s)
+seed 14 euclidean  : extra256=4.3931 extra512=4.3999 in128=4.0642 (10s)
+seed 14 fisher_rao : extra256=4.3424 extra512=4.3612 in128=4.0730 (18s)
+seed 15 euclidean  : extra256=4.4201 extra512=4.4219 in128=4.0324 (10s)
+seed 15 fisher_rao : extra256=4.2640 extra512=4.2795 in128=4.0645 (18s)
+
+*** VEREDICTO DE LA REPLICACIÓN (n=10, semillas 6-15) ***
+  [  PRIMARIO] bpc_extra_L512: Euc=4.3938±0.0400  FR=4.3706±0.0591  Δ=-0.0232  t=-0.97  p=0.3592
+  [secundario] bpc_extra_L256: Euc=4.3908±0.0581  FR=4.3396±0.0576  Δ=-0.0511  t=-2.44  p=0.0376
+  [control IN] bpc_L128: Euc=4.0331±0.0135  FR=4.0715±0.0186  Δ=+0.0385  t=+5.26  p=0.0005
+
+  ENDPOINT PRIMARIO: NO CUMPLIDO — sin transferencia demostrada
+  [post-hoc n=15 conjunto] extra_L512: Δ=-0.0497  t=-2.51  p=0.0252
+
+Guardado: resultados_codigo_extrapolativo_rep.json

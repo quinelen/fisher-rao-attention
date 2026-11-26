@@ -1,0 +1,178 @@
+[
+ {
+  "orden": 1,
+  "paso": "01_manifiesto_codigo",
+  "experimento": "Corpus de código Python",
+  "seccion": "§4.8d",
+  "estado": "Terminado",
+  "minutos": 0,
+  "comparacion": "Distinto: 2 archivos cambian",
+  "valores_iguales": null,
+  "valores_total": null
+ },
+ {
+  "orden": 2,
+  "paso": "02_manifiesto_man",
+  "experimento": "Corpus de páginas man",
+  "seccion": "§4.8e",
+  "estado": "Terminado",
+  "minutos": 0,
+  "comparacion": "Distinto: 270 páginas cambian",
+  "valores_iguales": null,
+  "valores_total": null
+ },
+ {
+  "orden": 3,
+  "paso": "10_tres_geometrias",
+  "experimento": "Tres geometrías (Dyck-2)",
+  "seccion": "§4.2–4.3",
+  "estado": "Terminado",
+  "minutos": 16,
+  "comparacion": "Idéntico (45/45 valores)",
+  "valores_iguales": 45,
+  "valores_total": 45
+ },
+ {
+  "orden": 4,
+  "paso": "11_ricci_addendum",
+  "experimento": "Brazo Ricci–Mahalanobis",
+  "seccion": "§4.2",
+  "estado": "Terminado",
+  "minutos": 5,
+  "comparacion": "Idéntico (15/15 valores)",
+  "valores_iguales": 15,
+  "valores_total": 15
+ },
+ {
+  "orden": 5,
+  "paso": "12_fast_gaussian_bench",
+  "experimento": "Velocidad del módulo",
+  "seccion": "§4.4",
+  "estado": "Terminado",
+  "minutos": 0,
+  "comparacion": "Isotrópico 2,8× euclidiano",
+  "valores_iguales": null,
+  "valores_total": null
+ },
+ {
+  "orden": 6,
+  "paso": "13_fast_gaussian_acc",
+  "experimento": "Kernel isotrópico (Dyck-2)",
+  "seccion": "§4.2",
+  "estado": "Terminado",
+  "minutos": 3,
+  "comparacion": "Idéntico (20/20 valores)",
+  "valores_iguales": 20,
+  "valores_total": 20
+ },
+ {
+  "orden": 7,
+  "paso": "14_mixta",
+  "experimento": "Mezcla de curvaturas",
+  "seccion": "§5",
+  "estado": "Terminado",
+  "minutos": 7,
+  "comparacion": "Idéntico (220/220 valores)",
+  "valores_iguales": 220,
+  "valores_total": 220
+ },
+ {
+  "orden": 8,
+  "paso": "15_mixta2",
+  "experimento": "Estrés de estructura mixta",
+  "seccion": "§5.1",
+  "estado": "Terminado",
+  "minutos": 8,
+  "comparacion": "Idéntico (6/6 valores)",
+  "valores_iguales": 6,
+  "valores_total": 6
+ },
+ {
+  "orden": 9,
+  "paso": "16_wasserstein_vs_fr",
+  "experimento": "Wasserstein vs Fisher–Rao",
+  "seccion": "§4.6",
+  "estado": "Terminado",
+  "minutos": 5,
+  "comparacion": "Idéntico (15/15 valores)",
+  "valores_iguales": 15,
+  "valores_total": 15
+ },
+ {
+  "orden": 10,
+  "paso": "17_wordnet_incumbentes",
+  "experimento": "WordNet vs Poincaré/Lorentz",
+  "seccion": "§5.2",
+  "estado": "Terminado",
+  "minutos": 21,
+  "comparacion": "Idéntico (80/80 valores)",
+  "valores_iguales": 80,
+  "valores_total": 80
+ },
+ {
+  "orden": 11,
+  "paso": "18_eficiencia_dim",
+  "experimento": "Eficiencia por dimensión",
+  "seccion": "§4.7",
+  "estado": "Terminado",
+  "minutos": 3,
+  "comparacion": "Idéntico (10/10 valores)",
+  "valores_iguales": 10,
+  "valores_total": 10
+ },
+ {
+  "orden": 12,
+  "paso": "19_ablacion_kernel",
+  "experimento": "Ablaciones KL y Laplaciano",
+  "seccion": "§4.5–4.6",
+  "estado": "Terminado",
+  "minutos": 4,
+  "comparacion": "Idéntico (64/64 valores)",
+  "valores_iguales": 64,
+  "valores_total": 64
+ },
+ {
+  "orden": 13,
+  "paso": "20_cat_incumbente",
+  "experimento": "Frente a CAT",
+  "seccion": "§5.3",
+  "estado": "Terminado",
+  "minutos": 9,
+  "comparacion": "Idéntico (26/26 valores)",
+  "valores_iguales": 26,
+  "valores_total": 26
+ },
+ {
+  "orden": 14,
+  "paso": "21_estabilizado",
+  "experimento": "Código con tope de μ",
+  "seccion": "§4.8d",
+  "estado": "Terminado",
+  "minutos": 8,
+  "comparacion": "Difiere: 0/200 iguales, mayor diferencia 0.279",
+  "valores_iguales": 0,
+  "valores_total": 200
+ },
+ {
+  "orden": 15,
+  "paso": "22_prosa_man",
+  "experimento": "Prosa técnica (man)",
+  "seccion": "§4.8e",
+  "estado": "Terminado",
+  "minutos": 4,
+  "comparacion": "Difiere: 0/100 iguales, mayor diferencia 0.0876",
+  "valores_iguales": 0,
+  "valores_total": 100
+ },
+ {
+  "orden": 16,
+  "paso": "23_rope",
+  "experimento": "Posiciones relativas (RoPE)",
+  "seccion": "§4.8f",
+  "estado": "Terminado",
+  "minutos": 30,
+  "comparacion": "Idéntico (178/178 valores)",
+  "valores_iguales": 178,
+  "valores_total": 178
+ }
+]

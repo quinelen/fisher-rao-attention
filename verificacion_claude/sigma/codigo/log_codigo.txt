@@ -1,0 +1,32 @@
+Prueba σ–anidamiento en código Python | inicio 2026-10-25 00:17:51 UTC
+L=128: posiciones 50800, incluidas para indentación 28699 (0.565); excluidas por línea incompleta 0.435
+L=512: posiciones 204400, incluidas para indentación 183533 (0.898); excluidas por línea incompleta 0.102
+Símbolos (30 más frecuentes): [' ', 'e', 't', 's', 'n', 'r', 'i', 'a', 'o', '\n', 'l', 'f', 'd', 'c', '_', 'u', 'p', 'm', '.', 'h', ')', '(', ',', '=', "'", 'g', '"', ':', 'y', 'b']
+semilla 501 (40s): bpc L128 3.3158, extra L512 3.7051 | S entrenado 0.0410 (capa1_k_cab0, coef -0.0471) | S sin entrenar 0.0047 (capa1_k_cab0) | S_par 0.0041 vs 0.0003 | S L512 0.0186 vs 0.0023
+semilla 502 (27s): bpc L128 3.3157, extra L512 3.6366 | S entrenado 0.0032 (capa1_k_cab0, coef +0.0161) | S sin entrenar 0.0013 (capa1_q_cab0) | S_par 0.0007 vs 0.0001 | S L512 0.0020 vs 0.0004
+semilla 503 (48s): bpc L128 3.3031, extra L512 3.7994 | S entrenado 0.0199 (capa1_q_cab1, coef +0.0370) | S sin entrenar 0.0014 (capa1_k_cab1) | S_par 0.0004 vs 0.0001 | S L512 0.0076 vs 0.0006
+semilla 504 (28s): bpc L128 3.3177, extra L512 3.7428 | S entrenado 0.0136 (capa1_k_cab1, coef +0.0282) | S sin entrenar 0.0021 (capa1_k_cab1) | S_par 0.0029 vs 0.0002 | S L512 0.0101 vs 0.0009
+semilla 505 (33s): bpc L128 3.3122, extra L512 3.7904 | S entrenado 0.0538 (capa1_k_cab1, coef -0.0641) | S sin entrenar 0.0015 (capa1_k_cab2) | S_par 0.0013 vs 0.0001 | S L512 0.0299 vs 0.0008
+
+=== Endpoint primario: indentación, L = 128 ===
+S entrenado [0.041, 0.0032, 0.0199, 0.0136, 0.0538] media 0.0263 | sin entrenar [0.0047, 0.0013, 0.0014, 0.0021, 0.0015] media 0.0022
+diferencia +0.0241, t(4) = 2.673, p = 0.05563; media ≥ 0,05: False; t pareado: False
+VEREDICTO: NO CONFIRMADA
+
+=== Secundaria 1: dirección ===
+combinación de S ['capa1_k_cab0', 'capa1_k_cab0', 'capa1_q_cab1', 'capa1_k_cab1', 'capa1_k_cab1']; coef [-0.0471, 0.0161, 0.037, 0.0282, -0.0641]; coincide con la predicción 2/5 -> NO APOYADA; capa 2, coef. negativo: q 3/20, k 11/20
+
+=== Secundaria 2: σ_q vs σ_k (ΔR² medio por rol, entrenado, L = 128) ===
+q [0.0008, 0.0006, 0.0054, 0.003, 0.0002] media 0.0020 | k [0.0076, 0.0009, 0.0005, 0.0031, 0.0105] media 0.0045; q − k -0.0025, t(4) = -0.947, p = 0.3972
+
+=== Secundaria 3: L = 512 ===
+S_512 entrenado [0.0186, 0.002, 0.0076, 0.0101, 0.0299] media 0.0137 | sin entrenar [0.0023, 0.0004, 0.0006, 0.0009, 0.0008]; dif +0.0127, t(4) = 2.667, p = 0.056 -> NO CONFIRMADA
+sin reselección (combinación de L = 128): ΔR² [0.0186, 0.0017, 0.0076, 0.0101, 0.0299] media 0.0136; coef [-0.0283, 0.0107, 0.0262, 0.0235, -0.0405]
+
+=== Secundaria 4: profundidad de paréntesis, L = 128 ===
+S_par entrenado [0.0041, 0.0007, 0.0004, 0.0029, 0.0013] media 0.0019 | sin entrenar [0.0003, 0.0001, 0.0001, 0.0002, 0.0001]; dif +0.0017, t(4) = 2.582, p = 0.06118 -> NO CONFIRMADA; combinación ['capa1_k_cab0', 'capa1_k_cab2', 'capa1_k_cab2', 'capa1_k_cab3', 'capa1_k_cab1']; coef [0.0812, 0.033, 0.035, 0.0674, 0.0571]
+
+=== Secundaria 5: sensibilidad con columna (L = 128) ===
+ΔR² en la combinación de S [0.0432, 0.0024, 0.0197, 0.0148, 0.0478] media 0.0256; máximo de 16 [0.0432, 0.0029, 0.0197, 0.0153, 0.0478] media 0.0258; sin entrenar (máximo) media 0.0020
+
+Guardado: resultados_codigo.json | fin 2026-10-25 00:22:28 UTC

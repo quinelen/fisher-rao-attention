@@ -82,8 +82,50 @@ miden su geometría o la usan como señal de entrenamiento; el nuestro construye
 geometría. La afirmación de novedad-como-síntesis de §7 queda verificada en las tres
 fuentes principales (arXiv, OpenReview, Google Scholar) más Semantic Scholar parcial.
 
+## Búsqueda actualizada (20-oct-2026)
+
+Búsqueda amplia de atención con distancia hiperbólica (API de arXiv, búsqueda web y lectura del HTML de cada
+trabajo). Entre otros trabajos que usan la distancia hiperbólica como
+puntaje de atención (p. ej., HNN++, Shimizu, Mukuta y Harada, ICLR 2021, en la bola de Poincaré; Zhou 2026,
+ya citado), estos tres son los más cercanos; ninguno parte de tokens distribucionales ni de la métrica de
+Fisher–Rao. Citados en §7 (y el primero también en §4.5) desde la v1.2.
+
+| Trabajo | Puntaje de atención | Veredicto |
+|---|---|---|
+| Gulcehre et al., *Hyperbolic Attention Networks* (ICLR 2019; arXiv:1805.09786) | α(q,k) = f(−β·d_H(q,k) − c) en el hiperboloide; f = exp normalizado (softmax) o sigmoide. Traducción automática, grafos, VQA | Antecedente de la forma del puntaje laplaciano (§4.5), en su variante softmax. Ya citado en la introducción; ahora también como antecedente de la forma funcional |
+| Fein-Ashley, Feng y Pham, *HVT* (arXiv:2409.16897, sep-2024) | A = −d_D(Q,K)²/(α_h·√D) con d_D = arccosh(·) en la bola de Poincaré (ecs. 19–23; su ec. 19 usa la resta de Möbius dentro de la fórmula con arccosh: tal como está impresa, no es la distancia geodésica de la bola). Clasificación en ImageNet-1k | Antecedente de la forma del puntaje de distancia al cuadrado (§3.3), con un espacio modelo elegido a priori |
+| Bdeir y Landwehr, *Rethinking the Fully Hyperbolic Vision Transformer in Polar Coordinates* (arXiv:2609.32899, 26-sep-2026) | s_ij = −(γ/τ)·d_L²(q_i,k_j), distancia geodésica lorentziana en coordenadas polares; kernel fusionado (puntaje, softmax y centroide) que no guarda la matriz N×N. Visión | Trabajo concurrente e independiente (apareció 20 días antes de la v1.0 pública, 16-oct-2026): misma forma funcional que el puntaje de distancia al cuadrado (§3.3), alcanzada desde un espacio modelo |
+
+La afirmación de novedad de §7 no cambia: ningún trabajo calcula puntajes de atención como distancia geodésica de
+Fisher–Rao entre tokens distribucionales. Lo que sí tiene antecedentes es la forma funcional del puntaje.
+
+## Re-barrido de frases exactas (21-oct-2026)
+
+| Query | API de arXiv | API v2 de OpenReview |
+|---|---|---|
+| "Fisher-Rao attention" | 0 | 0 |
+| "Fisher-Rao geodesic attention" | 0 | 0 |
+| "Gaussian hyperbolic attention" | 0 | 0 |
+| "information geometric attention" | 1 (arXiv:2506.23542, *Consistent Time-of-Flight Depth Denoising via Graph-Informed Geometric Attention* (Wang, He, Zeng y Qiu, 30-jun-2025), eliminación de ruido en profundidad ToF: falso positivo por lematización, no pertinente) | 0 |
+
+Control de que la búsqueda de OpenReview funciona: "hyperbolic attention networks" sí devuelve resultados.
+Google Scholar no se repitió (requiere navegador manual); su barrido es del 10-ago-2026.
+
+## Búsqueda de títulos (16-nov-2026)
+
+Al revisar el título del paper se buscó en la API de arXiv (65 consultas con frases genéricas en el título: «Fisher-Rao» + attention, geodesic + attention, «information geometry» + attention, hyperbolic + attention + kernel, «constant curvature» + attention, spherical + hyperbolic + attention, entre otras) y en la web general. Ningún título repite la cabecera «Fisher-Rao Geodesic Attention» ni parafrasea el título elegido. Aparecieron cinco vecinos temáticos que no estaban citados; cada uno se leyó en su registro primario:
+
+| Trabajo | Qué hace | Veredicto |
+|---|---|---|
+| Rubacher, *Attention implements the Fisher geometry of exponential families*, ICML 2026 (póster 64496) | Teoría: una cabeza de atención softmax estándar calcula la posterior de Bayes para observaciones de familia exponencial; la similitud es una divergencia de Bregman. Solo se leyó el resumen (OpenReview pidió verificación de navegador). | Complementario: geometría dualmente plana (la del control KL de §4.6), no distancia geodésica de Fisher–Rao. Citado. |
+| Wibisono y Wang, *Exponential family attention*, arXiv:2501.16790 (2025) | La familia exponencial es la verosimilitud de cada observación; su parámetro natural sale de una atención de producto punto estándar. | Complementario: consultas y claves siguen siendo vectores. Citado. |
+| Govindarajan, Sidén, Roll y Lindsten, *QUEST*, ICLR 2026, arXiv:2604.00199 | Normaliza las claves a una hiperesfera y deja libres las consultas; evaluado en estabilidad y robustez. | Complementario: vecino del miembro esférico, con puntaje de producto punto. Citado. |
+| Song, *Riemannian attention mechanisms for transformers*, arXiv:2608.01283 (2026) | Teoría sin experimentos: distancia de Mahalanobis bajo métricas aprendidas por token, promediadas entre los dos extremos. | Complementario: métrica aprendida sobre tokens vectoriales, no fijada por una familia de distribuciones. Citado. |
+| Ge, *Riemann GeoResolver*, arXiv:2608.10416 (2026) | Teoría sin experimentos: peso de distancia inversa con distancia euclidiana, de la bola de Poincaré o de círculo máximo, entre puntos de espacios modelo. | Se solapa en la forma (tres geometrías con una misma plantilla), no en el contenido: sin métrica de Fisher–Rao ni tokens distribucionales. Citado. |
+
+En la misma pasada se agregó Hypformer (Yang et al., KDD 2024, arXiv:2407.01290), un transformer completo en el modelo de Lorentz con autoatención lineal, que faltaba entre los transformers hiperbólicos citados. Ninguno de los seis calcula puntajes de atención como distancias geodésicas de Fisher–Rao entre tokens distribucionales.
+
 ## Limitaciones residuales
 
 - Semantic Scholar quedó cubierto solo parcialmente (rate-limit sin API key).
-- Solo inglés; ventana hasta agosto 2026 (trabajo concurrente posterior puede aparecer;
-  repetir el barrido de frases exactas la semana del envío es trivial y recomendado).
+- Solo inglés. Frases exactas en arXiv y OpenReview repetidas el 21-oct-2026; Google Scholar, al 10-ago-2026.

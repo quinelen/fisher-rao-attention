@@ -1,0 +1,35 @@
+=== TAREA JERARQUICA (Dyck-2) — MIX adaptativa, 5 semillas ===
+seed 1 | MIX dyck: IN=96.8% OUT=87.4% (34s) gates euc/esf/hip = 0.23/0.30/0.47
+seed 2 | MIX dyck: IN=96.7% OUT=87.8% (34s) gates euc/esf/hip = 0.26/0.31/0.42
+seed 3 | MIX dyck: IN=96.1% OUT=86.5% (34s) gates euc/esf/hip = 0.33/0.27/0.40
+seed 4 | MIX dyck: IN=95.3% OUT=87.0% (34s) gates euc/esf/hip = 0.25/0.31/0.44
+seed 5 | MIX dyck: IN=94.8% OUT=85.8% (33s) gates euc/esf/hip = 0.35/0.28/0.37
+Gates detallados (ultima semilla):
+    capa 0: [0.13 0.40 0.47]  [0.30 0.45 0.25]  [0.17 0.24 0.59]  [0.18 0.08 0.74]   promedio (euc/esf/hip) = 0.19/0.29/0.51
+    capa 1: [0.62 0.18 0.20]  [0.43 0.15 0.42]  [0.39 0.45 0.16]  [0.58 0.30 0.12]   promedio (euc/esf/hip) = 0.50/0.27/0.22
+
+=== TAREA PLANA (Copy) — MIX + baselines, 3 semillas ===
+seed 1 | mix         copy: IN=83.4% OUT=30.7% (38s) gates euc/esf/hip = 0.56/0.36/0.08
+seed 2 | mix         copy: IN=64.6% OUT=30.4% (38s) gates euc/esf/hip = 0.61/0.26/0.13
+seed 3 | mix         copy: IN=87.4% OUT=30.2% (38s) gates euc/esf/hip = 0.75/0.21/0.04
+seed 1 | euclid      copy: IN=61.3% OUT=31.3% (18s)
+seed 2 | euclid      copy: IN=62.9% OUT=30.7% (19s)
+seed 3 | euclid      copy: IN=62.3% OUT=29.4% (19s)
+seed 1 | isotropica  copy: IN=83.3% OUT=33.2% (27s)
+seed 2 | isotropica  copy: IN=90.7% OUT=32.2% (28s)
+seed 3 | isotropica  copy: IN=91.4% OUT=32.1% (27s)
+Gates detallados en Copy (ultima semilla):
+    capa 0: [0.98 0.01 0.01]  [0.10 0.72 0.18]  [0.78 0.15 0.07]  [0.20 0.75 0.05]   promedio (euc/esf/hip) = 0.52/0.41/0.08
+    capa 1: [0.99 0.01 0.01]  [0.98 0.02 0.01]  [0.96 0.02 0.02]  [0.99 0.01 0.00]   promedio (euc/esf/hip) = 0.98/0.01/0.01
+
+=== RESUMEN ===
+MIX en Dyck-2 (5 seeds): OUT acc = 86.9% ± 0.7%
+  (referencias Dyck-2: euclidiana 85.8%±0.7, esferica 86.6%±0.6, isotropica 88.4%±0.8)
+mix         en Copy (3 seeds): OUT acc = 30.4% ± 0.2%
+euclid      en Copy (3 seeds): OUT acc = 30.5% ± 0.8%
+isotropica  en Copy (3 seeds): OUT acc = 32.5% ± 0.5%
+
+Gates promedio MIX  — Dyck (jerarquica): euc=0.28 esf=0.30 hip=0.42
+Gates promedio MIX  — Copy (plana):      euc=0.64 esf=0.28 hip=0.09
+
+Guardado: resultados_mixta.json

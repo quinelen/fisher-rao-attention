@@ -1,0 +1,8 @@
+seed 1 | ricci-mahalanobis     : IN acc=96.9%  OUT acc=87.7%  OUT loss=1.2572  (63s*, 413189 params)
+seed 2 | ricci-mahalanobis     : IN acc=96.6%  OUT acc=86.2%  OUT loss=1.3418  (62s*, 413189 params)
+seed 3 | ricci-mahalanobis     : IN acc=96.4%  OUT acc=87.5%  OUT loss=1.2486  (62s*, 413189 params)
+seed 4 | ricci-mahalanobis     : IN acc=96.9%  OUT acc=87.0%  OUT loss=1.3127  (62s*, 413189 params)
+seed 5 | ricci-mahalanobis     : IN acc=96.7%  OUT acc=85.9%  OUT loss=1.3278  (62s*, 413189 params)
+
+ricci-mahalanobis: IN 96.7%±0.2% | OUT 86.9%±0.7% | loss 1.2976±0.0378
+Guardado: resultados_ricci_addendum.json  (*tiempos bajo contención de CPU, no comparables)

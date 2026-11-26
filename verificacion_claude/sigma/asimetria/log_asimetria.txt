@@ -1,0 +1,77 @@
+Pruebas de asimetría | inicio 2026-10-29 18:16:48 UTC | semillas [801, 802, 803, 804, 805]
+[dyck2] datos DD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 6.0, "p10": 3.0, "p90": 10.0, "max": 19}, "por_posicion": {"mediana": 2.0, "p95": 8.0, "frac_ge5": 0.24128755586556097, "frac_ge10": 0.027577565940737295}}
+[dyck2] datos FD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 11.0, "p10": 6.0, "p90": 18.0, "max": 31}, "por_posicion": {"mediana": 4.0, "p95": 13.0, "frac_ge5": 0.4371513179172057, "frac_ge10": 0.1467143030401035}}
+[dyck2] semilla 801: acc DD 0.9797 FD 0.8890 (32s) | P3 coef q [-0.489, -0.045, -0.273, -0.404] k [0.109, 0.176, 0.249, 0.178] | P1 ρ pareja [0.116, 0.613, 0.047, -0.174] control [-0.091, 0.169, 0.037, -0.037] (n 39709) | P2 FD base 0.8890 ident 0.8890 interc 0.8523 simetr 0.8819
+[dyck2] semilla 802: acc DD 0.9877 FD 0.8914 (33s) | P3 coef q [-0.132, -0.395, -0.224, -0.413] k [0.216, 0.206, 0.257, 0.143] | P1 ρ pareja [0.254, 0.098, 0.006, -0.056] control [0.093, 0.054, -0.032, 0.032] (n 39709) | P2 FD base 0.8914 ident 0.8914 interc 0.7887 simetr 0.8292
+[dyck2] semilla 803: acc DD 0.9733 FD 0.8760 (33s) | P3 coef q [-0.456, -0.004, -0.324, -0.404] k [0.15, 0.192, 0.195, 0.165] | P1 ρ pareja [0.046, 0.245, 0.095, -0.368] control [-0.021, 0.086, -0.021, -0.152] (n 39709) | P2 FD base 0.8760 ident 0.8760 interc 0.8539 simetr 0.8744
+[dyck2] semilla 804: acc DD 0.9823 FD 0.8881 (32s) | P3 coef q [-0.507, -0.203, -0.117, -0.394] k [0.209, 0.146, 0.169, 0.182] | P1 ρ pareja [-0.126, -0.24, 0.333, -0.229] control [-0.139, -0.143, 0.044, -0.087] (n 39709) | P2 FD base 0.8881 ident 0.8881 interc 0.8534 simetr 0.8746
+[dyck2] semilla 805: acc DD 0.9870 FD 0.8845 (32s) | P3 coef q [-0.405, -0.075, -0.409, -0.451] k [0.122, 0.208, 0.211, 0.095] | P1 ρ pareja [-0.225, 0.085, -0.194, 0.14] control [-0.132, 0.008, -0.099, -0.015] (n 39709) | P2 FD base 0.8845 ident 0.8845 interc 0.8675 simetr 0.8840
+[dyck4] datos DD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 6.0, "p10": 3.0, "p90": 10.0, "max": 19}, "por_posicion": {"mediana": 2.0, "p95": 8.0, "frac_ge5": 0.24128755586556097, "frac_ge10": 0.027577565940737295}}
+[dyck4] datos FD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 11.0, "p10": 6.0, "p90": 18.0, "max": 31}, "por_posicion": {"mediana": 4.0, "p95": 13.0, "frac_ge5": 0.4371513179172057, "frac_ge10": 0.1467143030401035}}
+[dyck4] semilla 801: acc DD 0.9756 FD 0.8138 (30s) | P3 coef q [-0.363, -0.381, -0.308, -0.281] k [0.199, 0.24, 0.191, 0.142] | P1 ρ pareja [-0.022, -0.035, -0.136, 0.087] control [-0.032, -0.047, -0.153, 0.004] (n 39709) | P2 FD base 0.8138 ident 0.8138 interc 0.7421 simetr 0.7904
+[dyck4] semilla 802: acc DD 0.9714 FD 0.8055 (31s) | P3 coef q [-0.379, -0.357, -0.316, -0.449] k [0.18, 0.18, 0.226, 0.226] | P1 ρ pareja [-0.027, -0.031, 0.024, -0.052] control [-0.07, -0.061, -0.122, 0.078] (n 39709) | P2 FD base 0.8055 ident 0.8055 interc 0.7488 simetr 0.7907
+[dyck4] semilla 803: acc DD 0.9785 FD 0.8134 (32s) | P3 coef q [-0.425, -0.414, -0.41, -0.232] k [0.138, 0.226, 0.207, 0.201] | P1 ρ pareja [0.028, -0.23, -0.075, -0.087] control [0.018, -0.105, -0.061, -0.055] (n 39709) | P2 FD base 0.8134 ident 0.8134 interc 0.7758 simetr 0.8057
+[dyck4] semilla 804: acc DD 0.9866 FD 0.8208 (35s) | P3 coef q [-0.344, -0.405, -0.413, -0.359] k [0.239, 0.113, 0.218, 0.157] | P1 ρ pareja [0.08, 0.04, 0.015, -0.045] control [-0.012, 0.064, -0.13, -0.113] (n 39709) | P2 FD base 0.8208 ident 0.8208 interc 0.7644 simetr 0.8123
+[dyck4] semilla 805: acc DD 0.9760 FD 0.8164 (34s) | P3 coef q [-0.375, -0.199, -0.361, -0.439] k [0.21, 0.149, 0.182, 0.22] | P1 ρ pareja [-0.118, -0.061, -0.158, 0.012] control [-0.102, -0.071, -0.03, -0.012] (n 39709) | P2 FD base 0.8164 ident 0.8164 interc 0.7439 simetr 0.7877
+[dyck2prof] datos DD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 10.0, "p10": 6.0, "p90": 17.0, "max": 25}, "por_posicion": {"mediana": 5.0, "p95": 14.0, "frac_ge5": 0.5563555555555556, "frac_ge10": 0.19376507936507936}}
+[dyck2prof] datos FD {"validas": true, "n_seq": 2000, "max_por_seq": {"mediana": 25.0, "p10": 17.0, "p90": 33.0, "max": 44}, "por_posicion": {"mediana": 12.0, "p95": 27.0, "frac_ge5": 0.811460735526156, "frac_ge10": 0.5919761702471983}}
+[dyck2prof] semilla 801: acc DD 0.9918 FD 0.7917 (37s) | P3 coef q [-0.149, -0.02, -0.098, -0.155] k [0.052, 0.167, 0.158, 0.174] | P1 ρ pareja [-0.069, -0.275, -0.337, -0.363] control [-0.139, -0.29, -0.348, -0.413] (n 40374) | P2 FD base 0.7917 ident 0.7917 interc 0.7702 simetr 0.7866
+[dyck2prof] semilla 802: acc DD 0.9877 FD 0.7964 (39s) | P3 coef q [-0.097, -0.105, -0.039, -0.209] k [0.15, 0.142, 0.146, 0.063] | P1 ρ pareja [-0.615, 0.087, -0.079, 0.075] control [-0.557, 0.014, -0.101, 0.008] (n 40374) | P2 FD base 0.7964 ident 0.7964 interc 0.7634 simetr 0.7823
+[dyck2prof] semilla 803: acc DD 0.9849 FD 0.7836 (37s) | P3 coef q [-0.183, 0.023, -0.297, 0.012] k [0.077, 0.146, 0.157, 0.106] | P1 ρ pareja [0.01, 0.024, 0.064, -0.102] control [-0.078, -0.068, -0.081, -0.094] (n 40374) | P2 FD base 0.7836 ident 0.7836 interc 0.7641 simetr 0.7831
+[dyck2prof] semilla 804: acc DD 0.9866 FD 0.7794 (36s) | P3 coef q [-0.287, 0.022, -0.195, -0.182] k [0.171, 0.115, 0.136, 0.05] | P1 ρ pareja [-0.354, -0.259, -0.048, 0.173] control [-0.221, -0.187, -0.077, 0.01] (n 40374) | P2 FD base 0.7794 ident 0.7794 interc 0.7720 simetr 0.7860
+[dyck2prof] semilla 805: acc DD 0.9943 FD 0.7878 (36s) | P3 coef q [-0.093, 0.027, -0.086, -0.158] k [0.144, 0.163, 0.145, 0.034] | P1 ρ pareja [-0.281, -0.017, -0.041, 0.122] control [-0.236, -0.117, -0.131, 0.032] (n 40374) | P2 FD base 0.7878 ident 0.7878 interc 0.7734 simetr 0.7840
+
+=== Prueba 1 (Dyck-2, DD): σ_k(o) frente a σ′*(t,o), parcial ===
+ρ pareja [0.116, 0.613, 0.047, -0.174, 0.254, 0.098, 0.006, -0.056, 0.046, 0.245, 0.095, -0.368, -0.126, -0.24, 0.333, -0.229, -0.225, 0.085, -0.194, 0.14]; positivos 12/20 (p = 0.252); mediana 0.046
+ρ control [-0.091, 0.169, 0.037, -0.037, 0.093, 0.054, -0.032, 0.032, -0.021, 0.086, -0.021, -0.152, -0.139, -0.143, 0.044, -0.087, -0.132, 0.008, -0.099, -0.015]; pareja > control 13/20 (p = 0.132); mediana -0.021
+VEREDICTO P1: NO CONFIRMADA
+sin parcializar: pareja mediana -0.098 (positivos 7/20), control -0.143
+calibración σ_k/σ′*: mediana 0.054; en [0,8; 1,25] 0/20; [0.043, 0.073, 0.046, 0.046, 0.071, 0.04, 0.058, 0.052, 0.042, 0.065, 0.055, 0.078, 0.057, 0.085, 0.122, 0.054, 0.053, 0.039, 0.074, 0.041]
+atención: w(t→o) > media otras aperturas en 20/20; fracción o = máx [0.72, 0.233, 0.267, 0.382, 0.324, 0.342, 0.237, 0.601, 0.555, 0.254, 0.345, 0.37, 0.488, 0.277, 0.321, 0.523, 0.46, 0.162, 0.421, 0.565]
+control misma secuencia: pareja > control 11/20; medianas 0.038 vs 0.005
+FD: positivos 9/20, pareja > control 14/20, medianas -0.009 vs -0.056
+
+=== Prueba 2 (Dyck-2): intercambio y simetrización de σ en la capa 2 ===
+DD: base [0.9797, 0.9877, 0.9733, 0.9823, 0.987] | identidad [0.9797, 0.9877, 0.9733, 0.9823, 0.987] | intercambio [0.9211, 0.85, 0.918, 0.9234, 0.9449] | simetrización [0.9706, 0.9052, 0.96, 0.9597, 0.9763]
+  intercambio DD: caída media +0.0705, t(4) = 4.127, p = 0.01453
+  simetrizacion DD: caída media +0.0276, t(4) = 1.986, p = 0.118
+  interc_vs_simetr DD: caída media +0.0429, t(4) = 9.919, p = 0.00058
+FD: base [0.889, 0.8914, 0.876, 0.8881, 0.8845] | identidad [0.889, 0.8914, 0.876, 0.8881, 0.8845] | intercambio [0.8523, 0.7887, 0.8539, 0.8534, 0.8675] | simetrización [0.8819, 0.8292, 0.8744, 0.8746, 0.884]
+  intercambio FD: caída media +0.0426, t(4) = 2.753, p = 0.05119
+  simetrizacion FD: caída media +0.0170, t(4) = 1.469, p = 0.2157
+  interc_vs_simetr FD: caída media +0.0257, t(4) = 5.988, p = 0.00391
+identidad: máx |Δacc| 0.00e+00; máx |Δlogit| 3.58e-06
+VEREDICTO P2: NO CONFIRMADA
+
+=== Prueba 3 [dyck4] ===
+acc DD [0.9756, 0.9714, 0.9785, 0.9866, 0.976] | FD [0.8138, 0.8055, 0.8134, 0.8208, 0.8164] | incluidas ['801', '802', '803', '804', '805']
+  DD: σ_q < 0 en 20/20 (media -0.361 [-0.387; -0.335]) | σ_k > 0 en 20/20 (media +0.192 [+0.183; +0.202]) | ΔR² q 0.359 k 0.413
+  FD: σ_q < 0 en 20/20 (media -0.169 [-0.182; -0.155]) | σ_k > 0 en 20/20 (media +0.106 [+0.101; +0.111]) | ΔR² q 0.241 k 0.292
+  DD_sin_entrenar: σ_q < 0 en 9/20 (media +0.001 [+0.000; +0.001]) | σ_k > 0 en 9/20 (media -0.000 [-0.001; -0.000]) | ΔR² q 0.000 k 0.000
+  binomial q p = 9.54e-07, k p = 9.54e-07
+  perfil por nivel (ref. 1) [0, 2, 3, 4, 5, 6, 7, 8, 9, 10]: q [1.082, -0.611, -1.358, -1.727, -2.011, -2.203, -2.308, -2.445, -2.485, -2.654] k [-0.167, 0.189, 0.431, 0.686, 0.9, 1.113, 1.258, 1.424, 1.515, 1.723]
+VEREDICTO P3 [dyck4]: CONFIRMADA
+  P1 secundaria: positivos 7/20, pareja > control 13/20, medianas -0.033 vs -0.058 -> NO CONFIRMADA
+  P2 secundaria FD: intercambio caída +0.0590 (p = 0.000758); simetrización +0.0166 (p = 0.0159); identidad máx |Δacc| 0.0e+00
+
+=== Prueba 3 [dyck2prof] ===
+acc DD [0.9918, 0.9877, 0.9849, 0.9866, 0.9943] | FD [0.7917, 0.7964, 0.7836, 0.7794, 0.7878] | incluidas ['801', '802', '803', '804', '805']
+  DD: σ_q < 0 en 16/20 (media -0.113 [-0.150; -0.076]) | σ_k > 0 en 20/20 (media +0.125 [+0.115; +0.134]) | ΔR² q 0.209 k 0.296
+  FD: σ_q < 0 en 15/20 (media -0.038 [-0.051; -0.025]) | σ_k > 0 en 20/20 (media +0.069 [+0.061; +0.077]) | ΔR² q 0.136 k 0.218
+  DD_sin_entrenar: σ_q < 0 en 12/20 (media -0.000 [-0.002; +0.001]) | σ_k > 0 en 10/20 (media +0.000 [-0.001; +0.001]) | ΔR² q 0.001 k 0.000
+  binomial q p = 0.00591, k p = 9.54e-07
+  perfil por nivel (ref. 1) [0, 2, 3, 4, 5, 6, 7, 8, 9, 10]: q [1.099, -0.651, -1.012, -1.318, -1.447, -1.604, -1.664, -1.757, -1.773, -1.823] k [-0.1, 0.062, 0.147, 0.262, 0.373, 0.501, 0.635, 0.786, 0.934, 1.385]
+VEREDICTO P3 [dyck2prof]: CONFIRMADA
+  P1 secundaria: positivos 7/20, pareja > control 15/20, medianas -0.059 vs -0.109 -> NO CONFIRMADA
+  P2 secundaria FD: intercambio caída +0.0192 (p = 0.0107); simetrización +0.0034 (p = 0.371); identidad máx |Δacc| 0.0e+00
+
+=== Prueba 3 [dyck2] (referencia) ===
+acc DD [0.9797, 0.9877, 0.9733, 0.9823, 0.987] | FD [0.889, 0.8914, 0.876, 0.8881, 0.8845] | incluidas ['801', '802', '803', '804', '805']
+  DD: σ_q < 0 en 20/20 (media -0.306 [-0.327; -0.285]) | σ_k > 0 en 20/20 (media +0.179 [+0.158; +0.200]) | ΔR² q 0.391 k 0.326
+  FD: σ_q < 0 en 19/20 (media -0.158 [-0.172; -0.145]) | σ_k > 0 en 20/20 (media +0.101 [+0.090; +0.112]) | ΔR² q 0.315 k 0.268
+  DD_sin_entrenar: σ_q < 0 en 12/20 (media -0.000 [-0.002; +0.002]) | σ_k > 0 en 10/20 (media +0.000 [-0.001; +0.001]) | ΔR² q 0.000 k 0.000
+  binomial q p = 9.54e-07, k p = 9.54e-07
+  perfil por nivel (ref. 1) [0, 2, 3, 4, 5, 6, 7, 8, 9, 10]: q [1.044, -0.518, -1.1, -1.466, -1.661, -1.887, -1.927, -2.072, -2.054, -2.184] k [-0.285, 0.142, 0.4, 0.598, 0.814, 0.99, 1.139, 1.275, 1.369, 1.552]
+VEREDICTO P3 [dyck2]: CONFIRMADA
+
+Guardado: resultados_asimetria.json | fin 2026-10-29 18:29:32 UTC

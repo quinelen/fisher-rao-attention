@@ -1,0 +1,42 @@
+seed 1 | euclidiana : IN comb=68.2% (dyck 98.6% / copy 37.8%) | OUT comb=53.6% (dyck 75.5% / copy 31.7%) (21s)
+seed 1 | esferica   : IN comb=69.0% (dyck 98.6% / copy 39.3%) | OUT comb=53.6% (dyck 75.0% / copy 32.2%) (24s)
+seed 1 | isotropica : IN comb=69.4% (dyck 99.3% / copy 39.5%) | OUT comb=55.5% (dyck 78.7% / copy 32.3%) (29s)
+seed 1 | mix        : IN comb=69.0% (dyck 98.6% / copy 39.3%) | OUT comb=54.3% (dyck 75.9% / copy 32.8%) (38s)  gates dyck e/s/h=0.57/0.22/0.20  copy e/s/h=0.47/0.26/0.26
+seed 2 | euclidiana : IN comb=67.8% (dyck 98.5% / copy 37.2%) | OUT comb=54.4% (dyck 76.5% / copy 32.3%) (21s)
+seed 2 | esferica   : IN comb=68.4% (dyck 98.5% / copy 38.2%) | OUT comb=54.4% (dyck 76.6% / copy 32.2%) (24s)
+seed 2 | isotropica : IN comb=69.1% (dyck 99.1% / copy 39.1%) | OUT comb=55.3% (dyck 78.0% / copy 32.6%) (27s)
+seed 2 | mix        : IN comb=68.2% (dyck 98.5% / copy 37.9%) | OUT comb=54.6% (dyck 77.3% / copy 31.9%) (31s)  gates dyck e/s/h=0.56/0.17/0.27  copy e/s/h=0.49/0.18/0.32
+seed 3 | euclidiana : IN comb=68.9% (dyck 98.8% / copy 39.0%) | OUT comb=53.6% (dyck 74.6% / copy 32.6%) (17s)
+seed 3 | esferica   : IN comb=68.6% (dyck 98.3% / copy 38.9%) | OUT comb=53.7% (dyck 75.0% / copy 32.5%) (19s)
+seed 3 | isotropica : IN comb=69.2% (dyck 99.6% / copy 38.9%) | OUT comb=54.7% (dyck 77.1% / copy 32.3%) (23s)
+seed 3 | mix        : IN comb=68.5% (dyck 98.8% / copy 38.3%) | OUT comb=53.8% (dyck 75.9% / copy 31.7%) (31s)  gates dyck e/s/h=0.52/0.27/0.21  copy e/s/h=0.46/0.28/0.26
+seed 4 | euclidiana : IN comb=67.9% (dyck 98.6% / copy 37.1%) | OUT comb=53.9% (dyck 75.9% / copy 31.8%) (17s)
+seed 4 | esferica   : IN comb=67.5% (dyck 97.8% / copy 37.2%) | OUT comb=54.5% (dyck 77.0% / copy 32.0%) (20s)
+seed 4 | isotropica : IN comb=69.1% (dyck 99.5% / copy 38.8%) | OUT comb=55.9% (dyck 79.1% / copy 32.7%) (23s)
+seed 4 | mix        : IN comb=69.2% (dyck 98.6% / copy 39.8%) | OUT comb=54.8% (dyck 77.1% / copy 32.5%) (31s)  gates dyck e/s/h=0.52/0.32/0.16  copy e/s/h=0.51/0.32/0.18
+seed 5 | euclidiana : IN comb=68.0% (dyck 98.7% / copy 37.3%) | OUT comb=53.1% (dyck 74.1% / copy 32.1%) (17s)
+seed 5 | esferica   : IN comb=68.2% (dyck 98.0% / copy 38.4%) | OUT comb=54.5% (dyck 76.7% / copy 32.3%) (19s)
+seed 5 | isotropica : IN comb=69.0% (dyck 99.7% / copy 38.2%) | OUT comb=55.5% (dyck 78.8% / copy 32.2%) (23s)
+seed 5 | mix        : IN comb=68.8% (dyck 98.4% / copy 39.3%) | OUT comb=54.8% (dyck 77.0% / copy 32.7%) (31s)  gates dyck e/s/h=0.61/0.15/0.24  copy e/s/h=0.53/0.16/0.30
+
+==========================================================================================
+brazo              IN combinada      OUT combinada     OUT dyck     OUT copy
+==========================================================================================
+euclidiana        68.2%±0.4%       53.7%±0.4%      75.3%      32.1%
+esferica          68.3%±0.5%       54.1%±0.4%      76.1%      32.2%
+isotropica        69.2%±0.2%       55.4%±0.4%      78.3%      32.4%
+mix               68.7%±0.3%       54.5%±0.4%      76.6%      32.3%
+
+Contrastes pareados MIX vs puras (combinada, n=5):
+  MIX vs euclidiana  [IN]: Δ=+0.59%  t=+2.03  p=0.1121
+  MIX vs euclidiana  [OUT]: Δ=+0.75%  t=+2.67  p=0.0556
+  MIX vs esferica    [IN]: Δ=+0.43%  t=+1.22  p=0.2895
+  MIX vs esferica    [OUT]: Δ=+0.31%  t=+3.02  p=0.0393
+  MIX vs isotropica  [IN]: Δ=-0.42%  t=-2.34  p=0.0795
+  MIX vs isotropica  [OUT]: Δ=-0.91%  t=-7.98  p=0.0013
+
+Gates de MIX DENTRO de la misma secuencia (promedio 5 semillas):
+  en bloques Dyck (jerárq.): euc=0.56 esf=0.23 hip=0.22
+  en bloques Copy (planos):  euc=0.49 esf=0.24 hip=0.27
+
+Guardado: resultados_mixta2.json

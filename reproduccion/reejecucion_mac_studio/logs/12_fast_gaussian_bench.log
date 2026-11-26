@@ -1,0 +1,5 @@
+Micro-benchmark fwd+bwd, B=32 L=60 d=128 H=4, 1 hilo (bajo contención):
+  euclidiana (referencia)                 2.9 ms/paso
+  gaussiana exacta (arccosh 5D)         116.7 ms/paso
+  FastBC del usuario (log-BC 5D)         81.0 ms/paso
+  isotropica exacta (matmul)              8.0 ms/paso

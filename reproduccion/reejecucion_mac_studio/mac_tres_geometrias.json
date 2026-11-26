@@ -1,0 +1,152 @@
+[
+ {
+  "clave": "1-Euclidiana",
+  "semilla": 1,
+  "brazo": "Euclidiana",
+  "mac_out_acc": 87.0,
+  "paper_out_acc": 87.0,
+  "mac_out_loss": 1.2922,
+  "paper_out_loss": 1.2922,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "1-Esférica",
+  "semilla": 1,
+  "brazo": "Esférica",
+  "mac_out_acc": 87.6,
+  "paper_out_acc": 87.6,
+  "mac_out_loss": 1.2768,
+  "paper_out_loss": 1.2768,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "1-Hiperbólica anisotrópica",
+  "semilla": 1,
+  "brazo": "Hiperbólica anisotrópica",
+  "mac_out_acc": 88.6,
+  "paper_out_acc": 88.6,
+  "mac_out_loss": 1.2879,
+  "paper_out_loss": 1.2879,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "2-Euclidiana",
+  "semilla": 2,
+  "brazo": "Euclidiana",
+  "mac_out_acc": 85.7,
+  "paper_out_acc": 85.7,
+  "mac_out_loss": 1.3408,
+  "paper_out_loss": 1.3408,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "2-Esférica",
+  "semilla": 2,
+  "brazo": "Esférica",
+  "mac_out_acc": 85.8,
+  "paper_out_acc": 85.8,
+  "mac_out_loss": 1.3583,
+  "paper_out_loss": 1.3583,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "2-Hiperbólica anisotrópica",
+  "semilla": 2,
+  "brazo": "Hiperbólica anisotrópica",
+  "mac_out_acc": 87.6,
+  "paper_out_acc": 87.6,
+  "mac_out_loss": 1.2779,
+  "paper_out_loss": 1.2779,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "3-Euclidiana",
+  "semilla": 3,
+  "brazo": "Euclidiana",
+  "mac_out_acc": 85.8,
+  "paper_out_acc": 85.8,
+  "mac_out_loss": 1.2703,
+  "paper_out_loss": 1.2703,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "3-Esférica",
+  "semilla": 3,
+  "brazo": "Esférica",
+  "mac_out_acc": 86.8,
+  "paper_out_acc": 86.8,
+  "mac_out_loss": 1.2851,
+  "paper_out_loss": 1.2851,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "3-Hiperbólica anisotrópica",
+  "semilla": 3,
+  "brazo": "Hiperbólica anisotrópica",
+  "mac_out_acc": 87.4,
+  "paper_out_acc": 87.4,
+  "mac_out_loss": 1.2615,
+  "paper_out_loss": 1.2615,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "4-Euclidiana",
+  "semilla": 4,
+  "brazo": "Euclidiana",
+  "mac_out_acc": 85.0,
+  "paper_out_acc": 85.0,
+  "mac_out_loss": 1.3355,
+  "paper_out_loss": 1.3355,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "4-Esférica",
+  "semilla": 4,
+  "brazo": "Esférica",
+  "mac_out_acc": 86.7,
+  "paper_out_acc": 86.7,
+  "mac_out_loss": 1.3259,
+  "paper_out_loss": 1.3259,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "4-Hiperbólica anisotrópica",
+  "semilla": 4,
+  "brazo": "Hiperbólica anisotrópica",
+  "mac_out_acc": 87.9,
+  "paper_out_acc": 87.9,
+  "mac_out_loss": 1.2478,
+  "paper_out_loss": 1.2478,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "5-Euclidiana",
+  "semilla": 5,
+  "brazo": "Euclidiana",
+  "mac_out_acc": 85.6,
+  "paper_out_acc": 85.6,
+  "mac_out_loss": 1.3287,
+  "paper_out_loss": 1.3287,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "5-Esférica",
+  "semilla": 5,
+  "brazo": "Esférica",
+  "mac_out_acc": 86.2,
+  "paper_out_acc": 86.2,
+  "mac_out_loss": 1.335,
+  "paper_out_loss": 1.335,
+  "coincide": "Sí"
+ },
+ {
+  "clave": "5-Hiperbólica anisotrópica",
+  "semilla": 5,
+  "brazo": "Hiperbólica anisotrópica",
+  "mac_out_acc": 86.5,
+  "paper_out_acc": 86.5,
+  "mac_out_loss": 1.3994,
+  "paper_out_loss": 1.3994,
+  "coincide": "Sí"
+ }
+]

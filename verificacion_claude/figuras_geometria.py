@@ -15,13 +15,13 @@ os.makedirs(out, exist_ok=True)
 T = {
  'en': dict(
    p1='SPHERICAL  K = +1/4\ncategorical Fisher–Rao: octant of a sphere of radius 2\n(φ(p)=2√p; geodesic distance = 2·arccos Σ√(pᵢqᵢ))',
-   p2='EUCLIDEAN  K = 0\nlocal flat regime (fixed σ, ‖Δμ‖ ≪ σ)\ngeodesic = straight line',
+   p2='EUCLIDEAN  K = 0\nGaussian location family (fixed σ)\ngeodesic = straight line',
    p3='HYPERBOLIC  K < 0\npseudosphere: constant negative curvature (local model)\nexponential volume growth → low-distortion hierarchies',
-   sup='The three constant-curvature geometries of the Fisher–Rao kernel: one distributional family → one geometry (Chentsov)',
+   sup='The three constant-curvature geometries of the Fisher–Rao kernel: one distributional family → one geometry, up to scale (Chentsov)',
    b_title="The kernel's manifold: hyperbolic half-space H³ (K = −1/2)\n"
            'd = √2·arccosh(1 + (‖Δμ‖²/2 + Δσ²)/(2σᵢσⱼ)) — the boundary σ→0 is at infinite distance',
-   b_spec='specific tokens (small σ → near the boundary)', b_gen='generic tokens (large σ → interior)',
-   b_geo='Fisher–Rao geodesics (arcs ⊥ to the boundary)', b_z='σ  (generality radius)',
+   b_spec='specific tokens (small σ → near the boundary)', b_gen='generic tokens (large σ → toward σ = ∞)',
+   b_geo='Fisher–Rao geodesics (arcs ⊥ to the boundary)', b_z='σ  (height)',
    c_title='REAL tokens of a trained model, on their exact manifold\n'
            'Spherical Fisher–Rao attention, d_head = 3: each token is a distribution on Δ²,\n'
            'drawn on the octant via the isometry φ(p)=2√p (gray line = sequence order)',
@@ -30,13 +30,13 @@ T = {
    h_title='Fisher–Rao Geodesic Attention — spherical and hyperbolic manifolds of the kernel (drag to rotate; double-click to reset)'),
  'es': dict(
    p1='ESFÉRICA  K = +1/4\nFisher–Rao categórica: octante de esfera de radio 2\n(φ(p)=2√p; distancia geodésica = 2·arccos Σ√(pᵢqᵢ))',
-   p2='EUCLIDIANA  K = 0\nrégimen plano local (σ fijo, ‖Δμ‖ ≪ σ)\ngeodésica = línea recta',
+   p2='EUCLIDIANA  K = 0\nfamilia gaussiana de localización (σ fijo)\ngeodésica = línea recta',
    p3='HIPERBÓLICA  K < 0\npseudoesfera: curvatura negativa constante (modelo local)\nvolumen exponencial → jerarquías con baja distorsión',
-   sup='Las tres geometrías de curvatura constante del núcleo de Fisher–Rao: una familia de distribuciones → una geometría (Chentsov)',
+   sup='Las tres geometrías de curvatura constante del núcleo de Fisher–Rao: una familia de distribuciones → una geometría, salvo escala (Chentsov)',
    b_title='La variedad del núcleo: semiespacio hiperbólico H³ (K = −1/2)\n'
            'd = √2·arccosh(1 + (‖Δμ‖²/2 + Δσ²)/(2σᵢσⱼ)) — el borde σ→0 está a distancia infinita',
-   b_spec='tokens específicos (σ pequeño → borde)', b_gen='tokens genéricos (σ grande → interior)',
-   b_geo='geodésicas Fisher–Rao (arcos ⊥ al borde)', b_z='σ  (radio de generalidad)',
+   b_spec='tokens específicos (σ pequeño → borde)', b_gen='tokens genéricos (σ grande → hacia σ = ∞)',
+   b_geo='geodésicas Fisher–Rao (arcos ⊥ al borde)', b_z='σ  (altura)',
    c_title='Tokens REALES de un modelo entrenado, sobre su variedad exacta\n'
            'Atención esférica Fisher–Rao, d_head=3: cada token es una distribución en Δ²,\n'
            'dibujada en el octante vía la isometría φ(p)=2√p (línea gris = orden de la secuencia)',

@@ -1,0 +1,37 @@
+2026-10-25 20:16:24 Creando entorno virtual con /usr/bin/python3 (Python 3.9.6)
+2026-10-25 20:16:26 Instalando dependencias
+Entorno: macOS-27.0.1-arm64-arm-64bit | Python 3.9.6 | torch 2.8.0 | numpy 1.26.4 | scipy 1.13.1 | CPUs 16
+2026-10-25 20:17:16 === Corrida core ===
+2026-10-25 20:17:16 INICIO 01_manifiesto_codigo
+2026-10-25 20:17:17 FIN    01_manifiesto_codigo  rc=0  0 min
+2026-10-25 20:17:17 INICIO 02_manifiesto_man
+2026-10-25 20:17:59 FIN    02_manifiesto_man  rc=0  0 min
+2026-10-25 20:17:59 INICIO 10_tres_geometrias
+2026-10-25 20:34:40 FIN    10_tres_geometrias  rc=0  16 min
+2026-10-25 20:34:40 INICIO 11_ricci_addendum
+2026-10-25 20:39:54 FIN    11_ricci_addendum  rc=0  5 min
+2026-10-25 20:39:54 INICIO 12_fast_gaussian_bench
+2026-10-25 20:39:56 FIN    12_fast_gaussian_bench  rc=0  0 min
+2026-10-25 20:39:56 INICIO 13_fast_gaussian_acc
+2026-10-25 20:43:55 FIN    13_fast_gaussian_acc  rc=0  3 min
+2026-10-25 20:43:56 INICIO 14_mixta
+2026-10-25 20:51:02 FIN    14_mixta  rc=0  7 min
+2026-10-25 20:51:02 INICIO 15_mixta2
+2026-10-25 20:59:10 FIN    15_mixta2  rc=0  8 min
+2026-10-25 20:59:10 INICIO 16_wasserstein_vs_fr
+2026-10-25 21:05:02 FIN    16_wasserstein_vs_fr  rc=0  5 min
+2026-10-25 21:05:02 INICIO 17_wordnet_incumbentes
+2026-10-25 21:26:57 FIN    17_wordnet_incumbentes  rc=0  21 min
+2026-10-25 21:26:57 INICIO 18_eficiencia_dim
+2026-10-25 21:29:58 FIN    18_eficiencia_dim  rc=0  3 min
+2026-10-25 21:29:58 INICIO 19_ablacion_kernel
+2026-10-25 21:34:20 FIN    19_ablacion_kernel  rc=0  4 min
+2026-10-25 21:34:20 INICIO 20_cat_incumbente
+2026-10-25 21:43:31 FIN    20_cat_incumbente  rc=0  9 min
+2026-10-25 21:43:31 INICIO 21_estabilizado
+2026-10-25 21:51:54 FIN    21_estabilizado  rc=0  8 min
+2026-10-25 21:51:54 INICIO 22_prosa_man
+2026-10-25 21:56:45 FIN    22_prosa_man  rc=0  4 min
+2026-10-25 21:56:45 INICIO 23_rope
+2026-10-25 22:27:18 FIN    23_rope  rc=0  30 min
+2026-10-25 22:27:18 === Terminado. Resultados en /Users/miguelcontreras/code/fisher-rao-attention/corridas/20261025-201624-core ===
